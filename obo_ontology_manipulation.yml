@@ -1,0 +1,12 @@
+tool_panel_section_label: OBO Ontology manipulation
+tools:
+- name: onto_tk_get_ancestor_terms
+  owner: iuc
+- name: onto_tk_get_relationship_types
+  owner: iuc
+- name: onto_tk_get_relationship_id_vs_relationship_def
+  owner: iuc
+- name: onto_tk_get_terms_by_relationship_type
+  owner: iuc
+- name: onto_tk_get_relationship_id_vs_relationship_name
+  owner: iuc

@@ -1,0 +1,14 @@
+tool_panel_section_label: Spatial Omics
+tools:
+- name: basic_illumination
+  owner: perssond
+- name: ashlar
+  owner: perssond
+- name: coreograph
+  owner: perssond
+- name: unmicst
+  owner: perssond
+- name: s3segmenter
+  owner: perssond
+- name: quantification
+  owner: perssond

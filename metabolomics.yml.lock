@@ -1,0 +1,267 @@
+tools:
+- name: dimspy_align_samples
+  owner: computational-metabolomics
+  revisions:
+  - 7b6f148bd99f
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: dimspy_replicate_filter
+  owner: computational-metabolomics
+  revisions:
+  - 6cb796aa12c8
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: dimspy_process_scans
+  owner: computational-metabolomics
+  revisions:
+  - bc099f2346a1
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: metfrag_vis
+  owner: computational-metabolomics
+  revisions:
+  - 3dbe79671820
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: dimspy_get_peaklists
+  owner: computational-metabolomics
+  revisions:
+  - ce1dd96a9ac7
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: dimspy_hdf5_to_txt
+  owner: computational-metabolomics
+  revisions:
+  - 1b254abecb4a
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: dimspy_missing_values_sample_filter
+  owner: computational-metabolomics
+  revisions:
+  - 763f27eb2d9d
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: dimspy_sample_filter
+  owner: computational-metabolomics
+  revisions:
+  - cd489cbd4d1c
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: dimspy_blank_filter
+  owner: computational-metabolomics
+  revisions:
+  - c2078c6d019d
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sirius_csifingerid
+  owner: computational-metabolomics
+  revisions:
+  - 9e6bf7278257
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: metfrag
+  owner: computational-metabolomics
+  revisions:
+  - f151ee133612
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: dimspy_merge_peaklists
+  owner: computational-metabolomics
+  revisions:
+  - 8edfa0f2b1ea
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: w4mclassfilter
+  owner: eschen42
+  revisions:
+  - aae9fa9a7d4d
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: genform
+  owner: workflow4metabolomics
+  revisions:
+  - 963722c4e1da
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: nmr_annotation
+  owner: marie-tremblay-metatoul
+  revisions:
+  - 0ff2d9211ebe
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: tablemerge
+  owner: melpetera
+  revisions:
+  - e44c5246247a
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: normalization
+  owner: marie-tremblay-metatoul
+  revisions:
+  - f9554d5bb47e
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mixmodel4repeated_measures
+  owner: jfrancoismartin
+  revisions:
+  - 1422de181204
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: asca
+  owner: marie-tremblay-metatoul
+  revisions:
+  - 93312041f1d5
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bank_inhouse
+  owner: fgiacomoni
+  revisions:
+  - 52798007c6b2
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: lcmsmatching
+  owner: prog
+  revisions:
+  - f86fec07f392
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: golm_ws_lib_search
+  owner: fgiacomoni
+  revisions:
+  - 28d579fa1718
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: nmr_preprocessing
+  owner: marie-tremblay-metatoul
+  revisions:
+  - 6e837e9352a2
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: lipidmaps_textsearch
+  owner: fgiacomoni
+  revisions:
+  - f4e6b77c46e3
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: w4mcorcov
+  owner: eschen42
+  revisions:
+  - 90708fdbc22d
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: w4mjoinpn
+  owner: eschen42
+  revisions:
+  - dcfaffec48c8
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qualitymetrics
+  owner: ethevenot
+  revisions:
+  - acdf51018708
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: metams_rungc
+  owner: yguitton
+  revisions:
+  - 93508ea69eb5
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: withinvariation
+  owner: yguitton
+  revisions:
+  - 5086ad0c0992
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: checkformat
+  owner: ethevenot
+  revisions:
+  - e7c5811ec12f
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: massbank_ws_searchspectrum
+  owner: fgiacomoni
+  revisions:
+  - 023c380900ef
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: probmetab
+  owner: mmonsoor
+  revisions:
+  - 52b222a626b0
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: camera_combinexsannos
+  owner: mmonsoor
+  revisions:
+  - 479a83f62863
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: profia
+  owner: ethevenot
+  revisions:
+  - de9d1270a9ae
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: nmr_bucketing
+  owner: marie-tremblay-metatoul
+  revisions:
+  - 4d5c06b46c2f
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: nmr_alignment
+  owner: marie-tremblay-metatoul
+  revisions:
+  - 265ee538e120
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: isoplot
+  owner: workflow4metabolomics
+  revisions:
+  - dd3e046a72ad
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: matchms_similarity
+  owner: recetox
+  revisions:
+  - 872d8040f713
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+  tool_shed_url: toolshed.g2.bx.psu.edu

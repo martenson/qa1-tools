@@ -1,0 +1,6 @@
+tool_panel_section_label: Graph/Display Data
+tools:
+- name: plotly_regression_performance_plots
+  owner: bgruening
+- name: plotly_parallel_coordinates_plot
+  owner: bgruening

@@ -1,0 +1,15 @@
+tools:
+- name: imagecoordinates_flipaxis
+  owner: imgteam
+  revisions:
+  - f8f1100d0701
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: graphicsmagick_image_convert
+  owner: bgruening
+  revisions:
+  - 4e9a3745dce4
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu

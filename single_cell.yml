@@ -1,0 +1,34 @@
+tool_panel_section_label: Single-cell
+tools:
+- name: episcanpy_cluster_embed
+  owner: iuc
+- name: dropletutils
+  owner: iuc
+- name: dropletutils_read_10x
+  owner: ebi-gxa
+- name: dropletutils_empty_drops
+  owner: ebi-gxa
+- name: slice_image
+  owner: imgteam
+- name: episcanpy_preprocess
+  owner: iuc
+- name: episcanpy_build_matrix
+  owner: iuc
+- name: scater_plot_tsne
+  owner: iuc
+- name: scater_plot_pca
+  owner: iuc
+- name: scater_plot_exprs_freq
+  owner: iuc
+- name: scater_plot_dist_scatter
+  owner: iuc
+- name: scater_normalize
+  owner: iuc
+- name: scater_filter
+  owner: iuc
+- name: scater_create_qcmetric_ready_sce
+  owner: iuc
+- name: gsc_scran_normalize
+  owner: artbio
+- name: cite_seq_count
+  owner: iuc

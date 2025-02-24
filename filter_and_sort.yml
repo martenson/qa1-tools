@@ -1,0 +1,12 @@
+tool_panel_section_label: Filter and Sort
+tools:
+- name: gffcompare
+  owner: iuc
+- name: filter_by_fasta_ids
+  owner: galaxyp
+- name: column_arrange_by_header
+  owner: bgruening
+- name: xpath
+  owner: iuc
+- name: find_in_reference
+  owner: jjohnson

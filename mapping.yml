@@ -1,0 +1,28 @@
+tool_panel_section_label: Mapping
+tools:
+- name: megablast_xml_parser
+  owner: devteam
+- name: megablast_wrapper
+  owner: devteam
+- name: lastz_paired_reads
+  owner: devteam
+- name: bowtie_wrappers
+  owner: devteam
+- name: hisat2
+  owner: iuc
+- name: bismark
+  owner: bgruening
+- name: star_fusion
+  owner: iuc
+- name: segemehl
+  owner: rnateam
+- name: tophat2
+  owner: devteam
+- name: bowtie_color_wrappers
+  owner: devteam
+- name: winnowmap
+  owner: iuc
+- name: lastz
+  owner: devteam
+- name: bwa_mem2
+  owner: iuc

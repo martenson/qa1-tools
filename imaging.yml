@@ -1,0 +1,6 @@
+tool_panel_section_label: Imaging
+tools:
+- name: imagecoordinates_flipaxis
+  owner: imgteam
+- name: graphicsmagick_image_convert
+  owner: bgruening

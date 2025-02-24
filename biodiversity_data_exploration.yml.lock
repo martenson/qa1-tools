@@ -1,0 +1,15 @@
+tools:
+- name: cb_div
+  owner: ecology
+  revisions:
+  - 5b31641e6d30
+  tool_panel_section_id: biodiversity_data_exploration
+  tool_panel_section_label: Biodiversity data exploration
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: tool_anonymization
+  owner: ecology
+  revisions:
+  - 726a387cfdc2
+  tool_panel_section_id: biodiversity_data_exploration
+  tool_panel_section_label: Biodiversity data exploration
+  tool_shed_url: toolshed.g2.bx.psu.edu

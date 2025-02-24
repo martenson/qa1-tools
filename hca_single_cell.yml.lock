@@ -1,0 +1,22 @@
+tools:
+- name: scanpy_find_markers
+  owner: ebi-gxa
+  revisions:
+  - 615a46c220f0
+  tool_panel_section_id: hca-single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_scale_data
+  owner: ebi-gxa
+  revisions:
+  - c8f196ccf34a
+  tool_panel_section_id: hca-single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: gtf2gene_list
+  owner: ebi-gxa
+  revisions:
+  - b6354c917ef9
+  tool_panel_section_id: hca-single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu

@@ -1,0 +1,6 @@
+tool_panel_section_label: Other Tools
+tools:
+- name: abstracts_by_pmids
+  owner: iuc
+- name: text_to_wordmatrix
+  owner: iuc

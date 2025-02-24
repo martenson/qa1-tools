@@ -1,0 +1,10 @@
+tool_panel_section_label: Collection Operations
+tools:
+- name: unzip
+  owner: imgteam
+- name: split_file_on_column
+  owner: bgruening
+- name: collapse_collections
+  owner: nml
+- name: collection_element_identifiers
+  owner: iuc

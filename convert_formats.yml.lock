@@ -1,0 +1,176 @@
+tools:
+- name: agat
+  owner: bgruening
+  revisions:
+  - 6d8444408ff1
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: 10x_bamtofastq
+  owner: bgruening
+  revisions:
+  - f71fd828c126
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: glimmer_glimmer_to_gff
+  owner: bgruening
+  revisions:
+  - 891b330ffd94
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: tabular_to_fasta
+  owner: devteam
+  revisions:
+  - 0b4e36026794
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fasta_to_tabular
+  owner: devteam
+  revisions:
+  - 7e801ab2b70e
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: tabular_to_fastq
+  owner: devteam
+  revisions:
+  - 92034dcbb40a
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: gfa_to_fa
+  owner: iuc
+  revisions:
+  - e33c82b63727
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: thermo_raw_file_converter
+  owner: galaxyp
+  revisions:
+  - 19e45916daf9
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: msconvert
+  owner: galaxyp
+  revisions:
+  - dd4ba10d0c45
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: interval2maf
+  owner: iuc
+  revisions:
+  - 7adddc6015c1
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: genebed_maf_to_fasta
+  owner: iuc
+  revisions:
+  - e25ee6bac872
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: idpquery
+  owner: galaxyp
+  revisions:
+  - 51d54a9c9283
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bed_to_protein_map
+  owner: galaxyp
+  revisions:
+  - a7c58b43cbaa
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: gffcompare_to_bed
+  owner: galaxyp
+  revisions:
+  - ba5368c19dbd
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: map_peptides_to_bed
+  owner: galaxyp
+  revisions:
+  - 704ea6303c4c
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: resize_coordinate_window
+  owner: iuc
+  revisions:
+  - 4eb3cc1f8466
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: msms_extractor
+  owner: galaxyp
+  revisions:
+  - 4bef80b09854
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bax2bam
+  owner: iuc
+  revisions:
+  - 5bd67e012d54
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: idconvert
+  owner: galaxyp
+  revisions:
+  - 9e6e840d6b52
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: gtftobed12
+  owner: iuc
+  revisions:
+  - b026dae67fba
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bam_to_scidx
+  owner: iuc
+  revisions:
+  - 408520e1ae1a
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bigwig_to_bedgraph
+  owner: bgruening
+  revisions:
+  - 3799012ce2ff
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ab1_fastq_converter
+  owner: ecology
+  revisions:
+  - 307518fb51af
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: compress_file
+  owner: iuc
+  revisions:
+  - 09ea79f9f260
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xmlstarlet
+  owner: ecology
+  revisions:
+  - 4a9ac1df3278
+  tool_panel_section_id: convert
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu

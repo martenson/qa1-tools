@@ -1,0 +1,8 @@
+tools:
+- name: curl_post
+  owner: imgteam
+  revisions:
+  - 7f9434fc9d4c
+  tool_panel_section_id: send
+  tool_panel_section_label: Send Data
+  tool_shed_url: toolshed.g2.bx.psu.edu

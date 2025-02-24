@@ -1,0 +1,22 @@
+tool_panel_section_label: Multiple Alignments
+tools:
+- name: sina
+  owner: iuc
+- name: chromeister
+  owner: iuc
+- name: kc_align
+  owner: iuc
+- name: pipelign
+  owner: iuc
+- name: selectsequencesfrommsa
+  owner: rnateam
+- name: msaboot
+  owner: iuc
+- name: hammock
+  owner: hammock
+- name: muscle
+  owner: crs4
+- name: compalignp
+  owner: rnateam
+- name: cd_hit
+  owner: iuc

@@ -1,0 +1,8 @@
+tools:
+- name: ivar_getmasked
+  owner: iuc
+  revisions:
+  - 2cf4a1cafc16
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
+  tool_shed_url: toolshed.g2.bx.psu.edu

@@ -1,0 +1,8 @@
+tools:
+- name: fastq_info
+  owner: bgruening
+  revisions:
+  - 7a821cd57b43
+  tool_panel_section_id: quality_control
+  tool_panel_section_label: Quality Control
+  tool_shed_url: toolshed.g2.bx.psu.edu

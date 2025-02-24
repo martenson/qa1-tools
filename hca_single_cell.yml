@@ -1,0 +1,8 @@
+tool_panel_section_label: HCA-Single Cell
+tools:
+- name: scanpy_find_markers
+  owner: ebi-gxa
+- name: scanpy_scale_data
+  owner: ebi-gxa
+- name: gtf2gene_list
+  owner: ebi-gxa

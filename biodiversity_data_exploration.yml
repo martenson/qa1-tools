@@ -1,0 +1,6 @@
+tool_panel_section_label: Biodiversity data exploration
+tools:
+- name: cb_div
+  owner: ecology
+- name: tool_anonymization
+  owner: ecology

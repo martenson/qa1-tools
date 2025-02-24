@@ -1,0 +1,15 @@
+tools:
+- name: tracy_basecall
+  owner: iuc
+  revisions:
+  - f2e0d83186c7
+  tool_panel_section_id: sanger_sequencing
+  tool_panel_section_label: Sanger Sequencing
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: tracy_decompose
+  owner: iuc
+  revisions:
+  - 6ec40b104f9d
+  tool_panel_section_id: sanger_sequencing
+  tool_panel_section_label: Sanger Sequencing
+  tool_shed_url: toolshed.g2.bx.psu.edu

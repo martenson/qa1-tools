@@ -1,0 +1,22 @@
+tools:
+- name: length_and_gc_content
+  owner: iuc
+  revisions:
+  - f088370d2a3c
+  tool_panel_section_id: fetchAlignSeq
+  tool_panel_section_label: Fetch Alignments/Sequences
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fraggenescan
+  owner: iuc
+  revisions:
+  - 2dfb2fba4081
+  tool_panel_section_id: fetchAlignSeq
+  tool_panel_section_label: Fetch Alignments/Sequences
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seqkit_locate
+  owner: iuc
+  revisions:
+  - 642d73815dd1
+  tool_panel_section_id: fetchAlignSeq
+  tool_panel_section_label: Fetch Alignments/Sequences
+  tool_shed_url: toolshed.g2.bx.psu.edu

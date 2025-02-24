@@ -1,0 +1,32 @@
+tool_panel_section_label: SAM/BAM
+tools:
+- name: pileup_interval
+  owner: devteam
+- name: pileup_parser
+  owner: devteam
+- name: sam2interval
+  owner: devteam
+- name: sam_merge
+  owner: devteam
+- name: sam_pileup
+  owner: devteam
+- name: samtools_rmdup
+  owner: devteam
+- name: tag_pileup_frequency
+  owner: iuc
+- name: samtool_filter2
+  owner: devteam
+- name: ngsutils_bam_filter
+  owner: iuc
+- name: samtools_phase
+  owner: devteam
+- name: bamhash
+  owner: bgruening
+- name: bamutil_diff
+  owner: iuc
+- name: revertr2orientationinbam
+  owner: lldelisle
+- name: bamtools_split
+  owner: devteam
+- name: samtools_coverage
+  owner: iuc

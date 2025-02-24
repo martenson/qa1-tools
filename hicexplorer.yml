@@ -1,0 +1,36 @@
+tool_panel_section_label: HiCExplorer
+tools:
+- name: schicexplorer_schicqualitycontrol
+  owner: iuc
+- name: schicexplorer_schiccorrectmatrices
+  owner: iuc
+- name: schicexplorer_schicplotconsensusmatrices
+  owner: iuc
+- name: schicexplorer_schicplotclusterprofiles
+  owner: iuc
+- name: schicexplorer_schicnormalize
+  owner: iuc
+- name: schicexplorer_schiccreatebulkmatrix
+  owner: iuc
+- name: schicexplorer_schicmergetoscool
+  owner: iuc
+- name: schicexplorer_schicmergematrixbins
+  owner: iuc
+- name: schicexplorer_schicinfo
+  owner: iuc
+- name: schicexplorer_schicdemultiplex
+  owner: iuc
+- name: schicexplorer_schicconsensusmatrices
+  owner: iuc
+- name: schicexplorer_schicclustersvl
+  owner: iuc
+- name: schicexplorer_schicclusterminhash
+  owner: iuc
+- name: schicexplorer_schicclustercompartments
+  owner: iuc
+- name: schicexplorer_schiccluster
+  owner: iuc
+- name: schicexplorer_schicadjustmatrix
+  owner: iuc
+- name: hicexplorer_hicplottads
+  owner: bgruening

@@ -1,0 +1,4 @@
+tool_panel_section_label: Scanpy
+tools:
+- name: scanpy_parameter_iterator
+  owner: ebi-gxa

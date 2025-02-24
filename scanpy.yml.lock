@@ -1,0 +1,8 @@
+tools:
+- name: scanpy_parameter_iterator
+  owner: ebi-gxa
+  revisions:
+  - 645f12f44a6d
+  tool_panel_section_id: scanpy
+  tool_panel_section_label: Scanpy
+  tool_shed_url: toolshed.g2.bx.psu.edu

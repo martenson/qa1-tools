@@ -1,0 +1,15 @@
+tools:
+- name: abstracts_by_pmids
+  owner: iuc
+  revisions:
+  - ff904894ccaa
+  tool_panel_section_id: other_tools
+  tool_panel_section_label: Other Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: text_to_wordmatrix
+  owner: iuc
+  revisions:
+  - 0692d11af909
+  tool_panel_section_id: other_tools
+  tool_panel_section_label: Other Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
