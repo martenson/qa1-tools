@@ -1,4 +1,4 @@
 bioblend
 ephemeris
-pykwalify==1.7.0
-PyYAML>=4.2b1
+pykwalify
+PyYAML

@@ -1,1 +1,1 @@
-# qa1-tools
+# CESNET Galaxies Tool Management
