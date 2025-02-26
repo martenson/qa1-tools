@@ -1,31 +1,9 @@
 ---
 type: map
 mapping:
-  "install_repository_dependencies":
-    type: bool
-    default: false
-  "install_resolver_dependencies":
-    type: bool
-    default: false
-  "install_tool_dependencies":
-    type: bool
-    default: false
-  "tools":
-    type: seq
-    sequence:
-      - type: map
-        mapping:
-          "name":
-            type: str
-            required: true
-          "owner":
-            type: str
-            required: true
-          "tool_panel_section_label":
-            type: str
-          "tool_panel_section_id":
-            type: str
-            enum:
+    "tool_panel_section_id":
+        type: str
+        enum:
               [
                 "upload_file",
                 "get_data",
@@ -95,7 +73,6 @@ mapping:
                 "apollo",
                 "virology",
                 "metagenomic_analysis",
-                "single-cell",
                 "proteomics",
                 "metabolomics",
                 "muon_spectroscopy",
@@ -118,3 +95,20 @@ mapping:
                 "local_tools",
                 "test_tools",
               ]
+    "tool_panel_section_label":
+        type: str
+
+    "tools":
+        type: seq
+        sequence:
+            - type: map
+              mapping:
+                "name":
+                    type: str
+                    required: true
+                "owner":
+                    type: str
+                    required: true
+                "tool_shed_url":
+                    type: str
+                    required: false

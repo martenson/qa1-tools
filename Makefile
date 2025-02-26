@@ -6,20 +6,25 @@ CORRECT_YAMLS := $(YAML_FILES:=.fix)
 INSTALL_YAMLS := $(LOCK_FILES:=.install)
 UPDATE_TRUSTED_IUC := $(LOCK_FILES:.lock=.update_trusted_iuc)
 
-GALAXY_SERVER := 
+GALAXY_SERVER :=
+TOOLSET := galaxy-qa1.galaxy.cloud.e-infra.cz
 
 
 help:
 	@egrep '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-16s\033[0m %s\n", $$1, $$2}'
 
-lint: $(LINTED_YAMLS) ## Lint the yaml files
+lint: ## Lint all yaml files
+	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/fix_lockfile.py
+	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 -I{} pykwalify -d '{}' -s .schema.yml
+
+# lint: $(LINTED_YAMLS) ## Lint the yaml files
 fix: $(CORRECT_YAMLS) ## Fix any issues (missing hashes, missing lockfiles, etc.)
 install: $(INSTALL_YAMLS) ## Install the tools in our galaxy
 
-%.lint: %
-	python3 scripts/fix-lockfile.py $<
-	pykwalify -d $< -s .schema.yaml
-	python3 scripts/identify-unpinned.py $<
+# %.lint: %
+# 	python3 scripts/fix-lockfile.py $<
+# 	pykwalify -d $< -s .schema.yaml
+# 	python3 scripts/identify-unpinned.py $<
 
 %.fix: %
 	@# Generates the lockfile or updates it if it is missing tools
@@ -32,7 +37,7 @@ install: $(INSTALL_YAMLS) ## Install the tools in our galaxy
 	@-shed-tools install --install_resolver_dependencies --toolsfile $< --galaxy $(GALAXY_SERVER) --api_key $(GALAXY_API_KEY) 2>&1 | tee -a report.log
 
 pr_check:
-	for changed_yaml in `git diff remotes/origin/master --name-only | grep .yaml$$`; do python scripts/pr-check.py $${changed_yaml} && pykwalify -d $${changed_yaml} -s .schema.yaml ; done
+	for changed_yaml in `git diff remotes/origin/main --name-only | grep .yaml$$`; do python scripts/pr-check.py $${changed_yaml} && pykwalify -d $${changed_yaml} -s .schema.yaml ; done
 
 update_trusted: $(UPDATE_TRUSTED_IUC) ## Run the update script
 	@# Missing --without, so this updates all tools in the file.
