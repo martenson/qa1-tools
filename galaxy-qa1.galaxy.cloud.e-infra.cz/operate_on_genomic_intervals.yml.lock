@@ -1,57 +1,52 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
 tools:
 - name: basecoverage
   owner: devteam
   revisions:
   - 9c5ff4695c97
-  tool_panel_section_id: bxops
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cluster
   owner: devteam
   revisions:
   - a126ec6ea0e4
-  tool_panel_section_id: bxops
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tbl2gff3
   owner: iuc
   revisions:
   - 965674d88d34
-  tool_panel_section_id: bxops
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: translate_bed
   owner: galaxyp
   revisions:
   - 038ecf54cbec
-  tool_panel_section_id: bxops
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: concat
   owner: devteam
   revisions:
   - 73ca13a7ec5f
-  tool_panel_section_id: bxops
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: join
   owner: devteam
   revisions:
   - 718d04143c31
-  tool_panel_section_id: bxops
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: translate_bed_sequences
   owner: jjohnson
   revisions:
   - d328db400280
-  tool_panel_section_id: bxops
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: filter_bed_on_splice_junctions
   owner: jjohnson
   revisions:
   - 915e5c5e02e6
-  tool_panel_section_id: bxops
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
-  tool_shed_url: toolshed.g2.bx.psu.edu

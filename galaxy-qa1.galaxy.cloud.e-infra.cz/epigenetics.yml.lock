@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
 tools:
 - name: vcf_filter
   owner: devteam
@@ -5,21 +8,18 @@ tools:
   - da1a6f33b504
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: seacr
   owner: iuc
   revisions:
   - 66b7657f0bd6
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: moabs
   owner: iuc
   revisions:
   - 214874e24cd6
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ewastools
   owner: kpbioteam
   revisions:
@@ -27,74 +27,63 @@ tools:
   - fef50103f6b3
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: metilene
   owner: rnateam
   revisions:
   - 37abd09a0ae6
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pileometh
   owner: bgruening
   revisions:
   - d6787bab7b11
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hicup_truncater
   owner: bgruening
   revisions:
   - cc413be789ea
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hicup_hicup
   owner: bgruening
   revisions:
   - 68fb19094f84
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hicup_filter
   owner: bgruening
   revisions:
   - 2d4a34c00c67
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hicup_digester
   owner: bgruening
   revisions:
   - e79c38f1752c
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hicup_deduplicator
   owner: bgruening
   revisions:
   - 2107c2f7a5d7
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: epicseg
   owner: rnateam
   revisions:
   - 6260e42c7d49
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hicup_mapper
   owner: bgruening
   revisions:
   - be104dee2833
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hicup2juicer
   owner: bgruening
   revisions:
   - b4e7244246e2
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
-  tool_shed_url: toolshed.g2.bx.psu.edu

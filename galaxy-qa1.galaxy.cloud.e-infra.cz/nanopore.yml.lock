@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
 tools:
 - name: flair_correct
   owner: iuc
@@ -5,130 +8,111 @@ tools:
   - c784170f3b5e
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: flair_collapse
   owner: iuc
   revisions:
   - 1fdcbfcca71c
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ngmlr
   owner: iuc
   revisions:
   - bb51c75a0157
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: medaka_variant_pipeline
   owner: iuc
   revisions:
   - 1d62240feff3
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: nanocompore_db
   owner: iuc
   revisions:
   - 35d3618b124b
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ont_fast5_api_multi_to_single_fast5
   owner: iuc
   revisions:
   - f98c015cebd8
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ont_fast5_api_single_to_multi_fast5
   owner: iuc
   revisions:
   - 435344af6dc9
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ont_fast5_api_compress_fast5
   owner: iuc
   revisions:
   - 82c6009bc120
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ont_fast5_api_fast5_subset
   owner: iuc
   revisions:
   - 0defe443ea04
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: nanocompore_sampcomp
   owner: iuc
   revisions:
   - c0fb573c1e8d
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: porechop
   owner: iuc
   revisions:
   - 543cbeef3949
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: poretools_squiggle
   owner: iuc
   revisions:
   - ce8af9373061
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: poretools_occupancy
   owner: iuc
   revisions:
   - 336791b5665f
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: poretools_hist
   owner: iuc
   revisions:
   - 47936349f3e9
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: poretools_yield_plot
   owner: iuc
   revisions:
   - 64a83664b814
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: poretools_qualpos
   owner: iuc
   revisions:
   - 2e22ebec211a
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: poretools_events
   owner: iuc
   revisions:
   - 1d835c691480
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: medaka_variant
   owner: iuc
   revisions:
   - eb746fa6f514
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: medaka_consensus_pipeline
   owner: iuc
   revisions:
   - fc8804320156
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
-  tool_shed_url: toolshed.g2.bx.psu.edu

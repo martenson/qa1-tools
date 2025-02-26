@@ -1,155 +1,136 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
 tools:
 - name: heatmap
   owner: ethevenot
   revisions:
   - b1667c118127
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mine
   owner: devteam
   revisions:
   - 5e2c89443c44
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: plot_from_lda
   owner: devteam
   revisions:
   - 08affc5d2aef
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: lda_analysis
   owner: devteam
   revisions:
   - f0b6217f4a0c
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: generate_pc_lda_matrix
   owner: devteam
   revisions:
   - 04cdbd00dcec
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: count_gff_features
   owner: devteam
   revisions:
   - 188392a0d0a8
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: correlation
   owner: devteam
   revisions:
   - 24e01abf9e34
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: best_regression_subsets
   owner: devteam
   revisions:
   - 4f33ec73e445
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: principal_component_analysis
   owner: devteam
   revisions:
   - f568051cdf2e
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kernel_principal_component_analysis
   owner: devteam
   revisions:
   - 3d58aa83e4a3
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kernel_canonical_correlation_analysis
   owner: devteam
   revisions:
   - 5ce5a2adb875
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: canonical_correlation_analysis
   owner: devteam
   revisions:
   - 9bc0c48a027f
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: t_test_two_samples
   owner: devteam
   revisions:
   - c2ffc9885b5a
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: create_tool_recommendation_model
   owner: bgruening
   revisions:
   - e94dc7945639
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: dwt_var_perfeature
   owner: devteam
   revisions:
   - 6c29c7e347e8
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: graphembed
   owner: iuc
   revisions:
   - f28678233baf
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pandas_rolling_window
   owner: bgruening
   revisions:
   - a06f7b5c4dc7
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: anova
   owner: lecorguille
   revisions:
   - 102049093b7d
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: multivariate
   owner: ethevenot
   revisions:
   - 5526f8258e8a
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: univariate
   owner: ethevenot
   revisions:
   - 5687435b182c
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: biosigner
   owner: ethevenot
   revisions:
   - fa80bd02055f
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: transformation
   owner: ethevenot
   revisions:
   - cc0e9eff0de2
-  tool_panel_section_id: stats
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
