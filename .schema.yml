@@ -1,0 +1,120 @@
+---
+type: map
+mapping:
+  "install_repository_dependencies":
+    type: bool
+    default: false
+  "install_resolver_dependencies":
+    type: bool
+    default: false
+  "install_tool_dependencies":
+    type: bool
+    default: false
+  "tools":
+    type: seq
+    sequence:
+      - type: map
+        mapping:
+          "name":
+            type: str
+            required: true
+          "owner":
+            type: str
+            required: true
+          "tool_panel_section_label":
+            type: str
+          "tool_panel_section_id":
+            type: str
+            enum:
+              [
+                "upload_file",
+                "get_data",
+                "data_source_tools",
+                "send_data",
+                "collection_operations",
+                "expression_tools",
+                "text_manipulation",
+                "filter_and_sort",
+                "join__subtract_and_group",
+                "convert",
+                "convert_formats",
+                "fasta_fastq",
+                "fastq_quality_control",
+                "quality_control",
+                "sam_bam",
+                "bed",
+                "vcf_bcf",
+                "nanopore",
+                "lift_over",
+                "extract_features",
+                "operate_on_genomic_intervals",
+                "fetch_sequences___alignments",
+                "chromosome_conformation",
+                "assembly",
+                "annotation",
+                "mapping",
+                "variant_calling",
+                "rna_analysis",
+                "multiple_alignments",
+                "hgv",
+                "evolution",
+                "regional_variation",
+                "biodiversity_data_exploration",
+                "genome_diversity",
+                "rna_seq",
+                "peak_calling",
+                "genome_editing",
+                "epigenetics",
+                "phylogenetics",
+                "phenotype_association",
+                "single_cell",
+                "hca_single_cell",
+                "hca-single_cell",
+                "single-cell",
+                "statistics",
+                "machine_learning",
+                "plots",
+                "interactive_tools",
+                "graph_display_data",
+                "mothur",
+                "qiime",
+                "qiime_2",
+                "picard",
+                "deeptools",
+                "emboss",
+                "ncbi_blast",
+                "mimodd",
+                "scanpy",
+                "hicexplorer",
+                "gemini",
+                "motif_tools",
+                "gatk_tools",
+                "rad_seq",
+                "sanger_sequencing",
+                "dna_metabarcoding",
+                "apollo",
+                "virology",
+                "metagenomic_analysis",
+                "single-cell",
+                "proteomics",
+                "metabolomics",
+                "muon_spectroscopy",
+                "chemicaltoolbox",
+                "astronomy",
+                "imaging",
+                "climate_analysis",
+                "gis_data_handling",
+                "spatial_omics",
+                "ecoregionalization",
+                "graphclust",
+                "species_abundance",
+                "data_and_metadata_management",
+                "obo_ontology_manipulation",
+                "ontology",
+                "compute_indicators_for_satellite_remote_sensing",
+                "compute_indicators_for_turnover_boulders_fields",
+                "animal_detection_on_acoustic_recordings",
+                "other_tools",
+                "local_tools",
+                "test_tools",
+              ]
