@@ -1,14 +1,14 @@
 import sys
 import yaml
 
-from bioblend import toolshed 
+from bioblend import toolshed
 
 ts = toolshed.ToolShedInstance(url='https://toolshed.g2.bx.psu.edu')
 fn = sys.argv[1]
 
 # never mind about fancy yaml linting, let's just make sure the files are openable
 sys.stdout.write('Checking modified yaml file {}...\n'.format(fn))
-with open(fn) as f: 
+with open(fn) as f:
     yml = [n['name'] for n in yaml.safe_load(f)['tools']]
 
 with open('{}.lock'.format(fn)) as f:
