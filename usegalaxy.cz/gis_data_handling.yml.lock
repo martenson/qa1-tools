@@ -1,13 +1,15 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
 tools:
 - name: xarray_metadata_info
   owner: ecology
   revisions:
   - 00de53d18b99
-  - e8650cdf092f
   - 9bbaab36a5d4
+  - e8650cdf092f
   tool_panel_section_id: gis_data_handling
   tool_panel_section_label: GIS Data Handling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: xarray_select
   owner: ecology
   revisions:
@@ -15,81 +17,69 @@ tools:
   - b393815e4cb7
   tool_panel_section_id: gis_data_handling
   tool_panel_section_label: GIS Data Handling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gdal_ogrinfo
   owner: ecology
   revisions:
   - 24696f52a90a
   tool_panel_section_id: gis_data_handling
   tool_panel_section_label: GIS Data Handling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gdal_ogr2ogr
   owner: ecology
   revisions:
   - e12db3b4d3a6
   tool_panel_section_id: gis_data_handling
   tool_panel_section_label: GIS Data Handling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gdal_gdalwarp
   owner: ecology
   revisions:
   - fd5594c05fab
   tool_panel_section_id: gis_data_handling
   tool_panel_section_label: GIS Data Handling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gdal_gdal_translate
   owner: ecology
   revisions:
   - 50d3ee48d983
   tool_panel_section_id: gis_data_handling
   tool_panel_section_label: GIS Data Handling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gdal_gdal_merge
   owner: ecology
   revisions:
   - 4285576f0690
   tool_panel_section_id: gis_data_handling
   tool_panel_section_label: GIS Data Handling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gdal_gdalinfo
   owner: ecology
   revisions:
   - 913cab85ce1e
   tool_panel_section_id: gis_data_handling
   tool_panel_section_label: GIS Data Handling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gdal_gdalbuildvrt
   owner: ecology
   revisions:
   - b6152f24b94d
   tool_panel_section_id: gis_data_handling
   tool_panel_section_label: GIS Data Handling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gdal_gdaladdo
   owner: ecology
   revisions:
   - c46b8322a8ee
   tool_panel_section_id: gis_data_handling
   tool_panel_section_label: GIS Data Handling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: xarray_netcdf2netcdf
   owner: ecology
   revisions:
   - c91c27b63fb2
   tool_panel_section_id: gis_data_handling
   tool_panel_section_label: GIS Data Handling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: xarray_mapplot
   owner: ecology
   revisions:
   - 506b6d6880ff
   tool_panel_section_id: gis_data_handling
   tool_panel_section_label: GIS Data Handling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: xarray_coords_info
   owner: ecology
   revisions:
   - 663e6f115a76
   tool_panel_section_id: gis_data_handling
   tool_panel_section_label: GIS Data Handling
-  tool_shed_url: toolshed.g2.bx.psu.edu

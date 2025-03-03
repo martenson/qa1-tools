@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
 tools:
 - name: macs
   owner: devteam
@@ -5,42 +8,36 @@ tools:
   - e5f3bfba6812
   tool_panel_section_id: peak_calling
   tool_panel_section_label: Peak Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: sicer
   owner: devteam
   revisions:
   - 5c2cc3b58c7d
   tool_panel_section_id: peak_calling
   tool_panel_section_label: Peak Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ccat
   owner: devteam
   revisions:
   - 1a6979fbd544
   tool_panel_section_id: peak_calling
   tool_panel_section_label: Peak Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: genrich
   owner: iuc
   revisions:
   - 8353f3cc03db
   tool_panel_section_id: peak_calling
   tool_panel_section_label: Peak Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: diffbind
   owner: bgruening
   revisions:
   - 194e3f2c1d86
   tool_panel_section_id: peak_calling
   tool_panel_section_label: Peak Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: macs2
   owner: iuc
   revisions:
   - 640d3af5d833
   tool_panel_section_id: peak_calling
   tool_panel_section_label: Peak Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: peakachu
   owner: rnateam
   revisions:
@@ -48,47 +45,40 @@ tools:
   - 940b1d632f4d
   tool_panel_section_id: peak_calling
   tool_panel_section_label: Peak Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: zerone
   owner: iuc
   revisions:
   - 75962a01d8ab
   tool_panel_section_id: peak_calling
   tool_panel_section_label: Peak Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pureclip
   owner: iuc
   revisions:
   - fd1f57782683
   tool_panel_section_id: peak_calling
   tool_panel_section_label: Peak Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: piranha
   owner: rnateam
   revisions:
   - f7f366ede872
   tool_panel_section_id: peak_calling
   tool_panel_section_label: Peak Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: htseq_clip
   owner: rnateam
   revisions:
   - c82c41550f82
   tool_panel_section_id: peak_calling
   tool_panel_section_label: Peak Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: dewseq
   owner: rnateam
   revisions:
   - e1cb2e012307
   tool_panel_section_id: peak_calling
   tool_panel_section_label: Peak Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pileometh
   owner: bgruening
   revisions:
-  - d6787bab7b11
   - ccc755bdf11d
+  - d6787bab7b11
   tool_panel_section_id: peak_calling
   tool_panel_section_label: Peak Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu

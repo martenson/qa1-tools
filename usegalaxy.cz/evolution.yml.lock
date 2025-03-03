@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
 tools:
 - name: mutate_snp_codon
   owner: devteam
@@ -5,60 +8,51 @@ tools:
   - 8f0af7251167
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: iqtree
   owner: iuc
   revisions:
   - 9b892d7f82cc
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: codeml
   owner: iuc
   revisions:
   - f9cb3a4339c2
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: structure
   owner: iuc
   revisions:
   - 4bd5e5dbc6c5
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rapidnj
   owner: iuc
   revisions:
   - 9f4a66e22580
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tn93
   owner: iuc
   revisions:
   - b38f620a3628
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tn93_filter
   owner: iuc
   revisions:
   - cf50aeb956f2
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tn93_cluster
   owner: iuc
   revisions:
   - 112d80c9ccca
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tn93_readreduce
   owner: iuc
   revisions:
   - 1d2ec0b0a0a7
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
-  tool_shed_url: toolshed.g2.bx.psu.edu

@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
 tools:
 - name: ivar_trim
   owner: iuc
@@ -6,38 +9,33 @@ tools:
   - f0cc9cf99407
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ivar_removereads
   owner: iuc
   revisions:
-  - 8c05afb547fa
   - 69797fa273c3
+  - 8c05afb547fa
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ivar_consensus
   owner: iuc
   revisions:
-  - 17f911830a8c
   - 1069f6db0a0e
+  - 17f911830a8c
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ivar_getmasked
   owner: iuc
   revisions:
   - 2cf4a1cafc16
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ivar_variants
   owner: iuc
   revisions:
-  - ed28dd32141c
   - 194e3ceee923
+  - ed28dd32141c
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ivar_filtervariants
   owner: iuc
   revisions:
@@ -45,45 +43,39 @@ tools:
   - 8f8df367470d
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: read_it_and_keep
   owner: iuc
   revisions:
   - 1563b58905f4
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snipit
   owner: iuc
   revisions:
   - 9f23fe0cb70b
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: freyja_variants
   owner: iuc
   revisions:
-  - 1f467ed22412
   - 08c2d81e7942
+  - 1f467ed22412
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: freyja_demix
   owner: iuc
   revisions:
-  - fc6252e78d5b
   - c0a0e79d7196
+  - fc6252e78d5b
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: freyja_boot
   owner: iuc
   revisions:
-  - dda5772507b2
   - a09398bc953a
+  - dda5772507b2
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: freyja_aggregate_plot
   owner: iuc
   revisions:
@@ -91,15 +83,13 @@ tools:
   - 1f89eeba299a
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cooc_mutbamscan
   owner: iuc
   revisions:
-  - cd0484c5f9f1
   - 373c1735d31f
+  - cd0484c5f9f1
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cooc_pubmut
   owner: iuc
   revisions:
@@ -107,19 +97,16 @@ tools:
   - d04ea6b052c5
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cooc_tabmut
   owner: iuc
   revisions:
-  - 52bd683c6d3f
   - 4be399803856
+  - 52bd683c6d3f
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: lineagespot
   owner: iuc
   revisions:
   - 6ddf5a9ce4a5
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
-  tool_shed_url: toolshed.g2.bx.psu.edu

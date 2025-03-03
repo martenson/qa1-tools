@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
 tools:
 - name: tracy_basecall
   owner: iuc
@@ -5,25 +8,21 @@ tools:
   - f2e0d83186c7
   tool_panel_section_id: sanger_sequencing
   tool_panel_section_label: Sanger Sequencing
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tracy_align
   owner: iuc
   revisions:
   - 80e3f678b947
   tool_panel_section_id: sanger_sequencing
   tool_panel_section_label: Sanger Sequencing
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tracy_decompose
   owner: iuc
   revisions:
   - 6ec40b104f9d
   tool_panel_section_id: sanger_sequencing
   tool_panel_section_label: Sanger Sequencing
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tracy_assemble
   owner: iuc
   revisions:
   - 99d31ec6629b
   tool_panel_section_id: sanger_sequencing
   tool_panel_section_label: Sanger Sequencing
-  tool_shed_url: toolshed.g2.bx.psu.edu

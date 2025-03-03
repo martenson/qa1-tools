@@ -1,93 +1,86 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
 tools:
 - name: ncbi_blast_plus
   owner: devteam
   revisions:
-  - 9dabbfd73c8a
-  - 7538e2bfcd41
-  - 577d9c12411a
-  - 7f3c448e119b
-  - 3034ce97dd33
-  - 623f727cdff1
-  - 6f386c5dc4fb
-  - b5f1f599d1fb
-  - 70e7dcbf6573
-  - 6560192c5098
-  - 2fe07f50a41e
   - 0e3cf9594bb7
+  - 2fe07f50a41e
+  - 3034ce97dd33
   - 393a7a35383c
+  - 577d9c12411a
+  - 623f727cdff1
+  - 6560192c5098
+  - 6f386c5dc4fb
+  - 70e7dcbf6573
+  - 7538e2bfcd41
+  - 7f3c448e119b
+  - 9dabbfd73c8a
+  - b5f1f599d1fb
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: diamond
   owner: bgruening
   revisions:
-  - 98037ef3d2a9
-  - 54f751e413f4
-  - 3c6b132b154a
   - 1e3323a44643
+  - 3c6b132b154a
+  - 54f751e413f4
+  - 98037ef3d2a9
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: taxonomy_krona_chart
   owner: crs4
   revisions:
   - c9f8fef1df74
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kraken_translate
   owner: devteam
   revisions:
-  - bc3e90fd13be
   - 9bdcba262627
+  - bc3e90fd13be
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kraken_filter
   owner: devteam
   revisions:
-  - 5bee9adae474
   - 3d6570bffdb1
+  - 5bee9adae474
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: blast_rbh
   owner: peterjc
   revisions:
-  - d8d9a9069586
   - b2f91cbed8d9
+  - d8d9a9069586
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: sample_seqs
   owner: peterjc
   revisions:
   - 02c13ef1a669
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: blastxml_to_top_descr
   owner: peterjc
   revisions:
-  - fe1ed74793c9
   - 8dc4ba7eba5d
+  - fe1ed74793c9
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bbtools_callvariants
   owner: iuc
   revisions:
   - b955346ef41e
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bbtools_bbduk
   owner: iuc
   revisions:
   - a9c9d768b751
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kraken_taxonomy_report
   owner: iuc
   revisions:
@@ -95,11 +88,9 @@ tools:
   - b11b3ac48bb9
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: magicblast
   owner: iuc
   revisions:
   - 34ac212ef95e
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
-  tool_shed_url: toolshed.g2.bx.psu.edu

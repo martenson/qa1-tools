@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
 tools:
 - name: chipeakanno_annopeaks
   owner: kpbioteam
@@ -5,7 +8,6 @@ tools:
   - 104882a2de00
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: exonerate
   owner: iuc
   revisions:
@@ -13,52 +15,45 @@ tools:
   - a03dead1bede
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mitos2
   owner: iuc
   revisions:
-  - 624606f7c996
   - 033755194fe9
+  - 624606f7c996
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: repeat_masker
   owner: bgruening
   revisions:
-  - ba6d2c32f797
   - 3f987772e283
+  - ba6d2c32f797
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: busco
   owner: iuc
   revisions:
-  - bb935709506a
   - 94170eee0ad8
+  - bb935709506a
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: optitype
   owner: iuc
   revisions:
   - fd974c5df8bc
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: prokka
   owner: crs4
   revisions:
   - 8a22554cdde2
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: roary
   owner: iuc
   revisions:
   - 91887494eb97
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tbprofiler
   owner: iuc
   revisions:
@@ -66,147 +61,127 @@ tools:
   - 45083d070fb8
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hmmer_nhmmer
   owner: iuc
   revisions:
   - b28e8ed99424
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hmmer_hmmbuild
   owner: iuc
   revisions:
   - dc8860ba75d1
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hmmer_hmmscan
   owner: iuc
   revisions:
   - be072920a53e
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hmmer_phmmer
   owner: iuc
   revisions:
   - 8a791afd99fb
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hmmer_jackhmmer
   owner: iuc
   revisions:
   - 6e27bb3f0fa6
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hmmer_nhmmscan
   owner: iuc
   revisions:
   - e07176c0925d
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hmmer_hmmsearch
   owner: iuc
   revisions:
   - d753d9169482
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kofamscan
   owner: iuc
   revisions:
   - 23494763e39e
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tbl2gff3
   owner: iuc
   revisions:
   - 4a7f4b0cc0a3
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: annotatemyids
   owner: iuc
   revisions:
-  - cd2480f35935
   - 133f36c29579
+  - cd2480f35935
   - fe3ca740a485
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mob_suite
   owner: nml
   revisions:
   - 93ba63eaf394
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ectyper
   owner: nml
   revisions:
   - 08d801182fa1
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: sistr_cmd
   owner: nml
   revisions:
   - 24a7a95867b0
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mitos
   owner: iuc
   revisions:
-  - f20804c311de
   - c7553ba39670
+  - f20804c311de
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: antismash
   owner: bgruening
   revisions:
-  - e78e25d3b4bd
   - bc88856eddab
+  - e78e25d3b4bd
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: chipseeker
   owner: rnateam
   revisions:
-  - 8bd92f2404dd
-  - 4c2dbe4dbb4e
-  - b418a1d3585d
   - 1b9a9409831d
+  - 4c2dbe4dbb4e
+  - 8bd92f2404dd
+  - b418a1d3585d
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: progressivemauve
   owner: iuc
   revisions:
   - ce795616bd9c
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mlst
   owner: iuc
   revisions:
   - 31812e7a1315
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bp_genbank2gff3
   owner: iuc
   revisions:
   - 11c3eb512633
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: seq2hla
   owner: iuc
   revisions:
@@ -214,227 +189,196 @@ tools:
   - 86d0ce0560a1
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fastani
   owner: iuc
   revisions:
   - 2c7ac12ad75a
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: transit_tn5gaps
   owner: iuc
   revisions:
   - 3f5fc4b09496
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: transit_resampling
   owner: iuc
   revisions:
   - 885459e1c83b
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: transit_hmm
   owner: iuc
   revisions:
   - 7db455b6434b
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: transit_gumbel
   owner: iuc
   revisions:
   - 8fc50fe60127
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tetyper
   owner: iuc
   revisions:
   - edcf603bedfd
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: augustus_training
   owner: bgruening
   revisions:
   - dc027fa56d55
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: augustus
   owner: bgruening
   revisions:
   - 28433faa6e42
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fargene
   owner: iuc
   revisions:
   - 239ce9f24386
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kobas
   owner: iuc
   revisions:
   - 20f1b45dea63
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gff_to_prot
   owner: iuc
   revisions:
   - 07d7991bf205
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gprofiler_snpense
   owner: iuc
   revisions:
   - 74385d563652
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gprofiler_random
   owner: iuc
   revisions:
   - 7d18814397a7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gprofiler_gost
   owner: iuc
   revisions:
   - bf39cdd007f5
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gprofiler_orth
   owner: iuc
   revisions:
   - 727e7e114f9d
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gprofiler_convert
   owner: iuc
   revisions:
   - 8ee097f1763d
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: abricate
   owner: iuc
   revisions:
-  - f9bf6a8d8547
-  - 78c75f134c16
-  - 862f5a86854d
-  - c2ef298da409
   - 1bb2ba6d3d96
   - 3f3e247c053d
   - 4efdca267d51
+  - 78c75f134c16
+  - 862f5a86854d
+  - c2ef298da409
+  - f9bf6a8d8547
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: blastxml_to_gapped_gff3
   owner: iuc
   revisions:
   - 561e827baa5f
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: maker
   owner: iuc
   revisions:
   - 370c210d9541
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: column_maker
   owner: devteam
   revisions:
   - 9cd341095afd
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: socru
   owner: iuc
   revisions:
   - ce0c9fe32e04
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: goseq
   owner: iuc
   revisions:
   - 602de62d995b
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snap_training
   owner: iuc
   revisions:
   - 2a598c0aa042
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: maker_map_ids
   owner: iuc
   revisions:
   - e906fa778440
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fgsea
   owner: iuc
   revisions:
   - 17eb1e0d711f
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: sortmerna
   owner: rnateam
   revisions:
-  - b482293b2987
   - 1eafcc450052
-  - eb35257d2e29
   - 59252ca85c74
   - 65c38d020fea
+  - b482293b2987
+  - eb35257d2e29
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: spaln
   owner: iuc
   revisions:
   - 2e92e1929cb1
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: goslimmer
   owner: iuc
   revisions:
   - de3e053bd6a5
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: goenrichment
   owner: iuc
   revisions:
   - 2c7c9646ccf0
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: jcvi_gff_stats
   owner: iuc
   revisions:
   - 8cffbd184762
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hammock
   owner: hammock
   revisions:
@@ -442,63 +386,54 @@ tools:
   - afddbcbc8ee8
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tmhmm_and_signalp
   owner: peterjc
   revisions:
   - e1996f0f4e85
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: picrust_metagenome_contributions
   owner: iuc
   revisions:
   - 857e8724b43f
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: picrust_format_tree_and_trait_table
   owner: iuc
   revisions:
   - 9a0f8171a2e2
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: picrust_compare_biom
   owner: iuc
   revisions:
   - 0ba7dfaa941d
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: picrust_predict_metagenomes
   owner: iuc
   revisions:
   - f17b7d5a87f7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: picrust_categorize
   owner: iuc
   revisions:
   - 8c7bafdb713f
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trna_prediction
   owner: bgruening
   revisions:
   - 358f58401cd6
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: transtermhp
   owner: iuc
   revisions:
   - 012171ba9fce
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: segmentation_fold
   owner: yhoogstrate
   revisions:
@@ -506,36 +441,31 @@ tools:
   - 4d16cf9414cf
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gubbins
   owner: iuc
   revisions:
   - 96e6283e4745
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: braker
   owner: genouest
   revisions:
   - ca7c12566894
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: multigsea
   owner: iuc
   revisions:
   - 28e29a3d0eda
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: repeatmodeler
   owner: csbl
   revisions:
-  - 8661b2607b7e
   - 1e10310ce195
+  - 8661b2607b7e
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: probmetab
   owner: mmonsoor
   revisions:
@@ -543,7 +473,6 @@ tools:
   - 52b222a626b0
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: lcmsmatching
   owner: prog
   revisions:
@@ -552,84 +481,72 @@ tools:
   - fb9c0409d85c
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: nucleosome_prediction
   owner: bgruening
   revisions:
   - 2c42bb973ac3
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: orthofinder_onlygroups
   owner: iuc
   revisions:
   - 3b974afde673
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: dotknot
   owner: bgruening
   revisions:
   - 42d20ff5da1b
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hmmer_alimask
   owner: iuc
   revisions:
   - 80c713789d13
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hmmer_hmmalign
   owner: iuc
   revisions:
   - 24fa8e890f08
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hmmer_hmmconvert
   owner: iuc
   revisions:
   - db8a5a3195e7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hmmer_hmmemit
   owner: iuc
   revisions:
   - 96b127c59e6a
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hmmer_hmmfetch
   owner: iuc
   revisions:
   - a28fd001de59
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: find_subsequences
   owner: bgruening
   revisions:
   - d882a0a75759
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gotohscan
   owner: rnateam
   revisions:
   - 6845ddcd5588
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cryptogenotyper
   owner: nml
   revisions:
   - d4a96287909e
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: dgidb_annotator
   owner: devteam
   revisions:
@@ -637,64 +554,55 @@ tools:
   - c5bb987015c5
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hhsearch
   owner: guerler
   revisions:
   - 589e4d51bda4
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: glimmer_build_icm
   owner: bgruening
   revisions:
   - cc51783dc93c
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: glimmer_knowledge_based
   owner: bgruening
   revisions:
   - ce89c473666d
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: glimmer_not_knowledge_based
   owner: bgruening
   revisions:
   - 73c58e2debd0
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tbvcfreport
   owner: iuc
   revisions:
   - 4934c0ac6197
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tb_variant_filter
   owner: iuc
   revisions:
-  - ee4a90760848
   - 32f14a2723ec
+  - ee4a90760848
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: lorikeet_spoligotype
   owner: iuc
   revisions:
   - f9c37d0b3002
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: spotyping
   owner: iuc
   revisions:
   - efa2be6db310
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: homer_scanmotifgenomewide
   owner: iuc
   revisions:
@@ -702,7 +610,6 @@ tools:
   - f15794662a69
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: homer_annotatepeaks
   owner: iuc
   revisions:
@@ -710,15 +617,13 @@ tools:
   - dcd291aeb8a9
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: homer_findmotifsgenome
   owner: iuc
   revisions:
-  - a8f207b43f64
   - 081139509124
+  - a8f207b43f64
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: homer_gtf_to_annotations
   owner: iuc
   revisions:
@@ -726,78 +631,67 @@ tools:
   - df55927535ed
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hamronize_tool
   owner: iuc
   revisions:
   - 41c7e03b3eab
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hamronize_summarize
   owner: iuc
   revisions:
   - 243c87f34f39
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gecco
   owner: althonos
   revisions:
   - a41a2bcb0b91
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: interproscan
   owner: bgruening
   revisions:
   - 74810db257cc
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: legsta
   owner: iuc
   revisions:
   - 579f1cabfe79
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: te_finder
   owner: iuc
   revisions:
   - 2edb80d68a1b
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: isescan
   owner: iuc
   revisions:
   - 19f42b3ea391
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: miniprot
   owner: iuc
   revisions:
-  - ce04c239454b
   - 52bdc302299b
+  - ce04c239454b
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: netboxr
   owner: bgruening
   revisions:
   - 785ed8621503
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: plasmidfinder
   owner: iuc
   revisions:
   - 7075b7a5441b
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: miniprot_index
   owner: iuc
   revisions:
@@ -805,29 +699,25 @@ tools:
   - d6a874226260
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: red
   owner: iuc
   revisions:
   - 18a46265455b
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: integron_finder
   owner: iuc
   revisions:
-  - 4768f7f8e93f
   - 1ae00120dd24
+  - 4768f7f8e93f
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: edta
   owner: bgruening
   revisions:
   - f1a157358d4d
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bakta
   owner: iuc
   revisions:
@@ -835,189 +725,162 @@ tools:
   - da5f1924bb2e
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpat
   owner: bgruening
   revisions:
   - 8e9e228c54c4
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gffcompare
   owner: iuc
   revisions:
   - f99dd58de04f
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pfamscan
   owner: bgruening
   revisions:
   - 15cff34c2005
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pharokka
   owner: iuc
   revisions:
   - 2f40d2ccb0eb
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: homer_findmotifs
   owner: iuc
   revisions:
   - 453ebddf5bb2
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: braker3
   owner: genouest
   revisions:
   - bd103884a09c
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpt_phageqc_annotations
   owner: cpt
   revisions:
   - c3140b08d703
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpt_gff_extract_seq
   owner: cpt
   revisions:
   - ab40380424c9
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpt_intron_detection
   owner: cpt
   revisions:
   - 0a98d5259ef0
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpt_lipory
   owner: cpt
   revisions:
   - b79df4966ebb
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpt_gbk_renumber
   owner: cpt
   revisions:
   - 8cac332dbc77
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpt_genome_editor
   owner: cpt
   revisions:
   - 78ce8a1a8fd1
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpt_annotation_table
   owner: cpt
   revisions:
   - 6998c2570145
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpt_gff_rebase
   owner: cpt
   revisions:
   - 4f4b413056f6
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpt_require_shine
   owner: cpt
   revisions:
   - a6dc48930318
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpt_get_orfs
   owner: cpt
   revisions:
   - f56389d8abda
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpt_gff_add_parents
   owner: cpt
   revisions:
   - d839cfd1c3a6
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpt_fix_sixpack
   owner: cpt
   revisions:
   - 326429ea1d33
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpt_shinefind
   owner: cpt
   revisions:
   - 6a5aac2a4c89
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpt_type_filter
   owner: cpt
   revisions:
   - a77124b86382
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpt_req_phage_start
   owner: cpt
   revisions:
   - 33b5403e0357
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpt_remove_annotations
   owner: cpt
   revisions:
   - 49f50c55a9f8
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpt_prep_for_apollo
   owner: cpt
   revisions:
   - 6901154b1003
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpt_convert_glimmer
   owner: cpt
   revisions:
   - faff58a642fb
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: agat
   owner: bgruening
   revisions:
   - e009d8260be2
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: helixer
   owner: genouest
   revisions:
   - 7bc75dd0f782
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hmmer3
   owner: iuc
   revisions:
@@ -1025,59 +888,51 @@ tools:
   - b5066aa77fea
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cpt_intersect_adjacent
   owner: cpt
   revisions:
   - 7e393668b4b9
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: blast2go
   owner: peterjc
   revisions:
-  - e23b621eb7bb
   - 8664c4c94764
+  - e23b621eb7bb
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: funannotate_predict
   owner: iuc
   revisions:
-  - 4b96ced19f75
   - 2bba2ff070d9
+  - 4b96ced19f75
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: funannotate_compare
   owner: iuc
   revisions:
-  - 563a19373357
   - 0418d28136de
+  - 563a19373357
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: funannotate_clean
   owner: iuc
   revisions:
-  - a230ea445788
   - 8e1ace8f77c6
+  - a230ea445788
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: funannotate_annotate
   owner: iuc
   revisions:
-  - 9c15ca7e764e
   - 14f588312c56
+  - 9c15ca7e764e
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: funannotate_sort
   owner: iuc
   revisions:
-  - d77fdcca400e
   - b3cf4684e9c7
+  - d77fdcca400e
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
