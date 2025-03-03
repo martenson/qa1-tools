@@ -1,0 +1,143 @@
+tools:
+- name: pampa_glmsp
+  owner: ecology
+  revisions:
+  - 7a69e1c8ba46
+  - e972fe2bffee
+  tool_panel_section_id: species_abundance
+  tool_panel_section_label: Species abundance
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pampa_glmcomm
+  owner: ecology
+  revisions:
+  - b40fecef616b
+  - 97967fbcf6da
+  tool_panel_section_id: species_abundance
+  tool_panel_section_label: Species abundance
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: stoc_trend_indic
+  owner: ecology
+  revisions:
+  - 5c244408661f
+  - 916b49d725ba
+  tool_panel_section_id: species_abundance
+  tool_panel_section_label: Species abundance
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: stoc_mainglm_group
+  owner: ecology
+  revisions:
+  - 8f953c35c787
+  - e3e173ae01b0
+  tool_panel_section_id: species_abundance
+  tool_panel_section_label: Species abundance
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: stoc_mainglm
+  owner: ecology
+  revisions:
+  - df3ce23d0d23
+  - a961be0a964f
+  tool_panel_section_id: species_abundance
+  tool_panel_section_label: Species abundance
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: stoc_filteringsp
+  owner: ecology
+  revisions:
+  - 2e45ae3b297a
+  - fd0687e91bf6
+  tool_panel_section_id: species_abundance
+  tool_panel_section_label: Species abundance
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: stoc_maketable
+  owner: ecology
+  revisions:
+  - af4987066235
+  - 22a784d2b0e0
+  tool_panel_section_id: species_abundance
+  tool_panel_section_label: Species abundance
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xarray_metadata_info
+  owner: ecology
+  revisions:
+  - e8650cdf092f
+  tool_panel_section_id: species_abundance
+  tool_panel_section_label: Species abundance
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xarray_select
+  owner: ecology
+  revisions:
+  - 6baac361495b
+  tool_panel_section_id: species_abundance
+  tool_panel_section_label: Species abundance
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pampa_communitymetrics
+  owner: ecology
+  revisions:
+  - c67ece97d4b1
+  - 5873ac1a5a44
+  tool_panel_section_id: species_abundance
+  tool_panel_section_label: Species abundance
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pampa_presabs
+  owner: ecology
+  revisions:
+  - 1ebb70b59037
+  - f1bfdeb5ebfe
+  tool_panel_section_id: species_abundance
+  tool_panel_section_label: Species abundance
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pampa_plotglm
+  owner: ecology
+  revisions:
+  - c448e026f122
+  tool_panel_section_id: species_abundance
+  tool_panel_section_label: Species abundance
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: regionalgam_gls
+  owner: ecology
+  revisions:
+  - a79f5f0f17ad
+  tool_panel_section_id: species_abundance
+  tool_panel_section_label: Species abundance
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: regionalgam_flight_curve
+  owner: ecology
+  revisions:
+  - fff507f00b2b
+  tool_panel_section_id: species_abundance
+  tool_panel_section_label: Species abundance
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: regionalgam_autocor_acf
+  owner: ecology
+  revisions:
+  - b416a363a2d5
+  tool_panel_section_id: species_abundance
+  tool_panel_section_label: Species abundance
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: regionalgam_glmmpql
+  owner: ecology
+  revisions:
+  - f3e1b6d244a6
+  tool_panel_section_id: species_abundance
+  tool_panel_section_label: Species abundance
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: regionalgam_gls_adjusted
+  owner: ecology
+  revisions:
+  - e2bff90af491
+  tool_panel_section_id: species_abundance
+  tool_panel_section_label: Species abundance
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: regionalgam_plot_trend
+  owner: ecology
+  revisions:
+  - 58ecd15e6836
+  tool_panel_section_id: species_abundance
+  tool_panel_section_label: Species abundance
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: regionalgam_ab_index
+  owner: ecology
+  revisions:
+  - d0ee713d4758
+  tool_panel_section_id: species_abundance
+  tool_panel_section_label: Species abundance
+  tool_shed_url: toolshed.g2.bx.psu.edu

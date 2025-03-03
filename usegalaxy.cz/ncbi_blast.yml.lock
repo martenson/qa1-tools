@@ -1,0 +1,105 @@
+tools:
+- name: ncbi_blast_plus
+  owner: devteam
+  revisions:
+  - 9dabbfd73c8a
+  - 7538e2bfcd41
+  - 577d9c12411a
+  - 7f3c448e119b
+  - 3034ce97dd33
+  - 623f727cdff1
+  - 6f386c5dc4fb
+  - b5f1f599d1fb
+  - 70e7dcbf6573
+  - 6560192c5098
+  - 2fe07f50a41e
+  - 0e3cf9594bb7
+  - 393a7a35383c
+  tool_panel_section_id: ncbi_blast
+  tool_panel_section_label: NCBI Blast
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: diamond
+  owner: bgruening
+  revisions:
+  - 98037ef3d2a9
+  - 54f751e413f4
+  - 3c6b132b154a
+  - 1e3323a44643
+  tool_panel_section_id: ncbi_blast
+  tool_panel_section_label: NCBI Blast
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: taxonomy_krona_chart
+  owner: crs4
+  revisions:
+  - c9f8fef1df74
+  tool_panel_section_id: ncbi_blast
+  tool_panel_section_label: NCBI Blast
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: kraken_translate
+  owner: devteam
+  revisions:
+  - bc3e90fd13be
+  - 9bdcba262627
+  tool_panel_section_id: ncbi_blast
+  tool_panel_section_label: NCBI Blast
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: kraken_filter
+  owner: devteam
+  revisions:
+  - 5bee9adae474
+  - 3d6570bffdb1
+  tool_panel_section_id: ncbi_blast
+  tool_panel_section_label: NCBI Blast
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: blast_rbh
+  owner: peterjc
+  revisions:
+  - d8d9a9069586
+  - b2f91cbed8d9
+  tool_panel_section_id: ncbi_blast
+  tool_panel_section_label: NCBI Blast
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sample_seqs
+  owner: peterjc
+  revisions:
+  - 02c13ef1a669
+  tool_panel_section_id: ncbi_blast
+  tool_panel_section_label: NCBI Blast
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: blastxml_to_top_descr
+  owner: peterjc
+  revisions:
+  - fe1ed74793c9
+  - 8dc4ba7eba5d
+  tool_panel_section_id: ncbi_blast
+  tool_panel_section_label: NCBI Blast
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bbtools_callvariants
+  owner: iuc
+  revisions:
+  - b955346ef41e
+  tool_panel_section_id: ncbi_blast
+  tool_panel_section_label: NCBI Blast
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bbtools_bbduk
+  owner: iuc
+  revisions:
+  - a9c9d768b751
+  tool_panel_section_id: ncbi_blast
+  tool_panel_section_label: NCBI Blast
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: kraken_taxonomy_report
+  owner: iuc
+  revisions:
+  - 27d65c78863c
+  - b11b3ac48bb9
+  tool_panel_section_id: ncbi_blast
+  tool_panel_section_label: NCBI Blast
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: magicblast
+  owner: iuc
+  revisions:
+  - 34ac212ef95e
+  tool_panel_section_id: ncbi_blast
+  tool_panel_section_label: NCBI Blast
+  tool_shed_url: toolshed.g2.bx.psu.edu

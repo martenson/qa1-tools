@@ -1,0 +1,22 @@
+tool_panel_section_label: DNA Metabarcoding
+tools:
+- name: obi_tab
+  owner: iuc
+- name: obi_stat
+  owner: iuc
+- name: obi_sort
+  owner: iuc
+- name: obi_convert
+  owner: iuc
+- name: obi_clean
+  owner: iuc
+- name: obi_uniq
+  owner: iuc
+- name: obi_grep
+  owner: iuc
+- name: obi_annotate
+  owner: iuc
+- name: obi_ngsfilter
+  owner: iuc
+- name: obi_illumina_pairend
+  owner: iuc

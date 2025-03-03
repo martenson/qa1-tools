@@ -1,0 +1,232 @@
+tools:
+- name: qiime_collapse_samples
+  owner: iuc
+  revisions:
+  - 242462fc608b
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_make_otu_table
+  owner: iuc
+  revisions:
+  - e00b6983b175
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_pick_open_reference_otus
+  owner: iuc
+  revisions:
+  - be533bd1ad65
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_pick_closed_reference_otus
+  owner: iuc
+  revisions:
+  - 5307c6be95df
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_count_seqs
+  owner: iuc
+  revisions:
+  - 448ee8099a65
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_extract_barcodes
+  owner: iuc
+  revisions:
+  - e149f41155e1
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_make_emperor
+  owner: iuc
+  revisions:
+  - 7c4f58fd8386
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_make_otu_heatmap
+  owner: iuc
+  revisions:
+  - 579f42fea99c
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_pick_rep_set
+  owner: iuc
+  revisions:
+  - 7cba5f38ec6e
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_multiple_join_paired_ends
+  owner: iuc
+  revisions:
+  - 57a2424d0893
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_align_seqs
+  owner: iuc
+  revisions:
+  - e8bb88f051ec
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_alpha_rarefaction
+  owner: iuc
+  revisions:
+  - 9023dcdccf72
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_core_diversity
+  owner: iuc
+  revisions:
+  - 57deb17cadbf
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_alpha_diversity
+  owner: iuc
+  revisions:
+  - 1fa3942bec04
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_split_libraries_fastq
+  owner: iuc
+  revisions:
+  - c2ffcfff57f6
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_filter_otus_from_otu_table
+  owner: iuc
+  revisions:
+  - 9db0d2cf4451
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_jackknifed_beta_diversity
+  owner: iuc
+  revisions:
+  - 9d06d3380f1d
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_filter_taxa_from_otu_table
+  owner: iuc
+  revisions:
+  - 13ad599d3fe3
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_pick_otus
+  owner: iuc
+  revisions:
+  - 241c55a65e1f
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_compare_categories
+  owner: iuc
+  revisions:
+  - 951cc7b6fca6
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_plot_taxa_summary
+  owner: iuc
+  revisions:
+  - ab12aca3ede9
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_upgma_cluster
+  owner: iuc
+  revisions:
+  - aae131716d22
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_filter_fasta
+  owner: iuc
+  revisions:
+  - 03469c9daff1
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_filter_alignment
+  owner: iuc
+  revisions:
+  - ca44cfeacbe9
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_assign_taxonomy
+  owner: iuc
+  revisions:
+  - 7cebb6ea8c23
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_make_phylogeny
+  owner: iuc
+  revisions:
+  - f66e778d7e6d
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_beta_diversity
+  owner: iuc
+  revisions:
+  - b38301bc5335
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_split_libraries
+  owner: iuc
+  revisions:
+  - 2aca5aae5d10
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_filter_samples_from_otu_table
+  owner: iuc
+  revisions:
+  - f9720c5ea41a
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_summarize_taxa_through_plots
+  owner: iuc
+  revisions:
+  - 834ef917138f
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_multiple_split_libraries_fastq
+  owner: iuc
+  revisions:
+  - 256fc747d1d8
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_beta_diversity_through_plots
+  owner: iuc
+  revisions:
+  - 70c4237c3a00
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qiime_validate_mapping_file
+  owner: iuc
+  revisions:
+  - d1701fcfd7e5
+  tool_panel_section_id: qiime
+  tool_panel_section_label: Qiime
+  tool_shed_url: toolshed.g2.bx.psu.edu

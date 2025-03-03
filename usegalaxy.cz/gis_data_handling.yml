@@ -1,0 +1,28 @@
+tool_panel_section_label: GIS Data Handling
+tools:
+- name: xarray_metadata_info
+  owner: ecology
+- name: xarray_select
+  owner: ecology
+- name: gdal_ogrinfo
+  owner: ecology
+- name: gdal_ogr2ogr
+  owner: ecology
+- name: gdal_gdalwarp
+  owner: ecology
+- name: gdal_gdal_translate
+  owner: ecology
+- name: gdal_gdal_merge
+  owner: ecology
+- name: gdal_gdalinfo
+  owner: ecology
+- name: gdal_gdalbuildvrt
+  owner: ecology
+- name: gdal_gdaladdo
+  owner: ecology
+- name: xarray_netcdf2netcdf
+  owner: ecology
+- name: xarray_mapplot
+  owner: ecology
+- name: xarray_coords_info
+  owner: ecology

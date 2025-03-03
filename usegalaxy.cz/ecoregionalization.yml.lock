@@ -1,0 +1,36 @@
+tools:
+- name: ecoregion_clara_cluster
+  owner: ecology
+  revisions:
+  - 74e966baa5fd
+  tool_panel_section_id: ecoregionalization
+  tool_panel_section_label: Ecoregionalization
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ecoregion_brt_analysis
+  owner: ecology
+  revisions:
+  - 3cc4b8bbce00
+  tool_panel_section_id: ecoregionalization
+  tool_panel_section_label: Ecoregionalization
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ecoregion_eco_map
+  owner: ecology
+  revisions:
+  - 45784ebada45
+  tool_panel_section_id: ecoregionalization
+  tool_panel_section_label: Ecoregionalization
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ecoregion_cluster_estimate
+  owner: ecology
+  revisions:
+  - cf7aefee9977
+  tool_panel_section_id: ecoregionalization
+  tool_panel_section_label: Ecoregionalization
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ecoregion_taxa_seeker
+  owner: ecology
+  revisions:
+  - 2152f424e7a2
+  tool_panel_section_id: ecoregionalization
+  tool_panel_section_label: Ecoregionalization
+  tool_shed_url: toolshed.g2.bx.psu.edu

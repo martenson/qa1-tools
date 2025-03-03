@@ -1,0 +1,241 @@
+tools:
+- name: vcffilter
+  owner: devteam
+  revisions:
+  - eae7c08ebb6f
+  - fa24bf0598f4
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfaddinfo
+  owner: devteam
+  revisions:
+  - afc0ba768690
+  - 6ea73d6151ec
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcf2tsv
+  owner: devteam
+  revisions:
+  - 285060661b45
+  - e92b3c0f9224
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfleftalign
+  owner: devteam
+  revisions:
+  - 29f9b782727e
+  - d2406f98a782
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfcombine
+  owner: devteam
+  revisions:
+  - 53edb91ed051
+  - 1f0ba67cc85a
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfsort
+  owner: devteam
+  revisions:
+  - 5b7120c66efc
+  - dd44c3f416c3
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfhethom
+  owner: devteam
+  revisions:
+  - b07ef36cf7e6
+  - 8254e0fe7358
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfrandomsample
+  owner: devteam
+  revisions:
+  - 12b570dd0bc5
+  - 6257ee3b50d3
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfbedintersect
+  owner: devteam
+  revisions:
+  - 9edfe5145ba8
+  - aea8e90ad788
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfgenotypes
+  owner: devteam
+  revisions:
+  - a60ae8af21a1
+  - f5653ed90dfd
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcffixup
+  owner: devteam
+  revisions:
+  - fc5a64fdd5b2
+  - 11f62f071125
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfgeno2haplo
+  owner: devteam
+  revisions:
+  - b890055e07bd
+  - a3dea556218d
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfallelicprimitives
+  owner: devteam
+  revisions:
+  - 57a16b310fe8
+  - a8a4f94aa321
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfbreakcreatemulti
+  owner: devteam
+  revisions:
+  - 690b1d846263
+  - 9fd5d91eb91b
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfvcfintersect
+  owner: devteam
+  revisions:
+  - 166c4f50525f
+  - 6f6bf10618d7
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfanno
+  owner: iuc
+  revisions:
+  - fb20fa735dfe
+  - cdcaa40e5e45
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfannotate
+  owner: devteam
+  revisions:
+  - 01e0321aca98
+  - 6faa2c4c71d2
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfcommonsamples
+  owner: devteam
+  revisions:
+  - f1852ecef841
+  - 254f285dbaaa
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfflatten
+  owner: devteam
+  revisions:
+  - b24e368ae7b1
+  - f285aa6bdcfb
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfannotategenotypes
+  owner: devteam
+  revisions:
+  - 84959112d9a6
+  - 70bc6ced57f7
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfselectsamples
+  owner: devteam
+  revisions:
+  - 2ba3b87f904f
+  - 958b6484a7f1
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ococo
+  owner: iuc
+  revisions:
+  - 03cabb6711c5
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: allele_counts
+  owner: nick
+  revisions:
+  - 31361191d2d2
+  - 411adeff1eec
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfdistance
+  owner: iuc
+  revisions:
+  - c506b8275b1a
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfdistance
+  owner: devteam
+  revisions:
+  - 5822b40f3037
+  - 6e0fc18309f4
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcftools_isec
+  owner: devteam
+  revisions:
+  - aa232e38338f
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcftools_merge
+  owner: devteam
+  revisions:
+  - 71e19ddf52f5
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcftools_compare
+  owner: devteam
+  revisions:
+  - ad50c257e758
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcftools_annotate
+  owner: devteam
+  revisions:
+  - 57a6550df582
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcftools_slice
+  owner: devteam
+  revisions:
+  - 1363e5d4a8b8
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcftools_subset
+  owner: devteam
+  revisions:
+  - 23436d1d0fa1
+  tool_panel_section_id: vcf_bcf
+  tool_panel_section_label: VCF/BCF
+  tool_shed_url: toolshed.g2.bx.psu.edu

@@ -1,0 +1,18 @@
+tool_panel_section_label: Biodiversity data exploration
+tools:
+- name: cb_div
+  owner: ecology
+- name: tool_anonymization
+  owner: ecology
+- name: ecology_beta_diversity
+  owner: ecology
+- name: ecology_homogeneity_normality
+  owner: ecology
+- name: ecology_link_between_var
+  owner: ecology
+- name: ecology_presence_abs_abund
+  owner: ecology
+- name: ecology_stat_presence_abs
+  owner: ecology
+- name: obisindicators
+  owner: ecology

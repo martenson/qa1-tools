@@ -1,0 +1,10 @@
+tool_panel_section_label: Fetch Sequences / Alignments
+tools:
+- name: extract_genomic_dna
+  owner: iuc
+- name: length_and_gc_content
+  owner: iuc
+- name: fraggenescan
+  owner: iuc
+- name: seqkit_locate
+  owner: iuc

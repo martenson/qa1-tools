@@ -1,0 +1,97 @@
+tools:
+- name: ctsm_fates
+  owner: climate
+  revisions:
+  - b525b88bc941
+  - efaa93ed5a79
+  tool_panel_section_id: climate_analysis
+  tool_panel_section_label: Climate Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: climate_stripes
+  owner: climate
+  revisions:
+  - fec3147b0206
+  - c6f2435d680b
+  - abdc27e01dca
+  tool_panel_section_id: climate_analysis
+  tool_panel_section_label: Climate Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: psy_maps
+  owner: climate
+  revisions:
+  - db8d76da4174
+  - 706666d912d5
+  tool_panel_section_id: climate_analysis
+  tool_panel_section_label: Climate Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cds_essential_variability
+  owner: climate
+  revisions:
+  - 9ee8db6ffba3
+  - ee42b7a33dc7
+  tool_panel_section_id: climate_analysis
+  tool_panel_section_label: Climate Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mean_per_zone
+  owner: climate
+  revisions:
+  - 4bb2f6091660
+  tool_panel_section_id: climate_analysis
+  tool_panel_section_label: Climate Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: shift_longitudes
+  owner: climate
+  revisions:
+  - 5708a3a46f2e
+  tool_panel_section_id: climate_analysis
+  tool_panel_section_label: Climate Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: c3s
+  owner: climate
+  revisions:
+  - 250554670f72
+  tool_panel_section_id: climate_analysis
+  tool_panel_section_label: Climate Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cesm
+  owner: climate
+  revisions:
+  - 7a7ba86e95a4
+  tool_panel_section_id: climate_analysis
+  tool_panel_section_label: Climate Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cads
+  owner: climate
+  revisions:
+  - b768e517a7d0
+  tool_panel_section_id: climate_analysis
+  tool_panel_section_label: Climate Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: eodie
+  owner: climate
+  revisions:
+  - 81b0ca76435d
+  tool_panel_section_id: climate_analysis
+  tool_panel_section_label: Climate Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cdo_operations
+  owner: climate
+  revisions:
+  - d5355f6fa02b
+  tool_panel_section_id: climate_analysis
+  tool_panel_section_label: Climate Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cdo_info
+  owner: climate
+  revisions:
+  - 8e0ae5c594e7
+  tool_panel_section_id: climate_analysis
+  tool_panel_section_label: Climate Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: timeseries_extraction
+  owner: ecology
+  revisions:
+  - 810820a0d45c
+  tool_panel_section_id: climate_analysis
+  tool_panel_section_label: Climate Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu

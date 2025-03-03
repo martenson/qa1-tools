@@ -1,0 +1,52 @@
+tools:
+- name: gffcompare
+  owner: iuc
+  revisions:
+  - f99dd58de04f
+  - 0f710191a66d
+  tool_panel_section_id: filter_and_sort
+  tool_panel_section_label: Filter and Sort
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: filter_by_fasta_ids
+  owner: galaxyp
+  revisions:
+  - dff7df6fcab5
+  tool_panel_section_id: filter_and_sort
+  tool_panel_section_label: Filter and Sort
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: column_arrange_by_header
+  owner: bgruening
+  revisions:
+  - 6c6d26ff01ff
+  tool_panel_section_id: filter_and_sort
+  tool_panel_section_label: Filter and Sort
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xpath
+  owner: iuc
+  revisions:
+  - b1dbdbf2be18
+  tool_panel_section_id: filter_and_sort
+  tool_panel_section_label: Filter and Sort
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sample_seqs
+  owner: peterjc
+  revisions:
+  - 02c13ef1a669
+  - 7c40a1fbc82e
+  tool_panel_section_id: filter_and_sort
+  tool_panel_section_label: Filter and Sort
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seq_filter_by_id
+  owner: peterjc
+  revisions:
+  - 141612f8c3e3
+  tool_panel_section_id: filter_and_sort
+  tool_panel_section_label: Filter and Sort
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: find_in_reference
+  owner: jjohnson
+  revisions:
+  - 2429b413d90a
+  tool_panel_section_id: filter_and_sort
+  tool_panel_section_label: Filter and Sort
+  tool_shed_url: toolshed.g2.bx.psu.edu

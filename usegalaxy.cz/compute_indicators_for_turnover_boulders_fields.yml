@@ -1,0 +1,6 @@
+tool_panel_section_label: Compute indicators for turnover boulders fields
+tools:
+- name: cb_dissim
+  owner: ecology
+- name: cb_ivr
+  owner: ecology

@@ -1,0 +1,719 @@
+tools:
+- name: imagecoordinates_flipaxis
+  owner: imgteam
+  revisions:
+  - 984b342d03a6
+  - f8f1100d0701
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: graphicsmagick_image_convert
+  owner: bgruening
+  revisions:
+  - 4e9a3745dce4
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: landmark_registration
+  owner: imgteam
+  revisions:
+  - 9ccd642e7ae2
+  - 4e089a0983b1
+  - 12997d4c5b00
+  - aee73493bf53
+  - b0503eec7bd6
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: superdsm
+  owner: imgteam
+  revisions:
+  - 700ae37e5c69
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: segmetrics
+  owner: imgteam
+  revisions:
+  - 7989264b5780
+  - c496306c1cba
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: spyboat
+  owner: iuc
+  revisions:
+  - 07a85bc414ba
+  - 8815bc7e9cef
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_cellprofiler
+  owner: bgruening
+  revisions:
+  - 0e4dccaafef5
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_common
+  owner: bgruening
+  revisions:
+  - 670975e92458
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_color_to_gray
+  owner: bgruening
+  revisions:
+  - e8f822eeb9fd
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_tile
+  owner: bgruening
+  revisions:
+  - 878bafb411dd
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_track_objects
+  owner: bgruening
+  revisions:
+  - 1fd453cd757b
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_overlay_outlines
+  owner: bgruening
+  revisions:
+  - 91560258e972
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_convert_objects_to_image
+  owner: bgruening
+  revisions:
+  - cdf8e3c57dae
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_display_data_on_image
+  owner: bgruening
+  revisions:
+  - 6a7da2e5f696
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_enhance_or_suppress_features
+  owner: bgruening
+  revisions:
+  - 11f177b1a59e
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_export_to_spreadsheet
+  owner: bgruening
+  revisions:
+  - d0178bdcd00e
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_gray_to_color
+  owner: bgruening
+  revisions:
+  - ad271f78a87a
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_identify_primary_objects
+  owner: bgruening
+  revisions:
+  - b6eec6087271
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_mask_image
+  owner: bgruening
+  revisions:
+  - b178453ea8d1
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_measure_granularity
+  owner: bgruening
+  revisions:
+  - ac5bea85a391
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_measure_image_area_occupied
+  owner: bgruening
+  revisions:
+  - 91e03287f285
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_measure_image_intensity
+  owner: bgruening
+  revisions:
+  - 8536b1ae0254
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_measure_image_quality
+  owner: bgruening
+  revisions:
+  - 6f4715b8540a
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_measure_object_intensity
+  owner: bgruening
+  revisions:
+  - 407925835dd9
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_measure_object_size_shape
+  owner: bgruening
+  revisions:
+  - acf3aa487283
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_measure_texture
+  owner: bgruening
+  revisions:
+  - 80b200ae516b
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_relate_objects
+  owner: bgruening
+  revisions:
+  - 3a3033222f61
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_save_images
+  owner: bgruening
+  revisions:
+  - 33f4fa1413fb
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_image_math
+  owner: bgruening
+  revisions:
+  - 6100a22bf4f2
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: image_registration_affine
+  owner: imgteam
+  revisions:
+  - e34222a620d4
+  - 77dc68af2b40
+  - fa769715b6b0
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: projective_transformation_points
+  owner: imgteam
+  revisions:
+  - ed8a71e13f7b
+  - aaac58d83043
+  - f1744c5654b9
+  - 3a686b6aa7fc
+  - a84822a0060c
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_binary_to_edm
+  owner: imgteam
+  revisions:
+  - 33f6b1f921e7
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_skeletonize3d
+  owner: imgteam
+  revisions:
+  - 768825d9034a
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_find_edges
+  owner: imgteam
+  revisions:
+  - c8dfbf4b899c
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_shadows
+  owner: imgteam
+  revisions:
+  - c8bb47840c8d
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_enhance_contrast
+  owner: imgteam
+  revisions:
+  - ef3de3e84817
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_find_maxima
+  owner: imgteam
+  revisions:
+  - e2622ebb5ce4
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_watershed_binary
+  owner: imgteam
+  revisions:
+  - 5b154339fd90
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_bunwarpj_raw_transform
+  owner: imgteam
+  revisions:
+  - aa4a5a8c4cfd
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_math
+  owner: imgteam
+  revisions:
+  - d48c999b3b96
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_bunwarpj_elastic_transform
+  owner: imgteam
+  revisions:
+  - 39b2bc251b2f
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: idr_download_by_ids
+  owner: iuc
+  revisions:
+  - cbd605a24336
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: wsi_extract_top_view
+  owner: imgteam
+  revisions:
+  - cfe88c6041e9
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: gstf_preparation
+  owner: earlhaminst
+  revisions:
+  - e8e75a79de59
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_bunwarpj_adapt_transform
+  owner: imgteam
+  revisions:
+  - 5d633d30316e
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_adjust_threshold_binary
+  owner: imgteam
+  revisions:
+  - 29a4d422f32a
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_bunwarpj_compose_elastic
+  owner: imgteam
+  revisions:
+  - 423400b3c47f
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_sharpen
+  owner: imgteam
+  revisions:
+  - 4c43ba752312
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_make_binary
+  owner: imgteam
+  revisions:
+  - 6e8be21a505c
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_bunwarpj_convert_to_raw
+  owner: imgteam
+  revisions:
+  - 7f9840d3b7e7
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_bunwarpj_compare_raw
+  owner: imgteam
+  revisions:
+  - 9349961e09ce
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_bunwarpj_compare_elastic
+  owner: imgteam
+  revisions:
+  - 125641435c4b
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_analyze_skeleton
+  owner: imgteam
+  revisions:
+  - 3272e0439968
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_smooth
+  owner: imgteam
+  revisions:
+  - 53fb6f4afcc8
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_bunwarpj_align
+  owner: imgteam
+  revisions:
+  - e9243cad1d67
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_bunwarpj_compose_raw
+  owner: imgteam
+  revisions:
+  - 8c0ace7ae77c
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_noise
+  owner: imgteam
+  revisions:
+  - 7a44772cc89f
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_create_image
+  owner: imgteam
+  revisions:
+  - 1a7c29d5fc11
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_analyze_particles_binary
+  owner: imgteam
+  revisions:
+  - 1dd5396c734a
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_bunwarpj_compose_raw_elastic
+  owner: imgteam
+  revisions:
+  - 8d357579e407
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagej2_bunwarpj_compare_elastic_raw
+  owner: imgteam
+  revisions:
+  - 2be338fc671e
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: image_info
+  owner: imgteam
+  revisions:
+  - 7b6d9412c7f8
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: detection_viz
+  owner: imgteam
+  revisions:
+  - cb2d9de888a1
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: 2d_auto_threshold
+  owner: imgteam
+  revisions:
+  - 0c777d708acc
+  - 81f0cbca04a7
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: 2d_histogram_equalization
+  owner: imgteam
+  revisions:
+  - 70316d792fc9
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bfconvert
+  owner: imgteam
+  revisions:
+  - f3360fbeda64
+  - 10eed33aa9b2
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: 2d_feature_extraction
+  owner: imgteam
+  revisions:
+  - 5791a7f65275
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: permutate_axis
+  owner: imgteam
+  revisions:
+  - 91e255c78eb5
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: labelimage2points
+  owner: imgteam
+  revisions:
+  - 07525a7d9ea0
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: points2labelimage
+  owner: imgteam
+  revisions:
+  - 9bd039f46843
+  - dcc8c1d6af48
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: concat_channels
+  owner: imgteam
+  revisions:
+  - d42501109c05
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scale_image
+  owner: imgteam
+  revisions:
+  - f3c05a734dd1
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mergeneighboursinlabelimage
+  owner: imgteam
+  revisions:
+  - c6a6ab7c9940
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: binary2labelimage
+  owner: imgteam
+  revisions:
+  - 6e65fd971e13
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: 2d_filter_segmentation_by_features
+  owner: imgteam
+  revisions:
+  - e576b73a2e2f
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: 2d_split_binaryimage_by_watershed
+  owner: imgteam
+  revisions:
+  - f8f7987586b7
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: anisotropic_diffusion
+  owner: imgteam
+  revisions:
+  - 17d3cfba9b5a
+  - d13e26f576bc
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: 2d_simple_filter
+  owner: imgteam
+  revisions:
+  - f264ae82f735
+  - dba87c4b32d3
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: coordinates_of_roi
+  owner: imgteam
+  revisions:
+  - 02a686fc1654
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: count_objects
+  owner: imgteam
+  revisions:
+  - 664232d2a3f7
+  - 5bf8eb50b280
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mahotas_features
+  owner: imgteam
+  revisions:
+  - 7f3d9a1a0447
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: points2binaryimage
+  owner: imgteam
+  revisions:
+  - dd513c9f5230
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: projective_transformation
+  owner: imgteam
+  revisions:
+  - 1ffdb07020ee
+  - 37b079c98c38
+  - be9a815e2240
+  - 974cf4357707
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: visceral_evaluatesegmentation
+  owner: imgteam
+  revisions:
+  - d098aed00229
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: binaryimage2points
+  owner: imgteam
+  revisions:
+  - cb1eaebdb4c4
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: slice_image
+  owner: imgteam
+  revisions:
+  - aacfbd7c4af6
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: split_labelmap
+  owner: imgteam
+  revisions:
+  - 597b7ef44b05
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: curve_fitting
+  owner: imgteam
+  revisions:
+  - e0af18405e37
+  - 00feb1ecd040
+  - 004c57179c61
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: points_association_nn
+  owner: imgteam
+  revisions:
+  - fd4293bee0dc
+  - 65210e69cf95
+  - b30aa285ac0a
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: spot_detection_2d
+  owner: imgteam
+  revisions:
+  - d78372040976
+  - a9972c993bed
+  - 4645b356bf3b
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: overlay_images
+  owner: imgteam
+  revisions:
+  - bf590a9733ed
+  - 589af0005df5
+  - b74693340624
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cp_cellprofiler4
+  owner: bgruening
+  revisions:
+  - b333df978624
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: gate_finder
+  owner: goeckslab
+  revisions:
+  - 6df8d6e42152
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vitessce_spatial
+  owner: goeckslab
+  revisions:
+  - 9f60ef2d586e
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: squidpy
+  owner: goeckslab
+  revisions:
+  - be0e7952e229
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: rename_tiff_channels
+  owner: goeckslab
+  revisions:
+  - 09e240a12897
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cell_intensity_processing
+  owner: goeckslab
+  revisions:
+  - 7a77ed0e579a
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mesmer
+  owner: goeckslab
+  revisions:
+  - 02abff468d60
+  - 53240d7c1fc5
+  - 187918c47051
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu

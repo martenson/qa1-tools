@@ -1,0 +1,239 @@
+tools:
+- name: spocc_occ
+  owner: ecology
+  revisions:
+  - f9d76a46799a
+  - f64b3c1a80a6
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: iedb_api
+  owner: iuc
+  revisions:
+  - 7ed6dda64a81
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: dbbuilder
+  owner: galaxyp
+  revisions:
+  - a85fbebe8b2f
+  - 983bf725dfc2
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sra_tools
+  owner: iuc
+  revisions:
+  - c441583adae5
+  - 494b2ec08162
+  - 4df8de2d0e48
+  - aad3885b3216
+  - 1790dcf3c32d
+  - 734abc7ac21d
+  - b723c120161a
+  - 751a694ec620
+  - f5ea3ce9b9b0
+  - 83c7d564b128
+  - 653e89d73fc4
+  - 7068f48d0ef9
+  - 8848455c0270
+  - 26b7446bb17e
+  - 69ebb7f46e45
+  - e08a7ad4378b
+  - 6ea73833cf67
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_acc_download
+  owner: iuc
+  revisions:
+  - e063168e0a81
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: uniprotxml_downloader
+  owner: galaxyp
+  revisions:
+  - e1abc9a35c64
+  - a371252a2cf6
+  - 4ddc8da62671
+  - 265c35540faa
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: unipept
+  owner: galaxyp
+  revisions:
+  - 34758ab8aaa4
+  - 9aaa46d45472
+  - 21a560af5913
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_eutils_esearch
+  owner: iuc
+  revisions:
+  - 30150bd36c9a
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_eutils_egquery
+  owner: iuc
+  revisions:
+  - 28f69754ddc5
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_eutils_ecitmatch
+  owner: iuc
+  revisions:
+  - 732a52c18758
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_eutils_epost
+  owner: iuc
+  revisions:
+  - 196b8dd07896
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_eutils_elink
+  owner: iuc
+  revisions:
+  - 2791c731fc65
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_eutils_einfo
+  owner: iuc
+  revisions:
+  - 5b1dc5936af2
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_eutils_esummary
+  owner: iuc
+  revisions:
+  - c8d4ea6376a7
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_eutils_efetch
+  owner: iuc
+  revisions:
+  - 0fc65a60436f
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: uniprot_rest_interface
+  owner: bgruening
+  revisions:
+  - 054483e27a35
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ensembl_get_sequences
+  owner: earlhaminst
+  revisions:
+  - 7af66c2b3831
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ensembl_get_genetree
+  owner: earlhaminst
+  revisions:
+  - 515e7181d5e9
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ensembl_get_feature_info
+  owner: earlhaminst
+  revisions:
+  - d6bb417dc831
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: enasearch_search_data
+  owner: iuc
+  revisions:
+  - 63b13eb2cb8a
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: enasearch_retrieve_data
+  owner: iuc
+  revisions:
+  - 2f0210706f95
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: enasearch_retrieve_taxons
+  owner: iuc
+  revisions:
+  - 92e869104274
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: enasearch_retrieve_analysis_report
+  owner: iuc
+  revisions:
+  - 1e25f66e4acc
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: enasearch_retrieve_run_report
+  owner: iuc
+  revisions:
+  - 3dd81790a236
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ebi_search_rest_results
+  owner: iuc
+  revisions:
+  - 42d5e40fcd0b
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ebi_metagenomics_run_downloader
+  owner: iuc
+  revisions:
+  - a1ef6c88ee37
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ega_download_client
+  owner: iuc
+  revisions:
+  - f9db47f68e5e
+  - 7d87a9d58aa1
+  - 9564758e8638
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_datasets
+  owner: iuc
+  revisions:
+  - a6a475ed58cb
+  - 75acf92c8fd5
+  - 1e188c9610c3
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pysradb_search
+  owner: iuc
+  revisions:
+  - f63cf0adfd87
+  - b91e1e70f3a1
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ega_download_streamer
+  owner: yhoogstrate
+  revisions:
+  - 3e2cccf08053
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu

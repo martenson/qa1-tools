@@ -1,0 +1,12 @@
+tool_panel_section_label: Ecoregionalization
+tools:
+- name: ecoregion_clara_cluster
+  owner: ecology
+- name: ecoregion_brt_analysis
+  owner: ecology
+- name: ecoregion_eco_map
+  owner: ecology
+- name: ecoregion_cluster_estimate
+  owner: ecology
+- name: ecoregion_taxa_seeker
+  owner: ecology

@@ -1,0 +1,152 @@
+tools:
+- name: clustalw
+  owner: devteam
+  revisions:
+  - 4daabc25df00
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sina
+  owner: iuc
+  revisions:
+  - 56d7dc39eec8
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: gecko
+  owner: iuc
+  revisions:
+  - 5efbd15675ca
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: chromeister
+  owner: iuc
+  revisions:
+  - b768cc4cca40
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: maf_stats
+  owner: iuc
+  revisions:
+  - 0c84cce7b030
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mummer_mummer
+  owner: iuc
+  revisions:
+  - bcd65de9725b
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mummer_mummerplot
+  owner: iuc
+  revisions:
+  - 4fc0cb2ac8ae
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mummer_delta_filter
+  owner: iuc
+  revisions:
+  - fbca557a4847
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mummer_nucmer
+  owner: iuc
+  revisions:
+  - e18267f90096
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mummer_dnadiff
+  owner: iuc
+  revisions:
+  - c9685bc0407c
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mummer_show_coords
+  owner: iuc
+  revisions:
+  - b4124df98b26
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: kc_align
+  owner: iuc
+  revisions:
+  - 97476dfde728
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pipelign
+  owner: iuc
+  revisions:
+  - cd9d1eccda7e
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: selectsequencesfrommsa
+  owner: rnateam
+  revisions:
+  - 48fc2c21fe1c
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: msaboot
+  owner: iuc
+  revisions:
+  - 99f8b4e631e5
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: hammock
+  owner: hammock
+  revisions:
+  - afddbcbc8ee8
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: format_cd_hit_output
+  owner: bebatut
+  revisions:
+  - 64da677bcee2
+  - 4015e9d6d277
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: muscle
+  owner: crs4
+  revisions:
+  - 533b3b2a1e66
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: compalignp
+  owner: rnateam
+  revisions:
+  - 7e55ac3bd458
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mafft
+  owner: rnateam
+  revisions:
+  - f0d493f8f84f
+  - f1a5908ea2cb
+  - bcfce5aac49c
+  - a65296ffb4a0
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cd_hit
+  owner: iuc
+  revisions:
+  - 7807800a3d03
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu

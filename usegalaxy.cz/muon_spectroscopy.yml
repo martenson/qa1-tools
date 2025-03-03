@@ -1,0 +1,20 @@
+tool_panel_section_label: Muon Spectroscopy
+tools:
+- name: cif2cell
+  owner: muon-spectroscopy-computational-project
+- name: muspinsim_config
+  owner: muon-spectroscopy-computational-project
+- name: muspinsim
+  owner: muon-spectroscopy-computational-project
+- name: muspinsim_plot
+  owner: muon-spectroscopy-computational-project
+- name: pm_asephonons
+  owner: muon-spectroscopy-computational-project
+- name: pm_symmetry
+  owner: muon-spectroscopy-computational-project
+- name: pm_uep_opt
+  owner: muon-spectroscopy-computational-project
+- name: pm_muairss_read
+  owner: muon-spectroscopy-computational-project
+- name: muspinsim_combine
+  owner: muon-spectroscopy-computational-project

@@ -1,0 +1,12 @@
+tool_panel_section_label: Animal Detection on Acoustic Recordings
+tools:
+- name: spocc_occ
+  owner: ecology
+- name: vigiechiro_bilanenrichipf
+  owner: ecology
+- name: vigiechiro_bilanenrichirp
+  owner: ecology
+- name: vigiechiro_idcorrect_2ndlayer
+  owner: ecology
+- name: vigiechiro_idvalid
+  owner: ecology

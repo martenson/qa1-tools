@@ -1,0 +1,72 @@
+tools:
+- name: cif2cell
+  owner: muon-spectroscopy-computational-project
+  revisions:
+  - e5f1ac42b063
+  - 60ad7a4f1faf
+  tool_panel_section_id: muon_spectroscopy
+  tool_panel_section_label: Muon Spectroscopy
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: muspinsim_config
+  owner: muon-spectroscopy-computational-project
+  revisions:
+  - 331d0776abb4
+  - e1e338f56656
+  tool_panel_section_id: muon_spectroscopy
+  tool_panel_section_label: Muon Spectroscopy
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: muspinsim
+  owner: muon-spectroscopy-computational-project
+  revisions:
+  - e002cee8f707
+  - 136ed45d1ea9
+  tool_panel_section_id: muon_spectroscopy
+  tool_panel_section_label: Muon Spectroscopy
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: muspinsim_plot
+  owner: muon-spectroscopy-computational-project
+  revisions:
+  - e15e8800c39e
+  - d7a0a31760b1
+  tool_panel_section_id: muon_spectroscopy
+  tool_panel_section_label: Muon Spectroscopy
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pm_asephonons
+  owner: muon-spectroscopy-computational-project
+  revisions:
+  - fd28cbdb134e
+  - dd3ca8457fcd
+  tool_panel_section_id: muon_spectroscopy
+  tool_panel_section_label: Muon Spectroscopy
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pm_symmetry
+  owner: muon-spectroscopy-computational-project
+  revisions:
+  - c062cefbb20f
+  - 620ab6826b9b
+  tool_panel_section_id: muon_spectroscopy
+  tool_panel_section_label: Muon Spectroscopy
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pm_uep_opt
+  owner: muon-spectroscopy-computational-project
+  revisions:
+  - eea73e1f65cb
+  - 523d44fcd03f
+  tool_panel_section_id: muon_spectroscopy
+  tool_panel_section_label: Muon Spectroscopy
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pm_muairss_read
+  owner: muon-spectroscopy-computational-project
+  revisions:
+  - 276a25ab05f2
+  - 40071ff77285
+  tool_panel_section_id: muon_spectroscopy
+  tool_panel_section_label: Muon Spectroscopy
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: muspinsim_combine
+  owner: muon-spectroscopy-computational-project
+  revisions:
+  - 06aabd70b869
+  tool_panel_section_id: muon_spectroscopy
+  tool_panel_section_label: Muon Spectroscopy
+  tool_shed_url: toolshed.g2.bx.psu.edu

@@ -1,0 +1,12 @@
+tool_panel_section_label: Join, Subtract and Group
+tools:
+- name: datamash_transpose
+  owner: iuc
+- name: collection_column_join
+  owner: iuc
+- name: subtract
+  owner: devteam
+- name: datamash_reverse
+  owner: iuc
+- name: datamash_ops
+  owner: iuc

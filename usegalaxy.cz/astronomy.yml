@@ -1,0 +1,10 @@
+tool_panel_section_label: Astronomy
+tools:
+- name: astropy_fits2bitmap
+  owner: astroteam
+- name: astropy_fits2csv
+  owner: astroteam
+- name: astropy_fitsinfo
+  owner: astroteam
+- name: astronomical_archives
+  owner: astroteam

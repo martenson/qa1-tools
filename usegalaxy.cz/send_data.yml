@@ -1,0 +1,6 @@
+tool_panel_section_label: Send Data
+tools:
+- name: ena_upload
+  owner: iuc
+- name: curl_post
+  owner: imgteam

@@ -1,0 +1,10 @@
+tool_panel_section_label: Sanger Sequencing
+tools:
+- name: tracy_basecall
+  owner: iuc
+- name: tracy_align
+  owner: iuc
+- name: tracy_decompose
+  owner: iuc
+- name: tracy_assemble
+  owner: iuc

@@ -1,0 +1,34 @@
+tool_panel_section_label: Virology
+tools:
+- name: ivar_trim
+  owner: iuc
+- name: ivar_removereads
+  owner: iuc
+- name: ivar_consensus
+  owner: iuc
+- name: ivar_getmasked
+  owner: iuc
+- name: ivar_variants
+  owner: iuc
+- name: ivar_filtervariants
+  owner: iuc
+- name: read_it_and_keep
+  owner: iuc
+- name: snipit
+  owner: iuc
+- name: freyja_variants
+  owner: iuc
+- name: freyja_demix
+  owner: iuc
+- name: freyja_boot
+  owner: iuc
+- name: freyja_aggregate_plot
+  owner: iuc
+- name: cooc_mutbamscan
+  owner: iuc
+- name: cooc_pubmut
+  owner: iuc
+- name: cooc_tabmut
+  owner: iuc
+- name: lineagespot
+  owner: iuc

@@ -1,0 +1,15 @@
+tools:
+- name: cb_dissim
+  owner: ecology
+  revisions:
+  - 8dc082da41c1
+  tool_panel_section_id: compute_indicators_for_turnover_boulders_fields
+  tool_panel_section_label: Compute indicators for turnover boulders fields
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cb_ivr
+  owner: ecology
+  revisions:
+  - bcbad4f83dec
+  tool_panel_section_id: compute_indicators_for_turnover_boulders_fields
+  tool_panel_section_label: Compute indicators for turnover boulders fields
+  tool_shed_url: toolshed.g2.bx.psu.edu

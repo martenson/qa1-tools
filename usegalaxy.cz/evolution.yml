@@ -1,0 +1,20 @@
+tool_panel_section_label: Evolution
+tools:
+- name: mutate_snp_codon
+  owner: devteam
+- name: iqtree
+  owner: iuc
+- name: codeml
+  owner: iuc
+- name: structure
+  owner: iuc
+- name: rapidnj
+  owner: iuc
+- name: tn93
+  owner: iuc
+- name: tn93_filter
+  owner: iuc
+- name: tn93_cluster
+  owner: iuc
+- name: tn93_readreduce
+  owner: iuc

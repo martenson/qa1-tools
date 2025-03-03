@@ -1,0 +1,137 @@
+tools:
+- name: scanpy_find_markers
+  owner: ebi-gxa
+  revisions:
+  - 615a46c220f0
+  tool_panel_section_id: hca_single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_scale_data
+  owner: ebi-gxa
+  revisions:
+  - c8f196ccf34a
+  tool_panel_section_id: hca_single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_run_umap
+  owner: ebi-gxa
+  revisions:
+  - 3bd1152dd854
+  tool_panel_section_id: hca_single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_run_tsne
+  owner: ebi-gxa
+  revisions:
+  - 45674f057a31
+  tool_panel_section_id: hca_single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_run_pca
+  owner: ebi-gxa
+  revisions:
+  - c990e40fbd46
+  tool_panel_section_id: hca_single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_read_10x
+  owner: ebi-gxa
+  revisions:
+  - 741d50b6dc78
+  tool_panel_section_id: hca_single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_normalise_data
+  owner: ebi-gxa
+  revisions:
+  - 059f8d2e8be1
+  tool_panel_section_id: hca_single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_find_variable_genes
+  owner: ebi-gxa
+  revisions:
+  - 258e13397a8a
+  tool_panel_section_id: hca_single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_find_cluster
+  owner: ebi-gxa
+  revisions:
+  - ab7a3bb8a622
+  tool_panel_section_id: hca_single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_filter_genes
+  owner: ebi-gxa
+  revisions:
+  - 77fbe74247c2
+  tool_panel_section_id: hca_single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_filter_cells
+  owner: ebi-gxa
+  revisions:
+  - c23d0ff783d4
+  tool_panel_section_id: hca_single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_compute_graph
+  owner: ebi-gxa
+  revisions:
+  - 7ad420b1be89
+  tool_panel_section_id: hca_single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: hca_matrix_downloader
+  owner: ebi-gxa
+  revisions:
+  - 2e81fbe036b2
+  tool_panel_section_id: hca_single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: gtf2gene_list
+  owner: ebi-gxa
+  revisions:
+  - 14b3f2a4523b
+  - 00ee933b08fd
+  - b6354c917ef9
+  - 040d4b3a19d5
+  tool_panel_section_id: hca_single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ucsc_cell_browser
+  owner: ebi-gxa
+  revisions:
+  - 544d44faa8bf
+  tool_panel_section_id: hca_single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_parameter_iterator
+  owner: ebi-gxa
+  revisions:
+  - b9dd12ab0550
+  tool_panel_section_id: hca_single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_plot_trajectory
+  owner: ebi-gxa
+  revisions:
+  - 4e666c43b6e3
+  tool_panel_section_id: hca_single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scmap_index_cell
+  owner: ebi-gxa
+  revisions:
+  - 640982866dfe
+  tool_panel_section_id: hca_single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: retrieve_scxa
+  owner: ebi-gxa
+  revisions:
+  - 72b6e1747e37
+  tool_panel_section_id: hca_single_cell
+  tool_panel_section_label: HCA-Single Cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
