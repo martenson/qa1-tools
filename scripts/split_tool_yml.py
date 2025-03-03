@@ -84,7 +84,7 @@ def main():
     filename = args.infile
 
     a = yaml.safe_load(open(filename, 'r'))
-    outdir = re.sub('\.yml','',filename)
+    outdir = re.sub(r'\.yml', '', filename)
     if args.outdir:
         outdir = args.outdir
 
