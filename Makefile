@@ -1,63 +1,31 @@
-YAML_FILES := $(wildcard *.yaml)
-LOCK_FILES := $(wildcard *.yaml.lock)
-LINTED_YAMLS := $(YAML_FILES:=.lint)
-UPDATED_YAMLS := $(YAML_FILES:=.update)
-CORRECT_YAMLS := $(YAML_FILES:=.fix)
-INSTALL_YAMLS := $(LOCK_FILES:=.install)
-UPDATE_TRUSTED_IUC := $(LOCK_FILES:.lock=.update_trusted_iuc)
-
-GALAXY_SERVER :=
-TOOLSET := galaxy-qa1.galaxy.cloud.e-infra.cz
-
+ifndef INSTANCE
+$(error INSTANCE is required but not set)
+endif
 
 help:
 	@egrep '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-16s\033[0m %s\n", $$1, $$2}'
 
-lint: ## Lint all yaml files for a given TOOLSET
-	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/yaml-check.py
-	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 -I{} pykwalify -d '{}' -s .schema.yml
+lint: ## Lint all yaml files for a given INSTANCE
+	find ./$(INSTANCE) -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P 8 python3 scripts/yaml_check.py
+	find ./$(INSTANCE) -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P 8 -I{} pykwalify -d '{}' -s .schema.yml
+	find ./$(INSTANCE) -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P 8 python3 scripts/identify_unpinned.py
 
-fix: ## Fix all lockfiles and add any missing revisions for a given TOOLSET
+fix: ## For a given INSTANCE fix all lockfiles and add the latest revision to every repo that has no revision
 	@# Generates the lockfile or updates it if it is missing tools
-	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/fix_lockfile.py
+	find ./$(INSTANCE) -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P 8 python3 scripts/fix_lockfile.py
 	@# --without says to add the latest revision to every entry missing one (i.e. update all)
-	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/update_tool.py --without --log debug
+	find ./$(INSTANCE) -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P 8 python3 scripts/update_tool.py --without --log debug
 
-# lint: $(LINTED_YAMLS) ## Lint the yaml files
-# fix: $(CORRECT_YAMLS) ## Fix any issues (missing hashes, missing lockfiles, etc.)
-# install: $(INSTALL_YAMLS) ## Install the tools in our galaxy
+update-trusted:  ## Run the update script for a subset of repos defined by the OWNER var
+	find ./$(INSTANCE) -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/update_tool.py --owner $(OWNER)
 
-# %.lint: %
-# 	python3 scripts/fix-lockfile.py $<
-# 	pykwalify -d $< -s .schema.yaml
-# 	python3 scripts/identify-unpinned.py $<
+update-all: ## Run the update script for all repos
+	find ./$(INSTANCE) -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/update_tool.py
 
-# %.fix: %
-# 	@# Generates the lockfile or updates it if it is missing tools
-# 	python3 scripts/fix-lockfile.py $<
-# 	@# --without says only add those hashes for those missing hashes (i.e. new tools)
-# 	python3 scripts/update-tool.py $< --without
+# shed-tools install --install_resolver_dependencies --toolsfile $< --galaxy $(GALAXY_SERVER) --api_key $(GALAXY_API_KEY) 2>&1 | tee -a report.log
 
-# %.install: %
-# 	@echo "Installing any updated versions of $<"
-# 	@-shed-tools install --install_resolver_dependencies --toolsfile $< --galaxy $(GALAXY_SERVER) --api_key $(GALAXY_API_KEY) 2>&1 | tee -a report.log
+# shed-tools install --toolsfile $< --galaxy $(GALAXY_SERVER) --api_key $(GALAXY_API_KEY)
 
-# pr_check:
-# 	for changed_yaml in `git diff remotes/origin/main --name-only | grep .yaml$$`; do python scripts/pr-check.py $${changed_yaml} && pykwalify -d $${changed_yaml} -s .schema.yaml ; done
+# shed-tools install -g "$URL" -t tool_list.yaml.lock --log_level ERROR --log-file "$LOG"
 
-# update_trusted: $(UPDATE_TRUSTED_IUC) ## Run the update script
-# 	@# Missing --without, so this updates all tools in the file.
-# 	python3 scripts/update-tool.py tools_iuc.yaml
-
-# update_all: $(UPDATED_YAMLS)
-
-# %.update: ## Update all of the tools
-# 	@# Missing --without, so this updates all tools in the file.
-# 	python3 scripts/update-tool.py $<
-
-# %.update_trusted_iuc: %
-# 	@# Update any tools owned by IUC in any other yaml file
-# 	python3 scripts/update-tool.py --owner iuc $<
-
-
-.PHONY: fix lint help
+.PHONY: fix lint help update-trusted update-all
