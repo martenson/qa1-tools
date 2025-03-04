@@ -5,8 +5,8 @@ from collections import defaultdict
 import re
 import os
 import string
-import sys
 import argparse
+
 
 def slugify(value):
     """
@@ -17,6 +17,7 @@ def slugify(value):
     for c in value:
         rval += (c if c in string.ascii_letters + string.digits else '_').lower()
     return rval
+
 
 def strip_superflous(cat):
     """
@@ -114,4 +115,6 @@ def main():
 
     return
 
-if __name__ == "__main__": main()
+
+if __name__ == "__main__":
+    main()

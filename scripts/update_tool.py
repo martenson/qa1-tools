@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import yaml
 import argparse
 import logging
@@ -76,7 +78,7 @@ if __name__ == '__main__':
     parser.add_argument('fn', type=argparse.FileType('r'), help="Tool.yaml file")
     parser.add_argument('--owner', action='append', help="Repository owner to filter on, anything matching this will be updated. Can be specified multiple times")
     parser.add_argument('--name', help="Repository name to filter on, anything matching this will be updated")
-    parser.add_argument('--without', action='store_true', help="If supplied will ignore any owner/name and just automatically add the latest hash for anything lacking one.")
+    parser.add_argument('--without', action='store_true', help="If supplied will ignore any owner/name and just automatically add the latest hash for any repo that has no revision present.")
     parser.add_argument('--log', choices=('critical', 'error', 'warning', 'info', 'debug'), default='info')
     args = parser.parse_args()
     logging.basicConfig(level=getattr(logging, args.log.upper()))
