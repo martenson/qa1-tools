@@ -126,7 +126,6 @@ tools:
   owner: iuc
   revisions:
   - 2b80a2596064
-  - 5f589c91566e
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: slamdunk

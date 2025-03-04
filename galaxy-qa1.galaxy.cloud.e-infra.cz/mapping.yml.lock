@@ -35,7 +35,7 @@ tools:
 - name: bismark
   owner: bgruening
   revisions:
-  - 0b656f8c5637
+  - 120b7b35e442
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: star_fusion

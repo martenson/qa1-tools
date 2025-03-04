@@ -6,6 +6,7 @@ tools:
   owner: rnateam
   revisions:
   - 1b142e88d068
+  - 90da74fd1c5c
   tool_panel_section_id: graphclust
   tool_panel_section_label: GraphClust
 - name: structure_to_gspan
@@ -71,6 +72,7 @@ tools:
 - name: infernal
   owner: bgruening
   revisions:
+  - 55bb96edfc07
   - c47a7c52ac4f
   tool_panel_section_id: graphclust
   tool_panel_section_label: GraphClust

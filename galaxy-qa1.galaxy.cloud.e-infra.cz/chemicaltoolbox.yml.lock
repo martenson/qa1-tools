@@ -577,7 +577,6 @@ tools:
   owner: bgruening
   revisions:
   - 06d9381593a4
-  - 10c0df29e6d1
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_rg

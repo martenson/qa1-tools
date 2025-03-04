@@ -12,6 +12,7 @@ tools:
   owner: iuc
   revisions:
   - 9495df9dd6ef
+  - b3c7199d8786
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: mash

@@ -5,7 +5,7 @@ tools:
 - name: fastqc
   owner: devteam
   revisions:
-  - 5ec9f6bceaee
+  - 2c64fded1286
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: short_reads_trim_seq
