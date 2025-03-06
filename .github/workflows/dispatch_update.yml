@@ -55,11 +55,13 @@ jobs:
       - name: Set output variables
         id: vars
         run: |
-          pr_title='Update all tools of $INSTANCE'
-          pr_body='ran the following: /
-            - make INSTANCE=$INSTANCE lint /
-            - make INSTANCE=$INSTANCE fix /
-            - make INSTANCE=$INSTANCE update-all\'
+          pr_title="Update all tools of $INSTANCE"
+          pr_body="ran the following: \
+            - make INSTANCE=$INSTANCE lint \
+            - make INSTANCE=$INSTANCE fix \
+            - make INSTANCE=$INSTANCE update-all\"
+          echo "pr_title=$pr_title" >> $GITHUB_OUTPUT
+          echo "pr_body=$pr_body" >> $GITHUB_OUTPUT
         env:
           INSTANCE: ${{ inputs.instance }}
       - name: Create Pull Request
