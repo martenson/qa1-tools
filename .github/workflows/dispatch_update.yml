@@ -52,22 +52,26 @@ jobs:
       #     git commit -m "Updated all tools of $INSTANCE" || true
       #   env:
       #     INSTANCE: ${{ inputs.instance }}
+      - name: Set output variables
+        id: vars
+        run: |
+          pr_title='Update all tools of $INSTANCE'
+          pr_body='ran the following: /
+            - make INSTANCE=$INSTANCE lint /
+            - make INSTANCE=$INSTANCE fix /
+            - make INSTANCE=$INSTANCE update-all\'
+        env:
+          INSTANCE: ${{ inputs.instance }}
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
-          commit-message: Update all tools for $INSTANCE
           committer: CESNETbot <martin.cech@cesnet.cz>
-          body: |
-            ran the following:
-            - make INSTANCE=$INSTANCE lint
-            - make INSTANCE=$INSTANCE fix
-            - make INSTANCE=$INSTANCE update-all
-          title: 'Update all tools of $INSTANCE'
+          commit-message: ${{ steps.vars.outputs.pr_title }}
+          title: ${{ steps.vars.outputs.pr_title }}
+          body: ${{ steps.vars.outputs.pr_body }}
           labels: automated
           assignees: martenson
           reviewers: martenson
-        env:
-          INSTANCE: ${{ inputs.instance }}
       # - name: Push changes
       #   uses: ad-m/github-push-action@master
       #   with:
