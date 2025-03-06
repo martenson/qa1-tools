@@ -6,6 +6,7 @@ tools:
   owner: galaxyp
   revisions:
   - e50ec3a9a3f9
+  - f8d02b61e531
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: vsearch
@@ -37,6 +38,7 @@ tools:
   owner: devteam
   revisions:
   - 6c09bed3444f
+  - 1c677354ab18
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: taxonomy_krona_chart
@@ -55,12 +57,14 @@ tools:
   owner: iuc
   revisions:
   - fdbd63e92b01
+  - ebb74774457e
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: metaphlan_hclust_heatmap
   owner: iuc
   revisions:
   - f7353110d18c
+  - 2e3056f02c60
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: metagenomeseq_normalization
@@ -145,12 +149,14 @@ tools:
   owner: iuc
   revisions:
   - e88b731dad59
+  - 8237a0f225db
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: humann_split_table
   owner: iuc
   revisions:
   - e9d12c223a80
+  - 81c5dd1c777f
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: concoct
@@ -187,5 +193,6 @@ tools:
   owner: iuc
   revisions:
   - f1d1dafc836d
+  - 30e275ed0442
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis

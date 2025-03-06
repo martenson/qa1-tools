@@ -6,6 +6,7 @@ tools:
   owner: iuc
   revisions:
   - 1672b9bea89b
+  - 72927fc9e9ed
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: kallisto_pseudo
@@ -138,6 +139,7 @@ tools:
   owner: iuc
   revisions:
   - 83f8b5ceff43
+  - 402e0b9cfd87
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: trinity_super_transcripts
@@ -174,6 +176,7 @@ tools:
   owner: rnateam
   revisions:
   - 0795d6cf0967
+  - f5d850723e63
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: crosscontamination_barcode_filter
@@ -186,6 +189,7 @@ tools:
   owner: iuc
   revisions:
   - dc0f01791c9b
+  - 9ff3765e7172
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: egsea
@@ -318,6 +322,7 @@ tools:
   owner: rnateam
   revisions:
   - aab6cf87b40a
+  - dbb6ee3179bc
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: trinity_gene_to_trans_map
@@ -330,18 +335,21 @@ tools:
   owner: iuc
   revisions:
   - 9871104ea630
+  - 04bb8bb7c198
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: describe_samples
   owner: iuc
   revisions:
   - 0693ccd171c4
+  - 3b36efd62b3e
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: trinity_define_clusters_by_cutting_tree
   owner: iuc
   revisions:
   - 6fa08f46db8c
+  - 65e7dea767ea
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: sshmm
@@ -402,6 +410,7 @@ tools:
   owner: rnateam
   revisions:
   - db367d012fa3
+  - 9c0d4ec99ba9
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: sailfish
@@ -582,6 +591,7 @@ tools:
   owner: rnateam
   revisions:
   - cd00b4fe6552
+  - 5a4b00c84f50
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: structurefold
@@ -600,6 +610,7 @@ tools:
   owner: rnateam
   revisions:
   - 40dc77f3730c
+  - d5ea61ff12eb
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: rsem

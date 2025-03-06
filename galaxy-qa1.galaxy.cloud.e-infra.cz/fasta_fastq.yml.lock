@@ -36,6 +36,7 @@ tools:
   owner: devteam
   revisions:
   - 2ccb8dcabddc
+  - b41c2c1bcfbf
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fasta_filter_by_length
@@ -60,12 +61,14 @@ tools:
   owner: bgruening
   revisions:
   - cd7e644cae1d
+  - eefb644655a5
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: sickle
   owner: iuc
   revisions:
   - 6756c87dc2d4
+  - 9108bd9450cb
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: flash
@@ -90,6 +93,7 @@ tools:
   owner: iuc
   revisions:
   - 66d1f96c5600
+  - 12a5e6fa850e
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: atactk_trim_adapters
@@ -102,36 +106,42 @@ tools:
   owner: iuc
   revisions:
   - b43c26de8701
+  - 4f4c5a4dda59
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: bctools_extract_barcodes
   owner: iuc
   revisions:
   - fb83859f7714
+  - ceb779d5be5b
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: bctools_extract_alignment_ends
   owner: iuc
   revisions:
   - 6d41997eabdc
+  - 0be29a221b16
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: bctools_merge_pcr_duplicates
   owner: iuc
   revisions:
   - 2cbc4dd55cd8
+  - 04e67d8245fe
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: bctools_remove_spurious_events
   owner: iuc
   revisions:
   - 3175047fb607
+  - 308ab6387c75
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: bctools_remove_tail
   owner: iuc
   revisions:
   - 3c581a2b19f3
+  - 6979701451c3
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: je_clip
@@ -174,12 +184,14 @@ tools:
   owner: lparsons
   revisions:
   - b007d9642911
+  - 8ec3dfde378b
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: splitfasta
   owner: rnateam
   revisions:
   - ae4d5733272f
+  - 7521d865e770
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: rcorrector

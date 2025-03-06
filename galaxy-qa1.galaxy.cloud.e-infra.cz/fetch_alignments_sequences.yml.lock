@@ -6,6 +6,7 @@ tools:
   owner: iuc
   revisions:
   - f088370d2a3c
+  - e3ba567abdf5
   tool_panel_section_id: fetch_alignments_sequences
   tool_panel_section_label: Fetch Alignments/Sequences
 - name: fraggenescan
@@ -18,5 +19,6 @@ tools:
   owner: iuc
   revisions:
   - 642d73815dd1
+  - 54e818ea7c4d
   tool_panel_section_id: fetch_alignments_sequences
   tool_panel_section_label: Fetch Alignments/Sequences

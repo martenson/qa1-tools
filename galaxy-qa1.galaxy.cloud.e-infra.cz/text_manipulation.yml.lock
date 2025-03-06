@@ -30,12 +30,14 @@ tools:
   owner: devteam
   revisions:
   - dd40b1e9eebe
+  - ae7843d06f8f
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: table_compute
   owner: iuc
   revisions:
   - 3bf5661c0280
+  - 56a8da1f2243
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: regex_find_replace
@@ -60,6 +62,7 @@ tools:
   owner: iuc
   revisions:
   - b722161a845a
+  - c4d18aa4ec4a
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: jq
@@ -108,6 +111,7 @@ tools:
   owner: devteam
   revisions:
   - bc9c66c1e9c9
+  - e3363e087468
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: regex_replace
@@ -126,30 +130,35 @@ tools:
   owner: devteam
   revisions:
   - 0926c81f382c
+  - debffd27642d
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: intersect
   owner: devteam
   revisions:
   - 8ddabc73af92
+  - 69c10b56f46d
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: flanking_features
   owner: devteam
   revisions:
   - 8307665c4b6c
+  - 9f12b7e500f1
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: get_flanks
   owner: devteam
   revisions:
   - 4cd116158aef
+  - 077f404ae1bb
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: subtract_query
   owner: devteam
   revisions:
   - 960d5d114184
+  - ff3901618482
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: unique

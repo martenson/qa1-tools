@@ -66,18 +66,21 @@ tools:
   owner: bgruening
   revisions:
   - bf4e668b6690
+  - 22a866858b81
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: openms_openswathdiaprescoring
   owner: galaxyp
   revisions:
   - d4396637b9f5
+  - 986d14ec9394
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: openms_digestormotif
   owner: galaxyp
   revisions:
   - 38676a2713f5
+  - 3138bbc00588
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: syndiva
@@ -282,6 +285,7 @@ tools:
   owner: galaxyp
   revisions:
   - 9aaa46d45472
+  - 21a560af5913
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: maldi_quant_peak_detection
@@ -336,6 +340,7 @@ tools:
   owner: galaxyp
   revisions:
   - 878f6725c4f3
+  - 92c059f90d0e
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: quantwiz_iq
@@ -354,6 +359,7 @@ tools:
   owner: galaxyp
   revisions:
   - a2ab72e994dc
+  - 622dd6d51032
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: peptideshaker
@@ -408,6 +414,7 @@ tools:
   owner: galaxyp
   revisions:
   - dce55ca21b98
+  - 07107a686ce9
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: lfq_protein_quant
@@ -486,6 +493,7 @@ tools:
   owner: galaxyp
   revisions:
   - a6574e6fc144
+  - c8bb9ba168ca
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: decoyfasta
