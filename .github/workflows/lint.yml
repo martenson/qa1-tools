@@ -1,8 +1,6 @@
 name: Tool linting
 
 on:
-  # push:
-  #   branches: [ main ]
   pull_request:
     branches: [ main ]
   workflow_dispatch:
@@ -31,4 +29,6 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Perform linting
-        run: make pr_check
+        run: |
+          make INSTANCE=galaxy-qa1.galaxy.cloud.e-infra.cz lint
+          make INSTANCE=usegalaxy.cz lint

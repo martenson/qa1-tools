@@ -66,17 +66,20 @@ tools:
   owner: iuc
   revisions:
   - 543cbeef3949
+  - a2899db6bd6e
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_squiggle
   owner: iuc
   revisions:
+  - 26e6c9362b7b
   - ce8af9373061
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_occupancy
   owner: iuc
   revisions:
+  - 0433aad600e9
   - 336791b5665f
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
@@ -84,24 +87,28 @@ tools:
   owner: iuc
   revisions:
   - 47936349f3e9
+  - d1805f9c4c82
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_yield_plot
   owner: iuc
   revisions:
   - 64a83664b814
+  - c5c5a3e84989
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_qualpos
   owner: iuc
   revisions:
   - 2e22ebec211a
+  - 626b6c2be5c2
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_events
   owner: iuc
   revisions:
   - 1d835c691480
+  - daf8518d243a
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: medaka_variant
