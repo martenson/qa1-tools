@@ -56,12 +56,15 @@ jobs:
         id: vars
         run: |
           pr_title="Update all tools of $INSTANCE"
-          pr_body="ran the following: \
-            - make INSTANCE=$INSTANCE lint \
-            - make INSTANCE=$INSTANCE fix \
-            - make INSTANCE=$INSTANCE update-all\"
-          echo "pr_title=$pr_title" >> $GITHUB_OUTPUT
-          echo "pr_body=$pr_body" >> $GITHUB_OUTPUT
+          {
+            echo "pr_title=$pr_title"
+            echo "pr_body<<EOF"
+            echo "ran the following:"
+            echo "- make INSTANCE=$INSTANCE lint"
+            echo "- make INSTANCE=$INSTANCE fix"
+            echo "- make INSTANCE=$INSTANCE update-all"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
         env:
           INSTANCE: ${{ inputs.instance }}
       - name: Create Pull Request
