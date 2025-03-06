@@ -22,10 +22,7 @@ update-trusted:  ## Run the update script for a subset of repos defined by the O
 update-all: ## Run the update script for all repos
 	find ./$(INSTANCE) -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/update_tool.py
 
-# shed-tools install --install_resolver_dependencies --toolsfile $< --galaxy $(GALAXY_SERVER) --api_key $(GALAXY_API_KEY) 2>&1 | tee -a report.log
+install: ## Run the Ephemeris command to install all repos and revisions that are missing from a given INSTANCE
+	find ./$(INSTANCE) -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P 1 -I {} shed-tools install --toolsfile {} --galaxy $(INSTANCE) --api_key $(GALAXY_API_KEY) --skip_install_resolver_dependencies
 
-# shed-tools install --toolsfile $< --galaxy $(GALAXY_SERVER) --api_key $(GALAXY_API_KEY)
-
-# shed-tools install -g "$URL" -t tool_list.yaml.lock --log_level ERROR --log-file "$LOG"
-
-.PHONY: fix lint help update-trusted update-all
+.PHONY: fix lint help update-trusted update-all install
