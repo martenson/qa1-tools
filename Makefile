@@ -8,7 +8,6 @@ help:
 	@egrep '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-16s\033[0m %s\n", $$1, $$2}'
 
 lint: ## Lint all yaml files for a given INSTANCE
-	echo $(nproc)
 	find ./$(INSTANCE) -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P $(NPROC) python3 scripts/yaml_check.py
 	find ./$(INSTANCE) -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P $(NPROC) -I{} pykwalify -d '{}' -s .schema.yml
 	find ./$(INSTANCE) -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P $(NPROC) python3 scripts/identify_unpinned.py
