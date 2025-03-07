@@ -18,6 +18,7 @@ tools:
   owner: devteam
   revisions:
   - 7a2a604ae9c8
+  - 0427ca314f3d
   tool_panel_section_id: join__subtract_and_group
   tool_panel_section_label: Join, Subtract and Group
 - name: datamash_reverse

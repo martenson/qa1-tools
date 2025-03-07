@@ -7,6 +7,7 @@ tools:
   revisions:
   - b8348686a0b9
   - dde39ba9c031
+  - 2892111d91f8
   tool_panel_section_id: bed
   tool_panel_section_label: BED
 - name: bedops_sortbed

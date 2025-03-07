@@ -12,6 +12,7 @@ tools:
   owner: iuc
   revisions:
   - 12e856482d26
+  - bdb4a58a2025
   tool_panel_section_id: mothur
   tool_panel_section_label: Mothur
 - name: mothur_chimera_pintail

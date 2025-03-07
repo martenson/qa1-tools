@@ -60,6 +60,7 @@ tools:
   owner: computational-metabolomics
   revisions:
   - 9e6bf7278257
+  - 8dac4cef0a22
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: metfrag
@@ -102,12 +103,14 @@ tools:
   owner: marie-tremblay-metatoul
   revisions:
   - f9554d5bb47e
+  - 221cbd549c40
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: mixmodel4repeated_measures
   owner: jfrancoismartin
   revisions:
   - 1422de181204
+  - a3147e3d66e2
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: asca
@@ -198,6 +201,7 @@ tools:
   owner: mmonsoor
   revisions:
   - 479a83f62863
+  - 961089e21ae2
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: profia
@@ -222,6 +226,7 @@ tools:
   owner: workflow4metabolomics
   revisions:
   - dd3e046a72ad
+  - 61c959ebdef5
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: matchms_similarity

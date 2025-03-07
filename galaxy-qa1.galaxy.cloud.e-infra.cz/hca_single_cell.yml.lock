@@ -6,17 +6,20 @@ tools:
   owner: ebi-gxa
   revisions:
   - 615a46c220f0
+  - d8f5224005bb
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell
 - name: scanpy_scale_data
   owner: ebi-gxa
   revisions:
   - c8f196ccf34a
+  - 4cc9362782b4
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell
 - name: gtf2gene_list
   owner: ebi-gxa
   revisions:
   - b6354c917ef9
+  - 14b3f2a4523b
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell

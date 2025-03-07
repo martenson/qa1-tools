@@ -168,6 +168,7 @@ tools:
   owner: chemteam
   revisions:
   - 0f17d0720565
+  - 49076afc90b1
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: mdanalysis_angle
@@ -180,12 +181,14 @@ tools:
   owner: earlhaminst
   revisions:
   - 451f90534945
+  - da07fb6a7c62
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: smina
   owner: earlhaminst
   revisions:
   - 7c0bb0c48a27
+  - 214e001014f7
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: autodock_vina_prepare_receptor
@@ -300,18 +303,21 @@ tools:
   owner: bgruening
   revisions:
   - 7fac8e7a12d5
+  - 0848d3b1a46f
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: rxdock_rbdock
   owner: bgruening
   revisions:
   - 6fe6b0e10ed6
+  - b34d068c2782
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: rxdock_sort_filter
   owner: bgruening
   revisions:
   - 4ba7350f00ad
+  - 3e4244e74d41
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: ctb_im_pbf_ev
@@ -420,6 +426,7 @@ tools:
   owner: bgruening
   revisions:
   - 73de2fe4bf92
+  - 3b14765c22ee
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: md_converter
@@ -541,12 +548,14 @@ tools:
   owner: bgruening
   revisions:
   - 0892f7ced10c
+  - 425469deb136
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: confab
   owner: bgruening
   revisions:
   - 119b462f0f69
+  - 461f64330945
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: ctb_machine_learning
@@ -565,12 +574,14 @@ tools:
   owner: bgruening
   revisions:
   - 8d2b075966d6
+  - 473a07404e83
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_md
   owner: chemteam
   revisions:
   - 609d93596b61
+  - 2e28934c1d8c
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: align_it

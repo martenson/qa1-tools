@@ -67,6 +67,7 @@ tools:
   owner: rnateam
   revisions:
   - f00fb88794dc
+  - 6e657d323d6c
   tool_panel_section_id: graphclust
   tool_panel_section_label: GraphClust
 - name: infernal
@@ -74,5 +75,6 @@ tools:
   revisions:
   - 55bb96edfc07
   - c47a7c52ac4f
+  - 3711f654044e
   tool_panel_section_id: graphclust
   tool_panel_section_label: GraphClust

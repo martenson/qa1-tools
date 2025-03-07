@@ -6,126 +6,147 @@ tools:
   owner: devteam
   revisions:
   - eae7c08ebb6f
+  - 4bdc111b2470
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfaddinfo
   owner: devteam
   revisions:
   - afc0ba768690
+  - 6ea73d6151ec
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcf2tsv
   owner: devteam
   revisions:
   - e92b3c0f9224
+  - 285060661b45
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfleftalign
   owner: devteam
   revisions:
   - d2406f98a782
+  - 29f9b782727e
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfcombine
   owner: devteam
   revisions:
   - 53edb91ed051
+  - 1f0ba67cc85a
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfsort
   owner: devteam
   revisions:
   - 5b7120c66efc
+  - ee60203e68d9
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfhethom
   owner: devteam
   revisions:
   - b07ef36cf7e6
+  - 8254e0fe7358
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfrandomsample
   owner: devteam
   revisions:
   - 12b570dd0bc5
+  - 6257ee3b50d3
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfbedintersect
   owner: devteam
   revisions:
   - 9edfe5145ba8
+  - aea8e90ad788
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfgenotypes
   owner: devteam
   revisions:
   - f5653ed90dfd
+  - a60ae8af21a1
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcffixup
   owner: devteam
   revisions:
   - fc5a64fdd5b2
+  - 11f62f071125
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfgeno2haplo
   owner: devteam
   revisions:
   - b890055e07bd
+  - a3dea556218d
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfallelicprimitives
   owner: devteam
   revisions:
   - a8a4f94aa321
+  - 57a16b310fe8
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfbreakcreatemulti
   owner: devteam
   revisions:
   - 690b1d846263
+  - 9fd5d91eb91b
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfvcfintersect
   owner: devteam
   revisions:
   - 6f6bf10618d7
+  - 166c4f50525f
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfanno
   owner: iuc
   revisions:
   - cdcaa40e5e45
+  - 4f3c5e634679
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfannotate
   owner: devteam
   revisions:
   - 6faa2c4c71d2
+  - 01e0321aca98
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfcommonsamples
   owner: devteam
   revisions:
   - 254f285dbaaa
+  - f1852ecef841
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfflatten
   owner: devteam
   revisions:
   - b24e368ae7b1
+  - f285aa6bdcfb
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfannotategenotypes
   owner: devteam
   revisions:
   - 70bc6ced57f7
+  - 84959112d9a6
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfselectsamples
   owner: devteam
   revisions:
   - 958b6484a7f1
+  - 2ba3b87f904f
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: ococo
@@ -138,6 +159,7 @@ tools:
   owner: nick
   revisions:
   - 411adeff1eec
+  - cf2af5c3118c
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfdistance
@@ -150,6 +172,7 @@ tools:
   owner: devteam
   revisions:
   - 6e0fc18309f4
+  - 5822b40f3037
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcftools_isec

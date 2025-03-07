@@ -18,6 +18,7 @@ tools:
   owner: iuc
   revisions:
   - 965674d88d34
+  - 4a7f4b0cc0a3
   tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: translate_bed

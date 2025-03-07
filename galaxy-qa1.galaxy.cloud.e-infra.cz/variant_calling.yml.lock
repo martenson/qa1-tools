@@ -12,12 +12,14 @@ tools:
   owner: iuc
   revisions:
   - 468b90c41cde
+  - 93cfe7df7f8a
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: artic_guppyplex
   owner: iuc
   revisions:
   - 00e20a06ff1e
+  - 311d11c4a68b
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: strelka_germline
@@ -115,6 +117,7 @@ tools:
   owner: iuc
   revisions:
   - 16d22eee0fe3
+  - 2c0ac05fe240
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: vardict_java
@@ -133,6 +136,7 @@ tools:
   owner: iuc
   revisions:
   - 53ce8be43212
+  - fb0bb7174530
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: snpeff_sars_cov_2
@@ -325,12 +329,14 @@ tools:
   owner: iuc
   revisions:
   - 1959cc43b414
+  - f78492521996
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: tag_pileup_frequency
   owner: iuc
   revisions:
   - 6432735cdb22
+  - 580e8bcb6413
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: snp_sites
@@ -349,6 +355,7 @@ tools:
   owner: iuc
   revisions:
   - e8adfc4c0a6b
+  - c7275bd8b4d6
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: varscan_somatic
@@ -361,6 +368,7 @@ tools:
   owner: iuc
   revisions:
   - bdd0cb7fbedf
+  - e5e78d1e09a6
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: vt_variant_tools
@@ -421,6 +429,7 @@ tools:
   owner: nick
   revisions:
   - 31361191d2d2
+  - cf2af5c3118c
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: get_hrun

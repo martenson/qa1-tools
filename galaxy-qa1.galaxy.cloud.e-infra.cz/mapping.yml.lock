@@ -36,6 +36,7 @@ tools:
   owner: bgruening
   revisions:
   - 120b7b35e442
+  - 8c191acde702
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: star_fusion

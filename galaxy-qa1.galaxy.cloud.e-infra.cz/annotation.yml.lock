@@ -36,6 +36,7 @@ tools:
   owner: nml
   revisions:
   - 93ba63eaf394
+  - '179497074102'
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: antismash
@@ -162,6 +163,7 @@ tools:
   owner: devteam
   revisions:
   - 9cd341095afd
+  - aff5135563c6
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: socru
@@ -198,6 +200,7 @@ tools:
   owner: rnateam
   revisions:
   - eb35257d2e29
+  - 10b84b577117
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: spaln
@@ -234,6 +237,7 @@ tools:
   owner: iuc
   revisions:
   - 0ba7dfaa941d
+  - 8e2ac1b8f70a
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: trna_prediction
@@ -259,18 +263,21 @@ tools:
   owner: genouest
   revisions:
   - ca7c12566894
+  - f432bb944473
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: probmetab
   owner: mmonsoor
   revisions:
   - 3a9914b37f2f
+  - 52b222a626b0
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: lcmsmatching
   owner: prog
   revisions:
   - 253d531a0193
+  - f86fec07f392
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: dotknot
@@ -289,6 +296,7 @@ tools:
   owner: rnateam
   revisions:
   - 6845ddcd5588
+  - c172fed9eb75
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: cryptogenotyper

@@ -6,11 +6,13 @@ tools:
   owner: imgteam
   revisions:
   - f8f1100d0701
+  - 984b342d03a6
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
 - name: graphicsmagick_image_convert
   owner: bgruening
   revisions:
   - 4e9a3745dce4
+  - 3ae9331790a6
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging

@@ -6,5 +6,6 @@ tools:
   owner: ebi-gxa
   revisions:
   - 645f12f44a6d
+  - 73d43034c860
   tool_panel_section_id: scanpy
   tool_panel_section_label: Scanpy

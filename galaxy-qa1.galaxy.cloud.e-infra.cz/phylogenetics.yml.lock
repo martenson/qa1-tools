@@ -66,6 +66,7 @@ tools:
   owner: earlhaminst
   revisions:
   - ae69d14b6fbf
+  - e3507be607eb
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: hyphy_relax
@@ -84,6 +85,7 @@ tools:
   owner: earlhaminst
   revisions:
   - 9c62ad7dd113
+  - 4340eef6ec1b
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: sarscov2summary
@@ -97,36 +99,42 @@ tools:
   revisions:
   - 276e3ee68c37
   - 2db72467da51
+  - 1e85af7a29c4
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: hcluster_sg_parser
   owner: earlhaminst
   revisions:
   - 07f5b2c5ac10
+  - 4b3ef9bde528
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: treebest_best
   owner: earlhaminst
   revisions:
   - 4f9e5110914b
+  - d5105943417d
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: gafa
   owner: earlhaminst
   revisions:
   - b9f1bcf5ee59
+  - ab5611663f32
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: hcluster_sg
   owner: earlhaminst
   revisions:
   - 1d2de27d7a9c
+  - 9b7694333ba8
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: blast_parser
   owner: earlhaminst
   revisions:
   - 363f3480622d
+  - fea757b85172
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: hyphy_conv

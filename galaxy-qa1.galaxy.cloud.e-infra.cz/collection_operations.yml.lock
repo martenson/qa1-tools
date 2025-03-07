@@ -12,6 +12,7 @@ tools:
   owner: bgruening
   revisions:
   - 37a53100b67e
+  - ff2a81aa3f08
   tool_panel_section_id: collection_operations
   tool_panel_section_label: Collection Operations
 - name: collapse_collections

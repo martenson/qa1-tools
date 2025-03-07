@@ -30,6 +30,7 @@ tools:
   owner: imgteam
   revisions:
   - 8856a7c85e4c
+  - a72590196440
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: episcanpy_preprocess
@@ -90,6 +91,7 @@ tools:
   owner: artbio
   revisions:
   - 252eded61848
+  - cc768b0f41cf
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: cite_seq_count
