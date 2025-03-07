@@ -44,14 +44,6 @@ jobs:
             make INSTANCE=$INSTANCE update-all
         env:
           INSTANCE: ${{ inputs.instance }}
-      # - name: Commit files
-      #   run: |
-      #     git config --local user.email "github-bot@github.com"
-      #     git config --local user.name "github-actions[bot]"
-      #     git add *.lock
-      #     git commit -m "Updated all tools of $INSTANCE" || true
-      #   env:
-      #     INSTANCE: ${{ inputs.instance }}
       - name: Set output variables
         id: vars
         run: |
@@ -59,7 +51,7 @@ jobs:
           {
             echo "pr_title=$pr_title"
             echo "pr_body<<EOF"
-            echo "ran the following:"
+            echo "I ran the following:"
             echo "- make INSTANCE=$INSTANCE lint"
             echo "- make INSTANCE=$INSTANCE fix"
             echo "- make INSTANCE=$INSTANCE update-all"
