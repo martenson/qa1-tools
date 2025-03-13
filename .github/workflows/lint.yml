@@ -1,4 +1,4 @@
-name: Tool linting
+name: PR Lint
 
 on:
   pull_request:

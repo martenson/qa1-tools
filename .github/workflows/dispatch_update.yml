@@ -1,4 +1,4 @@
-name: Tool Updating
+name: Dispatch Update
 
 on:
   # schedule:
