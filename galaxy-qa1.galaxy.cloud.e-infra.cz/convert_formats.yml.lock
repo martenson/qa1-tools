@@ -58,6 +58,7 @@ tools:
 - name: msconvert
   owner: galaxyp
   revisions:
+  - 331a50e8fd2f
   - ab6c14374bc0
   - dd4ba10d0c45
   tool_panel_section_id: convert_formats
