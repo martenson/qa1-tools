@@ -84,8 +84,8 @@ tools:
 - name: gstf_preparation
   owner: earlhaminst
   revisions:
-  - 9c62ad7dd113
   - 4340eef6ec1b
+  - 9c62ad7dd113
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: sarscov2summary
@@ -97,9 +97,9 @@ tools:
 - name: ete
   owner: earlhaminst
   revisions:
+  - 1e85af7a29c4
   - 276e3ee68c37
   - 2db72467da51
-  - 1e85af7a29c4
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: hcluster_sg_parser
@@ -119,8 +119,8 @@ tools:
 - name: gafa
   owner: earlhaminst
   revisions:
-  - b9f1bcf5ee59
   - ab5611663f32
+  - b9f1bcf5ee59
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: hcluster_sg

@@ -48,8 +48,8 @@ tools:
 - name: pureclip
   owner: iuc
   revisions:
-  - fd1f57782683
   - 75bf02d7d1c8
+  - fd1f57782683
   tool_panel_section_id: peak_calling
   tool_panel_section_label: Peak Calling
 - name: piranha

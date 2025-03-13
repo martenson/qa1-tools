@@ -24,8 +24,8 @@ tools:
   owner: iuc
   revisions:
   - 734abc7ac21d
-  - f5ea3ce9b9b0
   - 8848455c0270
+  - f5ea3ce9b9b0
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_acc_download
@@ -51,8 +51,8 @@ tools:
 - name: ncbi_eutils_ecitmatch
   owner: iuc
   revisions:
-  - 732a52c18758
   - 62614b5a7834
+  - 732a52c18758
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_epost
@@ -79,15 +79,15 @@ tools:
 - name: ncbi_eutils_esummary
   owner: iuc
   revisions:
-  - c8d4ea6376a7
   - 4dc2757b8ce6
+  - c8d4ea6376a7
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_efetch
   owner: iuc
   revisions:
-  - 0fc65a60436f
   - 0ccb2855dd55
+  - 0fc65a60436f
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: uniprot_rest_interface
@@ -114,8 +114,8 @@ tools:
 - name: ensembl_get_feature_info
   owner: earlhaminst
   revisions:
-  - d6bb417dc831
   - 37cdb55f5258
+  - d6bb417dc831
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: enasearch_search_data

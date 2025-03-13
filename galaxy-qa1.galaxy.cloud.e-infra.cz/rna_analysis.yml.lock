@@ -138,8 +138,8 @@ tools:
 - name: masigpro
   owner: iuc
   revisions:
-  - 83f8b5ceff43
   - 402e0b9cfd87
+  - 83f8b5ceff43
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: trinity_super_transcripts
@@ -188,8 +188,8 @@ tools:
 - name: trinity_analyze_diff_expr
   owner: iuc
   revisions:
-  - dc0f01791c9b
   - 9ff3765e7172
+  - dc0f01791c9b
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: egsea
@@ -334,8 +334,8 @@ tools:
 - name: trinity_samples_qccheck
   owner: iuc
   revisions:
-  - 9871104ea630
   - 04bb8bb7c198
+  - 9871104ea630
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: describe_samples
@@ -348,8 +348,8 @@ tools:
 - name: trinity_define_clusters_by_cutting_tree
   owner: iuc
   revisions:
-  - 6fa08f46db8c
   - 65e7dea767ea
+  - 6fa08f46db8c
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: sshmm
@@ -409,8 +409,8 @@ tools:
 - name: segemehl
   owner: rnateam
   revisions:
-  - db367d012fa3
   - 9c0d4ec99ba9
+  - db367d012fa3
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: sailfish
@@ -590,8 +590,8 @@ tools:
 - name: rnabob
   owner: rnateam
   revisions:
-  - cd00b4fe6552
   - 5a4b00c84f50
+  - cd00b4fe6552
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: structurefold

@@ -59,8 +59,8 @@ tools:
 - name: sirius_csifingerid
   owner: computational-metabolomics
   revisions:
-  - 9e6bf7278257
   - 8dac4cef0a22
+  - 9e6bf7278257
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: metfrag
@@ -102,8 +102,8 @@ tools:
 - name: normalization
   owner: marie-tremblay-metatoul
   revisions:
-  - f9554d5bb47e
   - 221cbd549c40
+  - f9554d5bb47e
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: mixmodel4repeated_measures
@@ -225,8 +225,8 @@ tools:
 - name: isoplot
   owner: workflow4metabolomics
   revisions:
-  - dd3e046a72ad
   - 61c959ebdef5
+  - dd3e046a72ad
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: matchms_similarity

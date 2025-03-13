@@ -335,8 +335,8 @@ tools:
 - name: tag_pileup_frequency
   owner: iuc
   revisions:
-  - 6432735cdb22
   - 580e8bcb6413
+  - 6432735cdb22
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: snp_sites
@@ -354,8 +354,8 @@ tools:
 - name: snpeff
   owner: iuc
   revisions:
-  - e8adfc4c0a6b
   - c7275bd8b4d6
+  - e8adfc4c0a6b
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: varscan_somatic

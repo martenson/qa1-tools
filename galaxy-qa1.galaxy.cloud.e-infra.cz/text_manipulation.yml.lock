@@ -29,8 +29,8 @@ tools:
 - name: merge_cols
   owner: devteam
   revisions:
-  - dd40b1e9eebe
   - ae7843d06f8f
+  - dd40b1e9eebe
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: table_compute
@@ -136,8 +136,8 @@ tools:
 - name: intersect
   owner: devteam
   revisions:
-  - 8ddabc73af92
   - 69c10b56f46d
+  - 8ddabc73af92
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: flanking_features
@@ -150,8 +150,8 @@ tools:
 - name: get_flanks
   owner: devteam
   revisions:
-  - 4cd116158aef
   - 077f404ae1bb
+  - 4cd116158aef
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: subtract_query

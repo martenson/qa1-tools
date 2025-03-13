@@ -49,8 +49,8 @@ tools:
 - name: aegean_locuspocus
   owner: iuc
   revisions:
-  - c4ac24510b55
   - 1fdc517743e6
+  - c4ac24510b55
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: aegean_gaeval
@@ -155,8 +155,8 @@ tools:
 - name: crispr_recognition_tool
   owner: bgruening
   revisions:
-  - db0f5c1cb227
   - 13999e95b2d3
+  - db0f5c1cb227
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: minced
@@ -204,8 +204,8 @@ tools:
 - name: gfastats
   owner: bgruening
   revisions:
-  - 5799092ffdff
   - 0393c0415171
+  - 5799092ffdff
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: velvet
@@ -217,8 +217,8 @@ tools:
 - name: cap3
   owner: artbio
   revisions:
-  - d76a0d8a9eac
   - a36a1acd5807
+  - d76a0d8a9eac
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: minipolish

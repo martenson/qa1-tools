@@ -5,8 +5,8 @@ tools:
 - name: hicup_deduplicator
   owner: bgruening
   revisions:
-  - c7bed3fe0e23
   - 2107c2f7a5d7
+  - c7bed3fe0e23
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_bam_compare

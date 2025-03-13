@@ -66,15 +66,15 @@ tools:
 - name: graphclust_motif_finder_plot
   owner: rnateam
   revisions:
-  - f00fb88794dc
   - 6e657d323d6c
+  - f00fb88794dc
   tool_panel_section_id: graphclust
   tool_panel_section_label: GraphClust
 - name: infernal
   owner: bgruening
   revisions:
+  - 3711f654044e
   - 55bb96edfc07
   - c47a7c52ac4f
-  - 3711f654044e
   tool_panel_section_id: graphclust
   tool_panel_section_label: GraphClust

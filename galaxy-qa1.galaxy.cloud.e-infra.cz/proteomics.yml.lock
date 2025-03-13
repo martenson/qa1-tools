@@ -65,22 +65,22 @@ tools:
 - name: openbabel_remove_protonation_state
   owner: bgruening
   revisions:
-  - bf4e668b6690
   - 22a866858b81
+  - bf4e668b6690
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: openms_openswathdiaprescoring
   owner: galaxyp
   revisions:
-  - d4396637b9f5
   - 986d14ec9394
+  - d4396637b9f5
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: openms_digestormotif
   owner: galaxyp
   revisions:
-  - 38676a2713f5
   - 3138bbc00588
+  - 38676a2713f5
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: syndiva
@@ -284,8 +284,8 @@ tools:
 - name: unipept
   owner: galaxyp
   revisions:
-  - 9aaa46d45472
   - 21a560af5913
+  - 9aaa46d45472
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: maldi_quant_peak_detection
@@ -358,8 +358,8 @@ tools:
 - name: reactome_pathwaymatcher
   owner: galaxyp
   revisions:
-  - a2ab72e994dc
   - 622dd6d51032
+  - a2ab72e994dc
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: peptideshaker
@@ -413,8 +413,8 @@ tools:
 - name: percolator
   owner: galaxyp
   revisions:
-  - dce55ca21b98
   - 07107a686ce9
+  - dce55ca21b98
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: lfq_protein_quant
