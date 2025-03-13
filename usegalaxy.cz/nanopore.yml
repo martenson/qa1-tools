@@ -72,3 +72,5 @@ tools:
   owner: iuc
 - name: clair3
   owner: iuc
+- name: shasta
+  owner: iuc
