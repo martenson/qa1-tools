@@ -66,6 +66,7 @@ tools:
   owner: earlhaminst
   revisions:
   - ae69d14b6fbf
+  - ce83c3f83561
   - e3507be607eb
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
@@ -100,6 +101,7 @@ tools:
   - 1e85af7a29c4
   - 276e3ee68c37
   - 2db72467da51
+  - e4d5d9a69c9d
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: hcluster_sg_parser
@@ -113,6 +115,7 @@ tools:
   owner: earlhaminst
   revisions:
   - 4f9e5110914b
+  - d0569a198359
   - d5105943417d
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
@@ -121,12 +124,14 @@ tools:
   revisions:
   - ab5611663f32
   - b9f1bcf5ee59
+  - c22276db4025
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: hcluster_sg
   owner: earlhaminst
   revisions:
   - 1d2de27d7a9c
+  - 4d60b0cd146c
   - 9b7694333ba8
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics

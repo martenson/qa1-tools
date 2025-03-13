@@ -35,7 +35,7 @@ tools:
 - name: mob_suite
   owner: nml
   revisions:
-  - 179497074102
+  - '179497074102'
   - 93ba63eaf394
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -441,6 +441,7 @@ tools:
 - name: funannotate_predict
   owner: iuc
   revisions:
+  - 3cc3ef448854
   - 4b96ced19f75
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -448,23 +449,27 @@ tools:
   owner: iuc
   revisions:
   - 0418d28136de
+  - 7f8f38e27dee
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: funannotate_clean
   owner: iuc
   revisions:
+  - 19ddd5557b4f
   - 8e1ace8f77c6
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: funannotate_annotate
   owner: iuc
   revisions:
+  - 0b8d49d3742d
   - 9c15ca7e764e
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: funannotate_sort
   owner: iuc
   revisions:
+  - 0346aad0d6dd
   - d77fdcca400e
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
