@@ -68,6 +68,7 @@ def update_file(fn, owner=None, name=None, without=False):
         if latest_rev not in tool['revisions']:
             # TS doesn't support utf8 and we don't want to either.
             tool['revisions'].append(str(latest_rev))
+            tool['revisions'] = sorted(list(set(map(str, tool['revisions']))))
 
     with open(fn + '.lock', 'w') as handle:
         yaml.dump(locked, handle, default_flow_style=False)
