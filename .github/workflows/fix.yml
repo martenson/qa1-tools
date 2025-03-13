@@ -1,0 +1,45 @@
+name: Merge lint & fix
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.11]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Cache downloads
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: cache-${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Perform linting
+        run: |
+          make INSTANCE=galaxy-qa1.galaxy.cloud.e-infra.cz lint
+          make INSTANCE=galaxy-qa1.galaxy.cloud.e-infra.cz fix
+          make INSTANCE=usegalaxy.cz lint
+          make INSTANCE=usegalaxy.cz fix
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          committer: CESNETbot <martin.cech@cesnet.cz>
+          commit-message: "output of make lint & make fix on all instances"
+          title: "Linting and Fixing All Tools"
+          body: "I ran make lint & make fix on all instances"
+          labels: automated
+          assignees: martenson
+          reviewers: martenson
