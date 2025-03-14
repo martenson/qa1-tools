@@ -49,6 +49,7 @@ jobs:
           pr_title="Update all tools of $INSTANCE"
           {
             echo "pr_title=$pr_title"
+            echo "branch_name=$INSTANCE"
             echo "pr_body<<EOF"
             echo "I ran the following:"
             echo "- make INSTANCE=$INSTANCE lint"
@@ -60,8 +61,8 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
-          branch: create-pull-request/update
-          branch-suffix: random
+          branch: create-pull-request/${{ steps.vars.outputs.branch_name }}
+          # branch-suffix: random
           committer: CESNETbot <martin.cech@cesnet.cz>
           commit-message: ${{ steps.vars.outputs.pr_title }}
           title: ${{ steps.vars.outputs.pr_title }}
