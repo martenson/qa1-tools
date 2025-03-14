@@ -6,6 +6,7 @@ tools:
   owner: iuc
   revisions:
   - 883c33ef3372
+  - 90e95e9ee190
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: episcanpy_cluster_embed
@@ -17,6 +18,7 @@ tools:
 - name: anndata_import
   owner: iuc
   revisions:
+  - 13cf83ced60c
   - fb9e030ffae4
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -24,17 +26,20 @@ tools:
   owner: iuc
   revisions:
   - 0cb889db0910
+  - 83609ef746e9
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_manipulate
   owner: iuc
   revisions:
   - 3d748954434b
+  - d1e49c3c0aa2
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_inspect
   owner: iuc
   revisions:
+  - 33c0081e16c6
   - ee98d611afc6
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -42,6 +47,7 @@ tools:
   owner: iuc
   revisions:
   - 4b0adaa31c95
+  - a7b951572609
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: dropletutils
@@ -68,6 +74,7 @@ tools:
 - name: alevin
   owner: bgruening
   revisions:
+  - b0fe3e482cb7
   - e32b215b7c04
   - f2000bc73102
   tool_panel_section_id: single_cell
@@ -75,6 +82,7 @@ tools:
 - name: scanpy_filter
   owner: iuc
   revisions:
+  - 5b3c1679d29b
   - b409c2486353
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -82,17 +90,20 @@ tools:
   owner: iuc
   revisions:
   - c5d3684f7c4c
+  - d86cb2ce311b
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_normalize
   owner: iuc
   revisions:
+  - 4bda4412b8c2
   - ab55fe8030b6
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_plot
   owner: iuc
   revisions:
+  - 62acdd96d4a0
   - aa0c474463c2
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -100,18 +111,21 @@ tools:
   owner: iuc
   revisions:
   - bf2017df9837
+  - c5541bfb8feb
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: slice_image
   owner: imgteam
   revisions:
   - 8856a7c85e4c
+  - a72590196440
   - aacfbd7c4af6
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_cluster_reduce_dimension
   owner: iuc
   revisions:
+  - 8983e7a04ba7
   - aaa5da8e73a9
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -172,12 +186,14 @@ tools:
 - name: raceid_inspectclusters
   owner: iuc
   revisions:
+  - c7ddb719554d
   - f3eb2291da05
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_filtnormconf
   owner: iuc
   revisions:
+  - 8b917923f7d4
   - b83fbc90161e
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -185,17 +201,20 @@ tools:
   owner: iuc
   revisions:
   - 0bff0ee0683a
+  - 49776718ae90
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_trajectory
   owner: iuc
   revisions:
   - 2af7c5086a96
+  - 2bfd55b87af3
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_inspecttrajectory
   owner: iuc
   revisions:
+  - 6e90c8adf84f
   - a6821f856a1e
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -204,6 +223,7 @@ tools:
   revisions:
   - 2ba99a52bd44
   - 56371b5a2da9
+  - 8cd2ecfa2e61
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_construct_eset
@@ -211,6 +231,7 @@ tools:
   revisions:
   - 282819d09a4f
   - 2cfd0db49bbc
+  - 48f0fb3061b1
   - 7902cd31b9b5
   - 7ffaa0968da3
   - be91cb6f48e7
@@ -224,6 +245,7 @@ tools:
   - 7705cc75ac18
   - 817eb707bbf4
   - 8c64a2da3869
+  - fde4c972e7c5
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_compare
@@ -231,18 +253,21 @@ tools:
   revisions:
   - 10bf0f89035f
   - 4447ed460308
+  - d817b3807562
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_manipulate_eset
   owner: bgruening
   revisions:
   - 22232092be53
+  - b5185a4f5209
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: gsc_scran_normalize
   owner: artbio
   revisions:
   - 252eded61848
+  - cc768b0f41cf
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: cite_seq_count
@@ -255,35 +280,41 @@ tools:
   owner: iuc
   revisions:
   - d1b34ac42b8f
+  - fb61eb03e313
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: sinto_fragments
   owner: iuc
   revisions:
   - 29e6bfb2cf49
+  - 6f66f523a9b7
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: baredsc_1d
   owner: iuc
   revisions:
   - 02b1fe7aed76
+  - 769d815e4b0d
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: baredsc_2d
   owner: iuc
   revisions:
+  - a90f8efe08b4
   - c29e7bb492bf
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: baredsc_combine_1d
   owner: iuc
   revisions:
+  - 5b7c81b35b89
   - c32347702e12
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: baredsc_combine_2d
   owner: iuc
   revisions:
+  - 02fc39c8610d
   - 239193b96d72
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -291,6 +322,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 645f12f44a6d
+  - 73d43034c860
   - b9dd12ab0550
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell

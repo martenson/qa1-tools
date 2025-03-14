@@ -11,12 +11,14 @@ tools:
 - name: meme_psp_gen
   owner: iuc
   revisions:
+  - 47e7ae719765
   - 5f95d385a33c
   tool_panel_section_id: motif_tools
   tool_panel_section_label: Motif Tools
 - name: meme_fimo
   owner: iuc
   revisions:
+  - 01f5d04846c4
   - c5209f38700d
   tool_panel_section_id: motif_tools
   tool_panel_section_label: Motif Tools
@@ -24,12 +26,14 @@ tools:
   owner: iuc
   revisions:
   - 19237efe98d1
+  - 7ce0fe11b411
   tool_panel_section_id: motif_tools
   tool_panel_section_label: Motif Tools
 - name: meme_dreme
   owner: iuc
   revisions:
   - b386032d758d
+  - fd05b142b3a3
   tool_panel_section_id: motif_tools
   tool_panel_section_label: Motif Tools
 - name: meme_chip

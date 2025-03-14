@@ -13,11 +13,13 @@ tools:
   owner: bgruening
   revisions:
   - 43c24d0bd463
+  - '920526260066'
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_chicdifferentialtest
   owner: bgruening
   revisions:
+  - 45828071edc3
   - 9d878ac82c0f
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
@@ -25,17 +27,20 @@ tools:
   owner: bgruening
   revisions:
   - 1eae6fe69bbd
+  - c3ffb2c1e314
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_chicsignificantinteractions
   owner: bgruening
   revisions:
   - 6ef732512682
+  - ff1af7bac1cb
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_chicviewpoint
   owner: bgruening
   revisions:
+  - 37125838e360
   - fdcf45efac66
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
@@ -43,29 +48,34 @@ tools:
   owner: bgruening
   revisions:
   - 7cdc1a2de16e
+  - a10fce08c2dc
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicplotsvl
   owner: bgruening
   revisions:
+  - 1602cc5b673c
   - 279fb179dae7
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicplotmatrix
   owner: bgruening
   revisions:
+  - 025a128652dc
   - 9939786dd9c9
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicplotdistvscounts
   owner: bgruening
   revisions:
+  - 89cfe7de541b
   - a4a413dcc59d
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicplotaverageregions
   owner: bgruening
   revisions:
+  - 3f1b286a5c34
   - f490a6409f3d
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
@@ -73,11 +83,13 @@ tools:
   owner: bgruening
   revisions:
   - 41dbf4d162a2
+  - f86ca478c6af
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicfindtads
   owner: bgruening
   revisions:
+  - 478aacfbaa37
   - 5746d61f0a91
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
@@ -85,11 +97,13 @@ tools:
   owner: bgruening
   revisions:
   - 0ecdd41d707c
+  - d890828ab02a
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicmergeloops
   owner: bgruening
   revisions:
+  - 1d9799f4b854
   - 420868438a99
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
@@ -97,47 +111,55 @@ tools:
   owner: bgruening
   revisions:
   - 0d6c2ff54c76
+  - 4375e25de06a
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hiccorrelate
   owner: bgruening
   revisions:
+  - 0f5786ffa10d
   - bab2fa7355d9
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hiccompartmentspolarization
   owner: bgruening
   revisions:
+  - 87eb9c58cd19
   - bd6e26c47853
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hiccomparematrices
   owner: bgruening
   revisions:
+  - 5dd1aae12f03
   - 826a6ac07f93
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicaverageregions
   owner: bgruening
   revisions:
+  - 3240e8a7c54f
   - b15d27c440fd
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicaggregatecontacts
   owner: bgruening
   revisions:
+  - 30677e95bc89
   - e30485c5e93b
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hiccorrectmatrix
   owner: bgruening
   revisions:
+  - 937b7b9832d0
   - f5a37c3906cc
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicnormalize
   owner: bgruening
   revisions:
+  - 5e83c077e31d
   - 8ad23dfdaabb
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
@@ -145,59 +167,69 @@ tools:
   owner: bgruening
   revisions:
   - 21b3ef2a6a80
+  - df64cc4dfb4d
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicsummatrices
   owner: bgruening
   revisions:
   - 2a57fc28ef3a
+  - d74cf4a61d65
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicmergematrixbins
   owner: bgruening
   revisions:
   - 4d511437b1e5
+  - 9d93c8fbe0a6
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicconvertformat
   owner: bgruening
   revisions:
   - 2a24ce221cd7
+  - 574f295b5ba4
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicadjustmatrix
   owner: bgruening
   revisions:
   - aeacaf08bd52
+  - e8760fc0e29b
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicfindrestrictionsites
   owner: bgruening
   revisions:
   - aa829050d061
+  - f0b1bd38745a
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicinfo
   owner: bgruening
   revisions:
   - 782e3ae92bc6
+  - 7fbd6feba1ca
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicquickqc
   owner: bgruening
   revisions:
   - 7679948176ef
+  - b13e7a200525
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_chicviewpointbackgroundmodel
   owner: bgruening
   revisions:
+  - 6f8debcf2ac9
   - b285586b61a6
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_chicqualitycontrol
   owner: bgruening
   revisions:
+  - f6a169b5e43b
   - fadd03fbc4f5
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
@@ -315,12 +347,14 @@ tools:
 - name: hicexplorer_hichyperoptdetectloops
   owner: bgruening
   revisions:
+  - 3e5c86c2f80d
   - 89fb1aab755b
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicdifferentialtad
   owner: bgruening
   revisions:
+  - 4977f65da0ff
   - 608538d083a2
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
@@ -328,5 +362,6 @@ tools:
   owner: bgruening
   revisions:
   - 6f725a516914
+  - febfddb0b3e8
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer

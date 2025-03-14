@@ -11,12 +11,14 @@ tools:
 - name: iqtree
   owner: iuc
   revisions:
+  - 6bbd30d58cf4
   - 9b892d7f82cc
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
 - name: codeml
   owner: iuc
   revisions:
+  - dba114391c98
   - f9cb3a4339c2
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
@@ -35,12 +37,14 @@ tools:
 - name: tn93
   owner: iuc
   revisions:
+  - 2fd21f5b16bc
   - b38f620a3628
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
 - name: tn93_filter
   owner: iuc
   revisions:
+  - 1aa73004ba9b
   - cf50aeb956f2
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
@@ -48,11 +52,13 @@ tools:
   owner: iuc
   revisions:
   - 112d80c9ccca
+  - eb6f0ec5b95e
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
 - name: tn93_readreduce
   owner: iuc
   revisions:
   - 1d2ec0b0a0a7
+  - c176164dc8a5
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution

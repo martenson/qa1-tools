@@ -5,6 +5,7 @@ tools:
 - name: cif2cell
   owner: muon-spectroscopy-computational-project
   revisions:
+  - 348d3fb1d1f2
   - 60ad7a4f1faf
   - e5f1ac42b063
   tool_panel_section_id: muon_spectroscopy
@@ -20,6 +21,7 @@ tools:
   owner: muon-spectroscopy-computational-project
   revisions:
   - 136ed45d1ea9
+  - 8af5948994b0
   - e002cee8f707
   tool_panel_section_id: muon_spectroscopy
   tool_panel_section_label: Muon Spectroscopy
@@ -33,6 +35,7 @@ tools:
 - name: pm_asephonons
   owner: muon-spectroscopy-computational-project
   revisions:
+  - b47a2fd2b10f
   - dd3ca8457fcd
   - fd28cbdb134e
   tool_panel_section_id: muon_spectroscopy
@@ -40,6 +43,7 @@ tools:
 - name: pm_symmetry
   owner: muon-spectroscopy-computational-project
   revisions:
+  - 34c550d15bd4
   - 620ab6826b9b
   - c062cefbb20f
   tool_panel_section_id: muon_spectroscopy
@@ -48,12 +52,14 @@ tools:
   owner: muon-spectroscopy-computational-project
   revisions:
   - 523d44fcd03f
+  - da177c1ec3b4
   - eea73e1f65cb
   tool_panel_section_id: muon_spectroscopy
   tool_panel_section_label: Muon Spectroscopy
 - name: pm_muairss_read
   owner: muon-spectroscopy-computational-project
   revisions:
+  - 17da9f67ed33
   - 276a25ab05f2
   - 40071ff77285
   tool_panel_section_id: muon_spectroscopy
