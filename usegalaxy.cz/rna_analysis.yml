@@ -252,8 +252,6 @@ tools:
   owner: rnateam
 - name: rnabob
   owner: rnateam
-- name: structurefold
-  owner: tyty
 - name: cummerbund_to_tabular
   owner: devteam
 - name: mirdeep2_mapper

@@ -794,12 +794,6 @@ tools:
   - cd00b4fe6552
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
-- name: structurefold
-  owner: tyty
-  revisions:
-  - 7bb98e9296e9
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
 - name: cummerbund_to_tabular
   owner: devteam
   revisions:

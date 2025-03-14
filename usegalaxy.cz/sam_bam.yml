@@ -82,8 +82,6 @@ tools:
   owner: lldelisle
 - name: bamtools_split
   owner: devteam
-- name: varscan
-  owner: fcaramia
 - name: sam_to_bam
   owner: devteam
 - name: bam_to_sam

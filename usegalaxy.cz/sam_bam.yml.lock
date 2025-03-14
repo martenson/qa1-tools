@@ -251,12 +251,6 @@ tools:
   - 96c9315b0e29
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
-- name: varscan
-  owner: fcaramia
-  revisions:
-  - 51969e284317
-  tool_panel_section_id: sam_bam
-  tool_panel_section_label: SAM/BAM
 - name: sam_to_bam
   owner: devteam
   revisions:
