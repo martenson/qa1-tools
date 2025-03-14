@@ -19,6 +19,7 @@ tools:
 - name: subtract
   owner: devteam
   revisions:
+  - 0427ca314f3d
   - 7a2a604ae9c8
   tool_panel_section_id: join__subtract_and_group
   tool_panel_section_label: Join, Subtract and Group

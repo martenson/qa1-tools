@@ -18,6 +18,7 @@ tools:
   - 7f3c448e119b
   - 9dabbfd73c8a
   - b5f1f599d1fb
+  - cbf3f518b668
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
 - name: diamond
@@ -26,6 +27,7 @@ tools:
   - 1e3323a44643
   - 3c6b132b154a
   - 54f751e413f4
+  - 60f307965815
   - 98037ef3d2a9
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
@@ -33,11 +35,13 @@ tools:
   owner: crs4
   revisions:
   - c9f8fef1df74
+  - e9005d1f3cfd
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
 - name: kraken_translate
   owner: devteam
   revisions:
+  - 8cebdc74a48f
   - 9bdcba262627
   - bc3e90fd13be
   tool_panel_section_id: ncbi_blast
@@ -47,6 +51,7 @@ tools:
   revisions:
   - 3d6570bffdb1
   - 5bee9adae474
+  - 67236d921e83
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
 - name: blast_rbh
@@ -60,6 +65,7 @@ tools:
   owner: peterjc
   revisions:
   - 02c13ef1a669
+  - bdaefd241921
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
 - name: blastxml_to_top_descr
@@ -72,12 +78,14 @@ tools:
 - name: bbtools_callvariants
   owner: iuc
   revisions:
+  - a033aa9a822e
   - b955346ef41e
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
 - name: bbtools_bbduk
   owner: iuc
   revisions:
+  - 6ffff37d3daf
   - a9c9d768b751
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
@@ -86,11 +94,13 @@ tools:
   revisions:
   - 27d65c78863c
   - b11b3ac48bb9
+  - bfae8da6082c
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
 - name: magicblast
   owner: iuc
   revisions:
   - 34ac212ef95e
+  - 79f4f8bd0e34
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
