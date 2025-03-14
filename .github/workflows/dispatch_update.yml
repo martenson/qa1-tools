@@ -60,6 +60,8 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
+          branch: create-pull-request/update
+          branch-suffix: short-commit-hash
           committer: CESNETbot <martin.cech@cesnet.cz>
           commit-message: ${{ steps.vars.outputs.pr_title }}
           title: ${{ steps.vars.outputs.pr_title }}

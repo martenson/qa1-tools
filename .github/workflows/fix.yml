@@ -1,4 +1,4 @@
-name: Merge lint & fix
+name: Push lint & fix
 
 on:
   push:
@@ -36,6 +36,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
+          branch: create-pull-request/fix
           committer: CESNETbot <martin.cech@cesnet.cz>
           commit-message: "output of make lint & make fix on all instances"
           title: "Linting and Fixing All Tools"
