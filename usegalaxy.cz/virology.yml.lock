@@ -6,12 +6,14 @@ tools:
   owner: iuc
   revisions:
   - 0893a1dbb807
+  - 7bd020da0ce5
   - f0cc9cf99407
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_removereads
   owner: iuc
   revisions:
+  - 55a7867809f4
   - 69797fa273c3
   - 8c05afb547fa
   tool_panel_section_id: virology
@@ -21,6 +23,7 @@ tools:
   revisions:
   - 1069f6db0a0e
   - 17f911830a8c
+  - 253935875d96
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_getmasked
@@ -33,12 +36,14 @@ tools:
   owner: iuc
   revisions:
   - 194e3ceee923
+  - 1ef68546d37f
   - ed28dd32141c
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_filtervariants
   owner: iuc
   revisions:
+  - 0d2639b4f40a
   - 1ef5b6e3e09d
   - 8f8df367470d
   tool_panel_section_id: virology
@@ -47,11 +52,13 @@ tools:
   owner: iuc
   revisions:
   - 1563b58905f4
+  - fa7086274673
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: snipit
   owner: iuc
   revisions:
+  - 877e80114d25
   - 9f23fe0cb70b
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
@@ -59,6 +66,7 @@ tools:
   owner: iuc
   revisions:
   - 08c2d81e7942
+  - 11c062caec10
   - 1f467ed22412
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
@@ -66,6 +74,7 @@ tools:
   owner: iuc
   revisions:
   - c0a0e79d7196
+  - e7a2086a0f03
   - fc6252e78d5b
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
@@ -73,6 +82,7 @@ tools:
   owner: iuc
   revisions:
   - a09398bc953a
+  - cd5d77d118f2
   - dda5772507b2
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
@@ -81,6 +91,7 @@ tools:
   revisions:
   - 0ceb9fb0f4ce
   - 1f89eeba299a
+  - 640c0b8cc8bf
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: cooc_mutbamscan
@@ -88,12 +99,14 @@ tools:
   revisions:
   - 373c1735d31f
   - cd0484c5f9f1
+  - f54e0ba38257
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: cooc_pubmut
   owner: iuc
   revisions:
   - 0349d8981030
+  - ce8b15a55bbe
   - d04ea6b052c5
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
@@ -102,11 +115,13 @@ tools:
   revisions:
   - 4be399803856
   - 52bd683c6d3f
+  - cb0d9eb033ef
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: lineagespot
   owner: iuc
   revisions:
   - 6ddf5a9ce4a5
+  - 99494998688a
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
