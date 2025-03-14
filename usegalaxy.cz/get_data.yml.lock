@@ -71,17 +71,20 @@ tools:
   owner: iuc
   revisions:
   - 30150bd36c9a
+  - f3a84eecaf8b
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_egquery
   owner: iuc
   revisions:
   - 28f69754ddc5
+  - f4318232849e
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_ecitmatch
   owner: iuc
   revisions:
+  - 62614b5a7834
   - 732a52c18758
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
@@ -89,29 +92,34 @@ tools:
   owner: iuc
   revisions:
   - 196b8dd07896
+  - a64d1a16f04b
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_elink
   owner: iuc
   revisions:
   - 2791c731fc65
+  - bb5af69cf3f7
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_einfo
   owner: iuc
   revisions:
   - 5b1dc5936af2
+  - 6a0463d18db2
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_esummary
   owner: iuc
   revisions:
+  - 4dc2757b8ce6
   - c8d4ea6376a7
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_efetch
   owner: iuc
   revisions:
+  - 0ccb2855dd55
   - 0fc65a60436f
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
@@ -119,23 +127,27 @@ tools:
   owner: bgruening
   revisions:
   - 054483e27a35
+  - 95fb5712344f
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ensembl_get_sequences
   owner: earlhaminst
   revisions:
   - 7af66c2b3831
+  - c79ce2342f1e
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ensembl_get_genetree
   owner: earlhaminst
   revisions:
   - 515e7181d5e9
+  - 667fd2d7a350
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ensembl_get_feature_info
   owner: earlhaminst
   revisions:
+  - 37cdb55f5258
   - d6bb417dc831
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
@@ -193,6 +205,7 @@ tools:
   owner: iuc
   revisions:
   - 1e188c9610c3
+  - 40a5d68e929a
   - 75acf92c8fd5
   - a6a475ed58cb
   tool_panel_section_id: get_data

@@ -72,6 +72,7 @@ tools:
 - name: merge_cols
   owner: devteam
   revisions:
+  - ae7843d06f8f
   - dd40b1e9eebe
   - f2aac0c5c60d
   tool_panel_section_id: text_manipulation
@@ -80,6 +81,7 @@ tools:
   owner: iuc
   revisions:
   - 3bf5661c0280
+  - 56a8da1f2243
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: regex_find_replace
@@ -99,6 +101,7 @@ tools:
   owner: bgruening
   revisions:
   - 20344ce0c811
+  - 3dc70b59608c
   - 86755160afbf
   - d698c222f354
   - f46f0e4f75c4
@@ -123,6 +126,7 @@ tools:
   owner: iuc
   revisions:
   - b722161a845a
+  - c4d18aa4ec4a
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: filter_tabular
@@ -181,6 +185,7 @@ tools:
   owner: devteam
   revisions:
   - bc9c66c1e9c9
+  - e3363e087468
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: regex_replace
@@ -199,11 +204,13 @@ tools:
   owner: devteam
   revisions:
   - 0926c81f382c
+  - debffd27642d
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: intersect
   owner: devteam
   revisions:
+  - 69c10b56f46d
   - 8ddabc73af92
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
@@ -211,11 +218,13 @@ tools:
   owner: devteam
   revisions:
   - 8307665c4b6c
+  - 9f12b7e500f1
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: get_flanks
   owner: devteam
   revisions:
+  - 077f404ae1bb
   - 4cd116158aef
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
@@ -223,6 +232,7 @@ tools:
   owner: devteam
   revisions:
   - 960d5d114184
+  - ff3901618482
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: unique

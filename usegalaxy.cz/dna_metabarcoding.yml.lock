@@ -5,18 +5,21 @@ tools:
 - name: obi_tab
   owner: iuc
   revisions:
+  - 4cf47c504672
   - 5f7003111e32
   tool_panel_section_id: dna_metabarcoding
   tool_panel_section_label: DNA Metabarcoding
 - name: obi_stat
   owner: iuc
   revisions:
+  - 5f4544915893
   - 723a93febe89
   tool_panel_section_id: dna_metabarcoding
   tool_panel_section_label: DNA Metabarcoding
 - name: obi_sort
   owner: iuc
   revisions:
+  - b6d9ea2fb41b
   - e614dcabd870
   tool_panel_section_id: dna_metabarcoding
   tool_panel_section_label: DNA Metabarcoding
@@ -24,29 +27,34 @@ tools:
   owner: iuc
   revisions:
   - 374fd9feb032
+  - e328ced6cf0a
   tool_panel_section_id: dna_metabarcoding
   tool_panel_section_label: DNA Metabarcoding
 - name: obi_clean
   owner: iuc
   revisions:
+  - 08d873cdd5f6
   - 12baadec7809
   tool_panel_section_id: dna_metabarcoding
   tool_panel_section_label: DNA Metabarcoding
 - name: obi_uniq
   owner: iuc
   revisions:
+  - d4bea99366f9
   - ec215ed98831
   tool_panel_section_id: dna_metabarcoding
   tool_panel_section_label: DNA Metabarcoding
 - name: obi_grep
   owner: iuc
   revisions:
+  - 02bab5ff7c37
   - fe7ec8a3d35e
   tool_panel_section_id: dna_metabarcoding
   tool_panel_section_label: DNA Metabarcoding
 - name: obi_annotate
   owner: iuc
   revisions:
+  - d50dc96e3ce9
   - f82cefbbcea5
   tool_panel_section_id: dna_metabarcoding
   tool_panel_section_label: DNA Metabarcoding
@@ -54,11 +62,13 @@ tools:
   owner: iuc
   revisions:
   - 3bf57dadf7cd
+  - 91a1ed0b486f
   tool_panel_section_id: dna_metabarcoding
   tool_panel_section_label: DNA Metabarcoding
 - name: obi_illumina_pairend
   owner: iuc
   revisions:
   - 83fbdf93d51e
+  - 8cb6bd511879
   tool_panel_section_id: dna_metabarcoding
   tool_panel_section_label: DNA Metabarcoding

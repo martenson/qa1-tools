@@ -6,12 +6,14 @@ tools:
   owner: ebi-gxa
   revisions:
   - 3dd08eb96cf6
+  - ca62f52e0d7f
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: dropletutils_empty_drops
   owner: ebi-gxa
   revisions:
   - 8dd732e13393
+  - fa662ca7ae7f
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: gtf2gene_list
@@ -108,6 +110,7 @@ tools:
   - 4efac966af2a
   - 648b81bca7c5
   - a84e6ffd3735
+  - b7e93c1deb3f
   - d0ed8e976b79
   - ecd247e1ea9c
   - f49aad8f79ea

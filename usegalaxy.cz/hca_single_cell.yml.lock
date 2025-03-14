@@ -6,11 +6,13 @@ tools:
   owner: ebi-gxa
   revisions:
   - 615a46c220f0
+  - d8f5224005bb
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell
 - name: scanpy_scale_data
   owner: ebi-gxa
   revisions:
+  - 4cc9362782b4
   - c8f196ccf34a
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell
@@ -18,23 +20,27 @@ tools:
   owner: ebi-gxa
   revisions:
   - 3bd1152dd854
+  - ea91cfd0444e
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell
 - name: scanpy_run_tsne
   owner: ebi-gxa
   revisions:
   - 45674f057a31
+  - abdb61e4afa3
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell
 - name: scanpy_run_pca
   owner: ebi-gxa
   revisions:
+  - 4428dba93375
   - c990e40fbd46
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell
 - name: scanpy_read_10x
   owner: ebi-gxa
   revisions:
+  - 078aa23c9374
   - 741d50b6dc78
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell
@@ -42,17 +48,20 @@ tools:
   owner: ebi-gxa
   revisions:
   - 059f8d2e8be1
+  - 3027cb62adbd
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell
 - name: scanpy_find_variable_genes
   owner: ebi-gxa
   revisions:
   - 258e13397a8a
+  - 64dd8bb151e1
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell
 - name: scanpy_find_cluster
   owner: ebi-gxa
   revisions:
+  - 36735850e461
   - ab7a3bb8a622
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell
@@ -60,17 +69,20 @@ tools:
   owner: ebi-gxa
   revisions:
   - 77fbe74247c2
+  - cc64914b0cf4
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell
 - name: scanpy_filter_cells
   owner: ebi-gxa
   revisions:
+  - bf1e0bdec1db
   - c23d0ff783d4
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell
 - name: scanpy_compute_graph
   owner: ebi-gxa
   revisions:
+  - 22bd5861706d
   - 7ad420b1be89
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell
@@ -78,6 +90,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 2e81fbe036b2
+  - c3c85b67d118
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell
 - name: gtf2gene_list
@@ -93,11 +106,13 @@ tools:
   owner: ebi-gxa
   revisions:
   - 544d44faa8bf
+  - 97483e5ec21e
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell
 - name: scanpy_parameter_iterator
   owner: ebi-gxa
   revisions:
+  - 73d43034c860
   - b9dd12ab0550
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell
@@ -105,12 +120,14 @@ tools:
   owner: ebi-gxa
   revisions:
   - 4e666c43b6e3
+  - cb1992d1804b
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell
 - name: scmap_index_cell
   owner: ebi-gxa
   revisions:
   - 640982866dfe
+  - c17b3c6c1e31
   tool_panel_section_id: hca_single_cell
   tool_panel_section_label: HCA-Single Cell
 - name: retrieve_scxa

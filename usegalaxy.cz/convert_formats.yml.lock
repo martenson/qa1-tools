@@ -6,6 +6,7 @@ tools:
   owner: bgruening
   revisions:
   - 6d8444408ff1
+  - d6ede73082da
   - e009d8260be2
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
@@ -18,6 +19,7 @@ tools:
 - name: glimmer_glimmer_to_gff
   owner: bgruening
   revisions:
+  - 3d71ab1562d7
   - 891b330ffd94
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
@@ -39,6 +41,7 @@ tools:
   owner: devteam
   revisions:
   - 2dcfbbf9071a
+  - 78fb18899c99
   - 92034dcbb40a
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
@@ -58,6 +61,7 @@ tools:
 - name: msconvert
   owner: galaxyp
   revisions:
+  - 331a50e8fd2f
   - 6153e8ada1ee
   - 9ec469ff191a
   - dd4ba10d0c45
@@ -74,23 +78,27 @@ tools:
   owner: iuc
   revisions:
   - e72c320c17c1
+  - f7229c8445da
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_vcf
   owner: iuc
   revisions:
   - 18f7e96459d2
+  - d4965adac10c
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_gff
   owner: iuc
   revisions:
   - 42b239a32349
+  - 75a08e10cc76
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_bed
   owner: iuc
   revisions:
+  - 50b7875a49d0
   - ee86b27291b5
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
@@ -104,11 +112,13 @@ tools:
   owner: iuc
   revisions:
   - 158b5b2a164a
+  - 6ee334657360
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: mz_to_sqlite
   owner: galaxyp
   revisions:
+  - 705821bf30d2
   - 8190f6083c0d
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
@@ -140,6 +150,7 @@ tools:
 - name: biom_convert
   owner: iuc
   revisions:
+  - d4d4e9febf5c
   - e177a8ea0bf1
   - e525f9ffb9ac
   tool_panel_section_id: convert_formats
@@ -154,6 +165,7 @@ tools:
   owner: devteam
   revisions:
   - 154d00cbbf2d
+  - 3e436657dcd0
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: msms_extractor
@@ -173,12 +185,14 @@ tools:
   revisions:
   - 190b3bcc00aa
   - 39881709807e
+  - 3e81299dfce3
   - 7e2ee5f43778
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: graphicsmagick_image_convert
   owner: bgruening
   revisions:
+  - 3ae9331790a6
   - 4e9a3745dce4
   - e88f1111d9e7
   - eb09d7e6d727
@@ -188,12 +202,14 @@ tools:
   owner: iuc
   revisions:
   - c24014d80001
+  - faef2b1622a3
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: idconvert
   owner: galaxyp
   revisions:
   - 9e6e840d6b52
+  - edb33e8224c6
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: gtftobed12
@@ -206,6 +222,7 @@ tools:
   owner: iuc
   revisions:
   - 8067dfa00ed2
+  - e9bbe2f71784
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: bam_to_scidx
@@ -224,11 +241,13 @@ tools:
   owner: iuc
   revisions:
   - 359e043a285c
+  - 767943cd85bf
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_region
   owner: iuc
   revisions:
+  - a50ef4d58c90
   - eb66d7a04bf8
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
@@ -236,6 +255,7 @@ tools:
   owner: iuc
   revisions:
   - 0b663ca9a961
+  - 18dbde5680c0
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: ab1_fastq_converter
@@ -260,23 +280,27 @@ tools:
   owner: cpt
   revisions:
   - 8bd03ba8510a
+  - ba8b6a5ffd9e
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: cpt_gbk_to_5col
   owner: cpt
   revisions:
   - 1bdd481d5c25
+  - 8f5f2142fc2b
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: cpt_gff_to_gbk
   owner: cpt
   revisions:
+  - 03384dbb511d
   - 35a6c466e270
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: cpt_gbk_to_gff
   owner: cpt
   revisions:
+  - a921d6148d88
   - bb6332a85aa6
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
@@ -284,11 +308,13 @@ tools:
   owner: cpt
   revisions:
   - 1bf722ba06e3
+  - 2c83f55438c9
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: cpt_fix_aragorn
   owner: cpt
   revisions:
   - 733cb0807083
+  - 8da37080e35f
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats

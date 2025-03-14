@@ -26,6 +26,7 @@ tools:
 - name: hyphy_gard
   owner: iuc
   revisions:
+  - 5b777002c2de
   - 659517798cc4
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
@@ -83,6 +84,7 @@ tools:
   revisions:
   - 0a189243186d
   - ae69d14b6fbf
+  - ce83c3f83561
   - df6527887a18
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
@@ -102,12 +104,14 @@ tools:
 - name: raxml
   owner: iuc
   revisions:
+  - b1e68bbe4cef
   - ea30d3089354
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: gstf_preparation
   owner: earlhaminst
   revisions:
+  - 4340eef6ec1b
   - 7e11a7f4bdba
   - 9c62ad7dd113
   - dbe37a658cd2
@@ -118,6 +122,7 @@ tools:
   owner: iuc
   revisions:
   - 2bf47d57ebb5
+  - 7157a5b34a68
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: sarscov2summary
@@ -132,6 +137,7 @@ tools:
   - 16e925bf567e
   - 276e3ee68c37
   - 2db72467da51
+  - e4d5d9a69c9d
   - ed74587a13c8
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
@@ -139,6 +145,7 @@ tools:
   owner: earlhaminst
   revisions:
   - 07f5b2c5ac10
+  - 4b3ef9bde528
   - dbc49bd1a3e9
   - f9e418125021
   tool_panel_section_id: phylogenetics
@@ -148,6 +155,7 @@ tools:
   revisions:
   - 4f9e5110914b
   - b78b529f66db
+  - d0569a198359
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: gafa
@@ -155,6 +163,7 @@ tools:
   revisions:
   - af9f72ddf7f9
   - b9f1bcf5ee59
+  - c22276db4025
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: hcluster_sg
@@ -162,6 +171,7 @@ tools:
   revisions:
   - 1d2de27d7a9c
   - 4a233271d05a
+  - 4d60b0cd146c
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: blast_parser
@@ -169,12 +179,14 @@ tools:
   revisions:
   - 363f3480622d
   - 376ed15e0d27
+  - fea757b85172
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: nextalign
   owner: iuc
   revisions:
   - 41102a84e387
+  - aadc5d8099e2
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: pangolin
@@ -182,12 +194,14 @@ tools:
   revisions:
   - 03ed9524dcd1
   - 2f1019071464
+  - 8ad84c5753ea
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: nextclade
   owner: iuc
   revisions:
   - 128ba8da994f
+  - 4f6349228462
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: hyphy_conv
@@ -222,11 +236,13 @@ tools:
   owner: iuc
   revisions:
   - 52fd1d491417
+  - e0a0a473fc1e
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: usher
   owner: iuc
   revisions:
+  - 746b434c8fbb
   - 8f6c7638eab2
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
@@ -246,12 +262,14 @@ tools:
 - name: picrust2_add_descriptions
   owner: iuc
   revisions:
+  - 2f47a294ef49
   - 6034c3f3ecf0
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: picrust2_hsp
   owner: iuc
   revisions:
+  - 3b133b8d578a
   - 6eafc1e01a8c
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
@@ -259,29 +277,34 @@ tools:
   owner: iuc
   revisions:
   - 415cb5d91168
+  - 709adbfcf308
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: picrust2_pathway_pipeline
   owner: iuc
   revisions:
   - 6077821e8ae7
+  - f53beb324696
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: picrust2_pipeline
   owner: iuc
   revisions:
   - 540aedfc81c7
+  - d6bb2e3febda
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: picrust2_place_seqs
   owner: iuc
   revisions:
   - 680fb3eb574c
+  - 73b56418e7f4
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: picrust2_shuffle_predictions
   owner: iuc
   revisions:
+  - 677f3c8db525
   - 881f2faa5fe7
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics

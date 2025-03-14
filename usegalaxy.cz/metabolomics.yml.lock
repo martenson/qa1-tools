@@ -62,6 +62,7 @@ tools:
 - name: sirius_csifingerid
   owner: computational-metabolomics
   revisions:
+  - 8dac4cef0a22
   - 9e6bf7278257
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -75,6 +76,7 @@ tools:
 - name: mspurity_spectralmatching
   owner: computational-metabolomics
   revisions:
+  - 01cbb99bca13
   - 4db043151468
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -82,12 +84,14 @@ tools:
   owner: computational-metabolomics
   revisions:
   - 0f646a3e0a3f
+  - d84cc9960035
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: mspurity_dimspredictpuritysingle
   owner: computational-metabolomics
   revisions:
   - 3959cddb01a6
+  - b563d5fe4fc0
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: dimspy_merge_peaklists
@@ -100,29 +104,34 @@ tools:
   owner: computational-metabolomics
   revisions:
   - d1d73007a255
+  - f98b4bb0fa58
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: mspurity_createdatabase
   owner: computational-metabolomics
   revisions:
   - 600a866a510c
+  - fa84bfaab681
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: mspurity_averagefragspectra
   owner: computational-metabolomics
   revisions:
+  - 406ae6769162
   - 4207233ead9c
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: mspurity_filterfragspectra
   owner: computational-metabolomics
   revisions:
+  - 0a0f22586cad
   - 1e6b7c4d99cd
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: mspurity_frag4feature
   owner: computational-metabolomics
   revisions:
+  - 31f64ff8320d
   - 61ebae7e09f5
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -130,11 +139,13 @@ tools:
   owner: computational-metabolomics
   revisions:
   - 3d6356bcf998
+  - 416460f611cc
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: mspurity_flagremove
   owner: computational-metabolomics
   revisions:
+  - 816bac69e03e
   - 8dcfbb7f917a
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -165,6 +176,7 @@ tools:
 - name: xcms_export_samplemetadata
   owner: lecorguille
   revisions:
+  - e13c7bc91c63
   - f39cd33a73a6
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -178,17 +190,20 @@ tools:
   owner: melpetera
   revisions:
   - bdee2c2c484b
+  - ec75de7f1e08
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: idchoice
   owner: melpetera
   revisions:
   - b7a6a88f518a
+  - bb19b1d15732
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: normalization
   owner: marie-tremblay-metatoul
   revisions:
+  - 221cbd549c40
   - 3d00a98974b7
   - f9554d5bb47e
   tool_panel_section_id: metabolomics
@@ -197,6 +212,7 @@ tools:
   owner: jfrancoismartin
   revisions:
   - 1422de181204
+  - a3147e3d66e2
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: recetox_aplcms_generate_feature_table
@@ -204,6 +220,7 @@ tools:
   revisions:
   - 32b66fb6a6a0
   - 702a849c1e0e
+  - 89178a72388a
   - e7305ba0dd38
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -213,11 +230,13 @@ tools:
   - 99d118321d5f
   - a9bb2ccc53de
   - c3d4b82c7e5d
+  - f92b1b64da93
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: recetox_aplcms_correct_time
   owner: recetox
   revisions:
+  - a82db010c53e
   - d69ec1171d71
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -225,23 +244,27 @@ tools:
   owner: recetox
   revisions:
   - 550667ce03f1
+  - 59c393d35e0e
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: recetox_aplcms_remove_noise
   owner: recetox
   revisions:
   - 12bf74dd09f1
+  - 7acd11ddc061
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: recetox_aplcms_merge_known_table
   owner: recetox
   revisions:
   - 8ecb609cc265
+  - b7c8a44b9cc1
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: recetox_aplcms_compute_template
   owner: recetox
   revisions:
+  - 50b9918aeff2
   - e2dc815e1b2c
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -249,17 +272,20 @@ tools:
   owner: recetox
   revisions:
   - 2b6bfa234d8b
+  - ec196e27a61a
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: rmassbank
   owner: recetox
   revisions:
+  - 5a6bb93ec656
   - c1a9c990d4b0
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: biotransformer
   owner: recetox
   revisions:
+  - 6cd2a9e6ac49
   - e5fcba090b10
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -267,12 +293,14 @@ tools:
   owner: recetox
   revisions:
   - 3e2cb0bc6959
+  - b5467dead5b1
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: riassigner
   owner: recetox
   revisions:
   - 8c5e65adf694
+  - af25aa61c611
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: asca
@@ -284,12 +312,14 @@ tools:
 - name: corr_table
   owner: melpetera
   revisions:
+  - 2173ad5e7750
   - b22c453e4cf4
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: hmdb_ms_search
   owner: fgiacomoni
   revisions:
+  - 29195cb5d378
   - 453fbe98925a
   - 4eb2de7c24d1
   tool_panel_section_id: metabolomics
@@ -324,6 +354,7 @@ tools:
   owner: lecorguille
   revisions:
   - 018a9771de28
+  - 1ae878634ab3
   - a5347d57899f
   - acc0a4a366c1
   tool_panel_section_id: metabolomics
@@ -333,6 +364,7 @@ tools:
   revisions:
   - 1c30ff90f3ae
   - 73d82de36369
+  - 75a1b3f7bacc
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_fillpeaks
@@ -340,12 +372,14 @@ tools:
   revisions:
   - 26d77e9ceb49
   - 3bc94c3abb28
+  - a8d866a71ba1
   - de0d85537ee3
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_retcor
   owner: lecorguille
   revisions:
+  - 33c0ca93f3ee
   - 4bfef820569b
   - 7faadba7c625
   - aa252eec9229
@@ -357,6 +391,7 @@ tools:
   - 090cf284d9ff
   - 5bd125a3f3b0
   - a301f001835c
+  - ae28a753a6f8
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_plot_chromatogram
@@ -364,6 +399,7 @@ tools:
   revisions:
   - 024974037c4e
   - 271c9d5f0d10
+  - 9291271ec4d9
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_xcmsset
@@ -371,6 +407,7 @@ tools:
   revisions:
   - 15646e937936
   - 378ddb410225
+  - 3990a65b45a4
   - b02d1992a43a
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -378,6 +415,7 @@ tools:
   owner: lecorguille
   revisions:
   - 11ab2081bd4a
+  - 35b6fe4d481c
   - 86a20118e743
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -408,6 +446,7 @@ tools:
   revisions:
   - 12cf1eed21f4
   - b1fa45bd2b44
+  - cfd7c4aa5c26
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: qualitymetrics
@@ -442,6 +481,7 @@ tools:
   owner: melpetera
   revisions:
   - 016780b192a6
+  - 23314e1192d4
   - 73892ef177e3
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -489,18 +529,21 @@ tools:
 - name: xcms_refine
   owner: workflow4metabolomics
   revisions:
+  - 6c2798bce3eb
   - eb115eb8f25c
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: isoplot
   owner: workflow4metabolomics
   revisions:
+  - 61c959ebdef5
   - dd3e046a72ad
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_group
   owner: lecorguille
   revisions:
+  - 3820e3f3b1cb
   - 4c8507667cd6
   - d45a786cbc40
   - fe4002ac5193
@@ -509,12 +552,14 @@ tools:
 - name: msconvert
   owner: galaxyp
   revisions:
+  - 331a50e8fd2f
   - 9ec469ff191a
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: thermo_raw_file_converter
   owner: galaxyp
   revisions:
+  - 19e45916daf9
   - 2d80c8b2dfc2
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -522,11 +567,13 @@ tools:
   owner: iuc
   revisions:
   - c46d33411495
+  - fff032d6115a
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: dimet_abundance_plot
   owner: iuc
   revisions:
+  - 4b4dead87318
   - c9040bdb918c
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -534,11 +581,13 @@ tools:
   owner: recetox
   revisions:
   - 3f96c93f8566
+  - 7ba589b01dbc
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: matchms_formatter
   owner: recetox
   revisions:
+  - a5a5b147da70
   - ae45992f969e
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -546,6 +595,7 @@ tools:
   owner: recetox
   revisions:
   - 09cabbc3d12d
+  - da7722f665f4
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: ramclustr_define_experiment
@@ -558,29 +608,34 @@ tools:
   owner: recetox
   revisions:
   - 13de8005adba
+  - 83c4b4359ac4
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: matchms_fingerprint_similarity
   owner: recetox
   revisions:
   - df85b26201d1
+  - fd890f162ce6
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: recetox_xmsannotator_advanced
   owner: recetox
   revisions:
   - 50ac7359ffe7
+  - 6b5dec818827
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: matchms_metadata_export
   owner: recetox
   revisions:
   - 7504a8f93699
+  - 8832425b1ff6
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: matchms_metadata_match
   owner: recetox
   revisions:
+  - 330b0dfae8da
   - b5b360897004
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -588,6 +643,7 @@ tools:
   owner: recetox
   revisions:
   - 9982b85ff4e7
+  - f04b378325e5
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: matchms_similarity
@@ -599,6 +655,7 @@ tools:
 - name: matchms_convert
   owner: recetox
   revisions:
+  - 9e83636da9d3
   - d4609fbf8ca3
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -606,17 +663,20 @@ tools:
   owner: recetox
   revisions:
   - 97be845e45c2
+  - ea6c5636c0cf
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: waveica
   owner: recetox
   revisions:
+  - bf32ae95a06f
   - dbbedb14b44c
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: dimet_differential_multigroup_analysis
   owner: iuc
   revisions:
+  - c4bcde2c17d0
   - e88cf5618b40
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -624,17 +684,20 @@ tools:
   owner: iuc
   revisions:
   - 254408bfc5c0
+  - 916bfd9924ff
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: dimet_isotopologues_plot
   owner: iuc
   revisions:
+  - 41a4d8c9d6a2
   - a3349c105bd0
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: dimet_metabologram
   owner: iuc
   revisions:
+  - 06f8d9ba09cd
   - a7d3e880e74c
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -642,17 +705,20 @@ tools:
   owner: iuc
   revisions:
   - 04d213632103
+  - 626016c1acdf
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: dimet_pca_plot
   owner: iuc
   revisions:
   - 952808ffa842
+  - c112e7f989bf
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: dimet_timecourse_analysis
   owner: iuc
   revisions:
+  - b1a9eddf73d9
   - cb8c4ae59da9
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
