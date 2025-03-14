@@ -123,3 +123,147 @@ tools:
   - fc8804320156
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
+- name: nanopolish_eventalign
+  owner: bgruening
+  revisions:
+  - 3b6f94fc7e1d
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: nanopolish_methylation
+  owner: bgruening
+  revisions:
+  - 90a922f32523
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: nanopolish_polya
+  owner: bgruening
+  revisions:
+  - 4857d5bcce52
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: nanopolish_variants
+  owner: bgruening
+  revisions:
+  - bec636361cfd
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: m6anet
+  owner: iuc
+  revisions:
+  - 40f186d91e67
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: clair3
+  owner: iuc
+  revisions:
+  - c9218b9dc7f0
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: poretools_yield_plot
+  owner: iuc
+  revisions:
+  - 64a83664b814
+  - c5c5a3e84989
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: poretools_winner
+  owner: iuc
+  revisions:
+  - 6d93709247c7
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: poretools_times
+  owner: iuc
+  revisions:
+  - '107124859931'
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: poretools_tabular
+  owner: iuc
+  revisions:
+  - 5f5f1da94d7f
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: poretools_stats
+  owner: iuc
+  revisions:
+  - c1cbe2575d32
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: poretools_squiggle
+  owner: iuc
+  revisions:
+  - 26e6c9362b7b
+  - ce8af9373061
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: poretools_qualpos
+  owner: iuc
+  revisions:
+  - 2e22ebec211a
+  - 626b6c2be5c2
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: poretools_qualdist
+  owner: iuc
+  revisions:
+  - 72dfdbfab3cc
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: poretools_occupancy
+  owner: iuc
+  revisions:
+  - 0433aad600e9
+  - 336791b5665f
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: poretools_nucdist
+  owner: iuc
+  revisions:
+  - 5c4fa65f5733
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: poretools_hist
+  owner: iuc
+  revisions:
+  - 47936349f3e9
+  - d1805f9c4c82
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: poretools_extract
+  owner: iuc
+  revisions:
+  - 08064da7b7fb
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: poretools_events
+  owner: iuc
+  revisions:
+  - 1d835c691480
+  - daf8518d243a
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: nanoplot
+  owner: iuc
+  revisions:
+  - 2a9afed42353
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: medaka_consensus
+  owner: iuc
+  revisions:
+  - 18505fe2bdb1
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: flye
+  owner: bgruening
+  revisions:
+  - 13e27b9094e8
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: pycoqc
+  owner: iuc
+  revisions:
+  - fae03f3d4bf7
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
