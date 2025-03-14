@@ -54,6 +54,7 @@ tools:
 - name: xarray_metadata_info
   owner: ecology
   revisions:
+  - 00de53d18b99
   - e8650cdf092f
   tool_panel_section_id: species_abundance
   tool_panel_section_label: Species abundance
@@ -61,6 +62,7 @@ tools:
   owner: ecology
   revisions:
   - 6baac361495b
+  - b393815e4cb7
   tool_panel_section_id: species_abundance
   tool_panel_section_label: Species abundance
 - name: pampa_communitymetrics

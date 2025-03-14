@@ -6,6 +6,7 @@ tools:
   owner: devteam
   revisions:
   - 4daabc25df00
+  - 5b097fde95dd
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: sina
@@ -17,6 +18,7 @@ tools:
 - name: gecko
   owner: iuc
   revisions:
+  - 1de657a3198d
   - 5efbd15675ca
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
@@ -30,41 +32,48 @@ tools:
   owner: iuc
   revisions:
   - 0c84cce7b030
+  - 87c1c223c704
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_mummer
   owner: iuc
   revisions:
+  - b7bc272143fb
   - bcd65de9725b
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_mummerplot
   owner: iuc
   revisions:
+  - 029a793f39b6
   - 4fc0cb2ac8ae
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_delta_filter
   owner: iuc
   revisions:
+  - 5c7e6ef78006
   - fbca557a4847
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_nucmer
   owner: iuc
   revisions:
+  - 27fff8d3793e
   - e18267f90096
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_dnadiff
   owner: iuc
   revisions:
+  - 29662f643859
   - c9685bc0407c
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_show_coords
   owner: iuc
   revisions:
+  - 4c89814871e8
   - b4124df98b26
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
@@ -84,6 +93,7 @@ tools:
   owner: rnateam
   revisions:
   - 48fc2c21fe1c
+  - 876c70c6ecad
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: msaboot
@@ -115,11 +125,13 @@ tools:
   owner: rnateam
   revisions:
   - 7e55ac3bd458
+  - f3a318881b1b
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mafft
   owner: rnateam
   revisions:
+  - 1233363389c1
   - a65296ffb4a0
   - bcfce5aac49c
   - f0d493f8f84f

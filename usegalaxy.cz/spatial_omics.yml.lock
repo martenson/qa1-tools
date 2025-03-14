@@ -5,12 +5,14 @@ tools:
 - name: basic_illumination
   owner: perssond
   revisions:
+  - 7ee5b6f7533e
   - acc6f509968c
   tool_panel_section_id: spatial_omics
   tool_panel_section_label: Spatial Omics
 - name: ashlar
   owner: perssond
   revisions:
+  - 0b8423c7ee3e
   - 33ab2058c6d9
   tool_panel_section_id: spatial_omics
   tool_panel_section_label: Spatial Omics
@@ -30,5 +32,6 @@ tools:
   owner: perssond
   revisions:
   - 261464223fa3
+  - e11d5fafd0cc
   tool_panel_section_id: spatial_omics
   tool_panel_section_label: Spatial Omics

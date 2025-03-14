@@ -26,6 +26,7 @@ tools:
 - name: complement
   owner: devteam
   revisions:
+  - 8b6c6ec55c6e
   - e0a23ab32d7f
   tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
