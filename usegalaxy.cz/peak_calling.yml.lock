@@ -30,12 +30,14 @@ tools:
   owner: bgruening
   revisions:
   - 194e3f2c1d86
+  - f907216064f6
   tool_panel_section_id: peak_calling
   tool_panel_section_label: Peak Calling
 - name: macs2
   owner: iuc
   revisions:
   - 640d3af5d833
+  - 86e2413cf3f8
   tool_panel_section_id: peak_calling
   tool_panel_section_label: Peak Calling
 - name: peakachu
@@ -54,6 +56,7 @@ tools:
 - name: pureclip
   owner: iuc
   revisions:
+  - 75bf02d7d1c8
   - fd1f57782683
   tool_panel_section_id: peak_calling
   tool_panel_section_label: Peak Calling

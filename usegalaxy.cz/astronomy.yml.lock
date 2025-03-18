@@ -24,5 +24,6 @@ tools:
   owner: astroteam
   revisions:
   - 0ddfc343f9f9
+  - 7398ea3d9ac4
   tool_panel_section_id: astronomy
   tool_panel_section_label: Astronomy

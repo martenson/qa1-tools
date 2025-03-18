@@ -5,6 +5,7 @@ tools:
 - name: ena_upload
   owner: iuc
   revisions:
+  - '440074098911'
   - 5cb6146337d8
   - a62c4a11a67d
   tool_panel_section_id: send_data

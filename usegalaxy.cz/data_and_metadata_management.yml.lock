@@ -6,11 +6,13 @@ tools:
   owner: ecology
   revisions:
   - 642e31c435c9
+  - d6aa2a899877
   tool_panel_section_id: data_and_metadata_management
   tool_panel_section_label: Data and Metadata Management
 - name: eml2eal
   owner: ecology
   revisions:
+  - 57b8600443f5
   - c1d2c0922362
   tool_panel_section_id: data_and_metadata_management
   tool_panel_section_label: Data and Metadata Management
