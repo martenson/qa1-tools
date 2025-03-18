@@ -5,6 +5,7 @@ tools:
 - name: fasttree
   owner: iuc
   revisions:
+  - bc939965ce41
   - e005e659ae21
   tool_panel_section_id: genome_diversity
   tool_panel_section_label: Genome Diversity
@@ -18,6 +19,7 @@ tools:
   owner: iuc
   revisions:
   - 73a469f7dc96
+  - b1e68bbe4cef
   - ea30d3089354
   tool_panel_section_id: genome_diversity
   tool_panel_section_label: Genome Diversity

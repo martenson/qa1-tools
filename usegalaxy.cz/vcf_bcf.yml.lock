@@ -5,6 +5,7 @@ tools:
 - name: vcffilter
   owner: devteam
   revisions:
+  - 4bdc111b2470
   - eae7c08ebb6f
   - fa24bf0598f4
   tool_panel_section_id: vcf_bcf
@@ -42,6 +43,7 @@ tools:
   revisions:
   - 5b7120c66efc
   - dd44c3f416c3
+  - ee60203e68d9
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfhethom
@@ -110,6 +112,7 @@ tools:
 - name: vcfanno
   owner: iuc
   revisions:
+  - 4f3c5e634679
   - cdcaa40e5e45
   - fb20fa735dfe
   tool_panel_section_id: vcf_bcf
@@ -160,6 +163,7 @@ tools:
   revisions:
   - 31361191d2d2
   - 411adeff1eec
+  - cf2af5c3118c
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfdistance

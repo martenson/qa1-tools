@@ -48,6 +48,7 @@ tools:
 - name: bwameth
   owner: iuc
   revisions:
+  - cf1322aeb137
   - d82648ad25a3
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
@@ -110,18 +111,21 @@ tools:
 - name: cooler_makebins
   owner: lldelisle
   revisions:
+  - 3df254580b06
   - c3dc51297bf8
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
 - name: cooler_csort_tabix
   owner: lldelisle
   revisions:
+  - 026950a1853c
   - d56db0e1555d
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
 - name: cooler_cload_tabix
   owner: lldelisle
   revisions:
+  - 168e86e96afa
   - 3ff6eeca667e
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
@@ -129,6 +133,7 @@ tools:
   owner: lldelisle
   revisions:
   - 8f71aaf6e59d
+  - b387933e4d3d
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
 - name: hicup2juicer

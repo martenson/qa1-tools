@@ -19,6 +19,7 @@ tools:
   owner: iuc
   revisions:
   - 45d4d26e01b5
+  - f5114c60dc95
   tool_panel_section_id: extract_features
   tool_panel_section_label: Extract Features
 - name: b2btools_single_sequence
