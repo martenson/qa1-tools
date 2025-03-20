@@ -124,6 +124,7 @@ tools:
   owner: devteam
   revisions:
   - 2477830927ec
+  - 4a196b9c72c2
   - 64f11cf59c6e
   - dfd8b7f78c37
   - e188dc7a68e6
@@ -159,6 +160,7 @@ tools:
   revisions:
   - b4a22d90cce9
   - bfaa0d22c2e4
+  - d3e88507ee64
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: bbtools_bbmap
