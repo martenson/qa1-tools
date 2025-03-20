@@ -40,5 +40,3 @@ tools:
   owner: bgruening
 - name: deeptools_bigwig_average
   owner: bgruening
-- name: hicup_deduplicator
-  owner: bgruening
