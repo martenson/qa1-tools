@@ -1,7 +1,5 @@
 tool_panel_section_label: None
 tools:
-- name: compose_text_param
-  owner: iuc
 - name: no_unzip_datatype
   owner: lecorguille
 - name: rdata_camera_datatypes

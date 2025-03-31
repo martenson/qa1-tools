@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
 tools:
 - name: intensity_checks
   owner: melpetera
@@ -5,39 +8,33 @@ tools:
   - ec75de7f1e08
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mixmodel4repeated_measures
   owner: workflow4metabolomics
   revisions:
   - a4d89d47646f
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: anova
   owner: lecorguille
   revisions:
   - 102049093b7d
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: multivariate
   owner: ethevenot
   revisions:
   - 5526f8258e8a
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: univariate
   owner: ethevenot
   revisions:
   - 5687435b182c
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: asca
   owner: marie-tremblay-metatoul
   revisions:
   - 93312041f1d5
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu

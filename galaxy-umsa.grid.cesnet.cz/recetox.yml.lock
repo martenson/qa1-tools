@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
 tools:
 - name: recetox_msfinder
   owner: recetox
@@ -5,17 +8,15 @@ tools:
   - e7eff0c9baa3
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rem_complex
   owner: recetox
   revisions:
   - 1dc9f5a3163d
   - 567327a97ad2
-  - a0e07a0bc047
   - 60db8070a5c3
+  - a0e07a0bc047
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: msmetaenhancer
   owner: recetox
   revisions:
@@ -23,16 +24,14 @@ tools:
   - b5467dead5b1
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: xtb_molecular_optimization
   owner: recetox
   revisions:
+  - 6e1ef071fffc
   - cba7123c2741
   - d5633eaf3552
-  - 6e1ef071fffc
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: recetox_xmsannotator_advanced
   owner: recetox
   revisions:
@@ -40,17 +39,15 @@ tools:
   - 6b5dec818827
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: waveica
   owner: recetox
   revisions:
-  - 1a2aeb8137bf
   - 071a424241ec
-  - bf32ae95a06f
+  - 1a2aeb8137bf
   - 6480c6d5fa36
+  - bf32ae95a06f
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ramclustr
   owner: recetox
   revisions:
@@ -58,7 +55,6 @@ tools:
   - da7722f665f4
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rmassbank
   owner: recetox
   revisions:
@@ -66,7 +62,6 @@ tools:
   - 5a6bb93ec656
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: biotransformer
   owner: recetox
   revisions:
@@ -75,7 +70,6 @@ tools:
   - e5fcba090b10
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: spec2vec_training
   owner: recetox
   revisions:
@@ -83,7 +77,6 @@ tools:
   - e1e22ada831e
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: riassigner
   owner: recetox
   revisions:
@@ -91,7 +84,6 @@ tools:
   - c702620c22b1
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ramclustr_define_experiment
   owner: recetox
   revisions:
@@ -99,7 +91,6 @@ tools:
   - f2c1d0bbb074
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: filter_compounds
   owner: recetox
   revisions:
@@ -107,76 +98,65 @@ tools:
   - 72b687d21f65
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: thermo_raw_file_converter
   owner: galaxyp
   revisions:
   - 19e45916daf9
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: assign_ri_from_comment
   owner: recetox
   revisions:
-  - 97ccdb1ba47c
   - 6975af39ba79
   - 7226eba9c09d
+  - 97ccdb1ba47c
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rename_annotated_feature
   owner: recetox
   revisions:
   - 268fcec93d9c
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: spec2vec_similarity
   owner: recetox
   revisions:
   - 721a4e666191
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rcx_tk
   owner: recetox
   revisions:
   - 54401f9d1a30
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ms2deepscore_config_generator
   owner: recetox
   revisions:
   - 7e4ac334fc33
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ms2deepscore_similarity
   owner: recetox
   revisions:
   - 58c95171a0d3
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ms2deepscore_training
   owner: recetox
   revisions:
   - 0a0529822d91
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: target_screen
   owner: recetox
   revisions:
   - d4c2d5bc0524
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: isolib
   owner: recetox
   revisions:
   - 2b1118bce0b1
   tool_panel_section_id: recetox
   tool_panel_section_label: RECETOX
-  tool_shed_url: toolshed.g2.bx.psu.edu
