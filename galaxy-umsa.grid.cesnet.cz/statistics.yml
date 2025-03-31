@@ -1,0 +1,14 @@
+tool_panel_section_label: Statistics
+tools:
+- name: intensity_checks
+  owner: melpetera
+- name: mixmodel4repeated_measures
+  owner: workflow4metabolomics
+- name: anova
+  owner: lecorguille
+- name: multivariate
+  owner: ethevenot
+- name: univariate
+  owner: ethevenot
+- name: asca
+  owner: marie-tremblay-metatoul

@@ -1,0 +1,111 @@
+tools:
+- name: pyteomics_mztab2tsv
+  owner: galaxyp
+  revisions:
+  - a475c1906e0b
+  tool_panel_section_id: openms
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_mztabexporter
+  owner: galaxyp
+  revisions:
+  - 748dfbdf2201
+  - 2735db4dd8d9
+  tool_panel_section_id: openms
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_featurelinkerunlabeled
+  owner: galaxyp
+  revisions:
+  - fbe41f0cc71e
+  - b46263c3ee99
+  tool_panel_section_id: openms
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_featurefindersuperhirn
+  owner: galaxyp
+  revisions:
+  - ac6991743c11
+  tool_panel_section_id: openms
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_featurefindercentroided
+  owner: galaxyp
+  revisions:
+  - d0c5325cb998
+  - 1a709ba66f2f
+  tool_panel_section_id: openms
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_featurefindermetabo
+  owner: galaxyp
+  revisions:
+  - a49dde5a836e
+  - 2451315543f9
+  tool_panel_section_id: openms
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_fileconverter
+  owner: galaxyp
+  revisions:
+  - 2a93a25f0599
+  - 8b6336c903ef
+  tool_panel_section_id: openms
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_peakpickerwavelet
+  owner: galaxyp
+  revisions:
+  - bf0b36140329
+  - 2077efa205de
+  tool_panel_section_id: openms
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_peakpickerhires
+  owner: galaxyp
+  revisions:
+  - 6b01678ec2fc
+  - 401f500aae50
+  tool_panel_section_id: openms
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_noisefiltergaussian
+  owner: galaxyp
+  revisions:
+  - 47982606f542
+  - 464f7877215b
+  tool_panel_section_id: openms
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_noisefiltersgolay
+  owner: galaxyp
+  revisions:
+  - 35468667de97
+  - cf86c9091cb3
+  tool_panel_section_id: openms
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_filefilter
+  owner: galaxyp
+  revisions:
+  - 86a9dd43dd09
+  - fe4e4587d265
+  tool_panel_section_id: openms
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_baselinefilter
+  owner: galaxyp
+  revisions:
+  - ddbae9eb797e
+  - 84bd73e60367
+  tool_panel_section_id: openms
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_fileinfo
+  owner: galaxyp
+  revisions:
+  - 4af67edd5aef
+  - 5a45e6ac9aae
+  tool_panel_section_id: openms
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu

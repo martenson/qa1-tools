@@ -1,0 +1,9 @@
+tools:
+- name: secimtools
+  owner: malex
+  revisions:
+  - caba07f41453
+  - 2e7d47c0b027
+  tool_panel_section_id: secimtools
+  tool_panel_section_label: SECIMTools
+  tool_shed_url: toolshed.g2.bx.psu.edu

@@ -1,0 +1,20 @@
+tool_panel_section_label: mfassignr
+tools:
+- name: mfassignr_snplot
+  owner: recetox
+- name: mfassignr_histnoise
+  owner: recetox
+- name: mfassignr_kmdnoise
+  owner: recetox
+- name: mfassignr_isofiltr
+  owner: recetox
+- name: mfassignr_mfassign
+  owner: recetox
+- name: mfassignr_mfassigncho
+  owner: recetox
+- name: mfassignr_recal
+  owner: recetox
+- name: mfassignr_recallist
+  owner: recetox
+- name: mfassignr_findrecalseries
+  owner: recetox

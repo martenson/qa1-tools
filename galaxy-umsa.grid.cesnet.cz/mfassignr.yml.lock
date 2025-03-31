@@ -1,0 +1,86 @@
+tools:
+- name: mfassignr_snplot
+  owner: recetox
+  revisions:
+  - 7279d7a37c43
+  - ccd9b0c1aee6
+  - 7579b0cda787
+  - f19c0631b9e5
+  tool_panel_section_id: mfassignr
+  tool_panel_section_label: mfassignr
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mfassignr_histnoise
+  owner: recetox
+  revisions:
+  - 9654573e6889
+  - 5dd25cf1ac0a
+  - 5d99cb9755da
+  tool_panel_section_id: mfassignr
+  tool_panel_section_label: mfassignr
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mfassignr_kmdnoise
+  owner: recetox
+  revisions:
+  - 634ae07958a2
+  - 99d021734000
+  - a7a823839ae3
+  tool_panel_section_id: mfassignr
+  tool_panel_section_label: mfassignr
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mfassignr_isofiltr
+  owner: recetox
+  revisions:
+  - ef0388b42f7a
+  - b880fcae60ea
+  - 1c199c3d5993
+  - 079ae9aa6ed5
+  - e4ddc3bc7e15
+  tool_panel_section_id: mfassignr
+  tool_panel_section_label: mfassignr
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mfassignr_mfassign
+  owner: recetox
+  revisions:
+  - 9cbbfd54d7c4
+  - 22c80f584bb1
+  - 4422c60a4b71
+  - 0492fff60960
+  tool_panel_section_id: mfassignr
+  tool_panel_section_label: mfassignr
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mfassignr_mfassigncho
+  owner: recetox
+  revisions:
+  - da64d663694b
+  - 59326d3b9c52
+  - db058392cb2e
+  - 5ea9dd423109
+  tool_panel_section_id: mfassignr
+  tool_panel_section_label: mfassignr
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mfassignr_recal
+  owner: recetox
+  revisions:
+  - 13ef8b748af9
+  - cfcf45ba58be
+  - 861917f1a211
+  tool_panel_section_id: mfassignr
+  tool_panel_section_label: mfassignr
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mfassignr_recallist
+  owner: recetox
+  revisions:
+  - 7e5ccc8b6f6e
+  - 6c7b17d38a1d
+  - 4f671baab2fd
+  tool_panel_section_id: mfassignr
+  tool_panel_section_label: mfassignr
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mfassignr_findrecalseries
+  owner: recetox
+  revisions:
+  - 18e13043167d
+  - 1b4881c150cc
+  tool_panel_section_id: mfassignr
+  tool_panel_section_label: mfassignr
+  tool_shed_url: toolshed.g2.bx.psu.edu

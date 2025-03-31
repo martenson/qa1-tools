@@ -1,0 +1,90 @@
+tools:
+- name: recetox_aplcms_merge_known_table
+  owner: recetox
+  revisions:
+  - b7c8a44b9cc1
+  - dd7bbc2b99d1
+  - 04892b463957
+  - cf061712a184
+  - 17a48d0a80f4
+  tool_panel_section_id: recetox_aplcms
+  tool_panel_section_label: recetox-aplcms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: recetox_aplcms_compute_template
+  owner: recetox
+  revisions:
+  - dfebc82ba1f0
+  - 4963811b6dec
+  - 481d769e2f7a
+  - 50b9918aeff2
+  - 134be5abb208
+  tool_panel_section_id: recetox_aplcms
+  tool_panel_section_label: recetox-aplcms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: recetox_aplcms_generate_feature_table
+  owner: recetox
+  revisions:
+  - b341cfd4baf8
+  - 6ba3526237e0
+  - 89178a72388a
+  - b3413f335327
+  - e7305ba0dd38
+  tool_panel_section_id: recetox_aplcms
+  tool_panel_section_label: recetox-aplcms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: recetox_aplcms_remove_noise
+  owner: recetox
+  revisions:
+  - ea0758b41473
+  - ffbabefbd2e2
+  - 7acd11ddc061
+  - d90187b0f247
+  - b5a1f35abd8a
+  tool_panel_section_id: recetox_aplcms
+  tool_panel_section_label: recetox-aplcms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: recetox_aplcms_correct_time
+  owner: recetox
+  revisions:
+  - 1574b8a29e6f
+  - 02c772a49998
+  - 9064aecc78a7
+  - a82db010c53e
+  - 51332c2520c7
+  - 501a232f3cd5
+  tool_panel_section_id: recetox_aplcms
+  tool_panel_section_label: recetox-aplcms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: recetox_aplcms_compute_clusters
+  owner: recetox
+  revisions:
+  - f3a18e020cdd
+  - 59c393d35e0e
+  - b9b19a74ac01
+  - 18ec7635bac6
+  - 149b9cc7499b
+  tool_panel_section_id: recetox_aplcms
+  tool_panel_section_label: recetox-aplcms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: recetox_aplcms_align_features
+  owner: recetox
+  revisions:
+  - 79ad928a0dae
+  - d5c638b72ce4
+  - ec196e27a61a
+  - c53a97599181
+  - 7b42ee54d757
+  tool_panel_section_id: recetox_aplcms
+  tool_panel_section_label: recetox-aplcms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: recetox_aplcms_recover_weaker_signals
+  owner: recetox
+  revisions:
+  - 24278c6b6d1c
+  - f92b1b64da93
+  - d7f5878a98c3
+  - e0536ff73f36
+  - 99d118321d5f
+  tool_panel_section_id: recetox_aplcms
+  tool_panel_section_label: recetox-aplcms
+  tool_shed_url: toolshed.g2.bx.psu.edu

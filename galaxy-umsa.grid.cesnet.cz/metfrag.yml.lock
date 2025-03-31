@@ -1,0 +1,15 @@
+tools:
+- name: metfrag_vis
+  owner: computational-metabolomics
+  revisions:
+  - 3dbe79671820
+  tool_panel_section_id: metfrag
+  tool_panel_section_label: MetFrag
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: metfrag
+  owner: computational-metabolomics
+  revisions:
+  - f151ee133612
+  tool_panel_section_id: metfrag
+  tool_panel_section_label: MetFrag
+  tool_shed_url: toolshed.g2.bx.psu.edu

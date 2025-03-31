@@ -1,0 +1,8 @@
+tools:
+- name: sirius_csifingerid
+  owner: computational-metabolomics
+  revisions:
+  - 8dac4cef0a22
+  tool_panel_section_id: sirius
+  tool_panel_section_label: SIRIUS
+  tool_shed_url: toolshed.g2.bx.psu.edu

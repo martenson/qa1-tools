@@ -1,0 +1,20 @@
+tool_panel_section_label: XCMS
+tools:
+- name: msnbase_readmsdata
+  owner: lecorguille
+- name: xcms_xcmsset
+  owner: lecorguille
+- name: xcms_summary
+  owner: lecorguille
+- name: xcms_retcor
+  owner: lecorguille
+- name: xcms_plot_chromatogram
+  owner: lecorguille
+- name: xcms_merge
+  owner: lecorguille
+- name: xcms_group
+  owner: lecorguille
+- name: xcms_fillpeaks
+  owner: lecorguille
+- name: xcms_export_samplemetadata
+  owner: lecorguille

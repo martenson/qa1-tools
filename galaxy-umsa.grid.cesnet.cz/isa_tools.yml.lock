@@ -1,0 +1,22 @@
+tools:
+- name: mzml2isa
+  owner: tomnl
+  revisions:
+  - 7f958f54468e
+  tool_panel_section_id: isa_tools
+  tool_panel_section_label: ISA tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: isa2w4m
+  owner: prog
+  revisions:
+  - 1facef3ba64a
+  tool_panel_section_id: isa_tools
+  tool_panel_section_label: ISA tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: isaextractor
+  owner: prog
+  revisions:
+  - 975585306dc4
+  tool_panel_section_id: isa_tools
+  tool_panel_section_label: ISA tools
+  tool_shed_url: toolshed.g2.bx.psu.edu

@@ -1,0 +1,30 @@
+tools:
+- name: xcms_refine
+  owner: workflow4metabolomics
+  revisions:
+  - 090b33a9981c
+  - 6c2798bce3eb
+  tool_panel_section_id: w4m
+  tool_panel_section_label: W4M
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qualitymetrics
+  owner: ethevenot
+  revisions:
+  - acdf51018708
+  tool_panel_section_id: w4m
+  tool_panel_section_label: W4M
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bank_inhouse
+  owner: fgiacomoni
+  revisions:
+  - 52798007c6b2
+  tool_panel_section_id: w4m
+  tool_panel_section_label: W4M
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: batchcorrection
+  owner: melpetera
+  revisions:
+  - 23314e1192d4
+  tool_panel_section_id: w4m
+  tool_panel_section_label: W4M
+  tool_shed_url: toolshed.g2.bx.psu.edu

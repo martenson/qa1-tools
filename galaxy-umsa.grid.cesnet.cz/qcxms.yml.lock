@@ -1,0 +1,22 @@
+tools:
+- name: qcxms_neutral_run
+  owner: recetox
+  revisions:
+  - 33b7a99b6de3
+  tool_panel_section_id: qcxms
+  tool_panel_section_label: QCxMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qcxms_production_run
+  owner: recetox
+  revisions:
+  - 356f7916ac07
+  tool_panel_section_id: qcxms
+  tool_panel_section_label: QCxMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: qcxms_getres
+  owner: recetox
+  revisions:
+  - 89b026d67e9f
+  tool_panel_section_id: qcxms
+  tool_panel_section_label: QCxMS
+  tool_shed_url: toolshed.g2.bx.psu.edu

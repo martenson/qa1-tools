@@ -1,0 +1,4 @@
+tool_panel_section_label: SECIMTools
+tools:
+- name: secimtools
+  owner: malex

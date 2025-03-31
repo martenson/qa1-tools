@@ -1,0 +1,20 @@
+tool_panel_section_label: Visualization
+tools:
+- name: scatterplot
+  owner: devteam
+- name: ggplot2_violin
+  owner: iuc
+- name: ggplot2_heatmap
+  owner: iuc
+- name: ggplot2_pca
+  owner: iuc
+- name: ggplot2_histogram
+  owner: iuc
+- name: ggplot2_heatmap2
+  owner: iuc
+- name: ggplot2_point
+  owner: iuc
+- name: rcx_boxplot
+  owner: recetox
+- name: heatmap
+  owner: ethevenot

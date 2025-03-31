@@ -1,0 +1,17 @@
+tools:
+- name: camera_annotate
+  owner: lecorguille
+  revisions:
+  - 4b9ab71be05e
+  - 75a1b3f7bacc
+  - abf1775ac14d
+  tool_panel_section_id: camera
+  tool_panel_section_label: CAMERA
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: camera_combinexsannos
+  owner: mmonsoor
+  revisions:
+  - 961089e21ae2
+  tool_panel_section_id: camera
+  tool_panel_section_label: CAMERA
+  tool_shed_url: toolshed.g2.bx.psu.edu

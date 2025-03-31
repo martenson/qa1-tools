@@ -1,0 +1,8 @@
+tools:
+- name: tablemerge
+  owner: melpetera
+  revisions:
+  - e44c5246247a
+  tool_panel_section_id: post_processing
+  tool_panel_section_label: Post-processing
+  tool_shed_url: toolshed.g2.bx.psu.edu

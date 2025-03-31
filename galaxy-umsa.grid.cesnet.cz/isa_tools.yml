@@ -1,0 +1,8 @@
+tool_panel_section_label: ISA tools
+tools:
+- name: mzml2isa
+  owner: tomnl
+- name: isa2w4m
+  owner: prog
+- name: isaextractor
+  owner: prog

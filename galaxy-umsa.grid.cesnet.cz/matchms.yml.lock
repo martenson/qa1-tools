@@ -1,0 +1,134 @@
+tools:
+- name: matchms_subsetting
+  owner: recetox
+  revisions:
+  - cab0e4dcf372
+  - 5bbd1a8404f5
+  - a598091029ad
+  tool_panel_section_id: matchms
+  tool_panel_section_label: matchms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: matchms_metadata_merge
+  owner: recetox
+  revisions:
+  - 1fd950c5586a
+  - fc1a698a71e8
+  - ec25de0f0c58
+  tool_panel_section_id: matchms
+  tool_panel_section_label: matchms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: matchms_add_key
+  owner: recetox
+  revisions:
+  - 51da674b945d
+  - a5d41764722d
+  - 7c5b86026e57
+  tool_panel_section_id: matchms
+  tool_panel_section_label: matchms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: matchms_networking
+  owner: recetox
+  revisions:
+  - 3cd1cf3034d1
+  - f04b378325e5
+  - ab8a33c370f5
+  tool_panel_section_id: matchms
+  tool_panel_section_label: matchms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: matchms_metadata_match
+  owner: recetox
+  revisions:
+  - 844d32c59314
+  - 330b0dfae8da
+  - 05a7fc94e66c
+  tool_panel_section_id: matchms
+  tool_panel_section_label: matchms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: matchms_spectral_similarity
+  owner: recetox
+  revisions:
+  - 44e7027714d7
+  - 7ba589b01dbc
+  - 26c92af1bd28
+  tool_panel_section_id: matchms
+  tool_panel_section_label: matchms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: matchms_metadata_export
+  owner: recetox
+  revisions:
+  - cbadbec49b5d
+  - 8832425b1ff6
+  - dd49ef90297c
+  tool_panel_section_id: matchms
+  tool_panel_section_label: matchms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: matchms_fingerprint_similarity
+  owner: recetox
+  revisions:
+  - 1d3ee4f9f63d
+  - ad9d2d1b2b8d
+  - fd890f162ce6
+  tool_panel_section_id: matchms
+  tool_panel_section_label: matchms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: matchms_convert
+  owner: recetox
+  revisions:
+  - bff7bfcf975e
+  - 692471e62c68
+  - 9e83636da9d3
+  tool_panel_section_id: matchms
+  tool_panel_section_label: matchms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: matchms_filtering
+  owner: recetox
+  revisions:
+  - da15e8ea3b28
+  - 07cac38cbd29
+  - 83c4b4359ac4
+  tool_panel_section_id: matchms
+  tool_panel_section_label: matchms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: matchms_split
+  owner: recetox
+  revisions:
+  - 446fddefcee7
+  - fc1bc38ede0b
+  - ea6c5636c0cf
+  tool_panel_section_id: matchms
+  tool_panel_section_label: matchms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: matchms_remove_key
+  owner: recetox
+  revisions:
+  - fbdb2ae524df
+  - 19367db5cf3c
+  - 0a64e2bcce96
+  tool_panel_section_id: matchms
+  tool_panel_section_label: matchms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: matchms_formatter
+  owner: recetox
+  revisions:
+  - f76a397afbe1
+  - 6501d0287dcd
+  - a5a5b147da70
+  tool_panel_section_id: matchms
+  tool_panel_section_label: matchms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: matchms_remove_spectra
+  owner: recetox
+  revisions:
+  - 80df426e7e47
+  - c24ebd41dd53
+  - d50ce2f51fc0
+  tool_panel_section_id: matchms
+  tool_panel_section_label: matchms
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: matchms_matchms_export_skyline_transition_list
+  owner: recetox
+  revisions:
+  - 8aa0014a5ad4
+  tool_panel_section_id: matchms
+  tool_panel_section_label: matchms
+  tool_shed_url: toolshed.g2.bx.psu.edu

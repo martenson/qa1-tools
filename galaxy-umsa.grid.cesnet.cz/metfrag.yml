@@ -1,0 +1,6 @@
+tool_panel_section_label: MetFrag
+tools:
+- name: metfrag_vis
+  owner: computational-metabolomics
+- name: metfrag
+  owner: computational-metabolomics

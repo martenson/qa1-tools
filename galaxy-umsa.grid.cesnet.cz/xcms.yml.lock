@@ -1,0 +1,82 @@
+tools:
+- name: msnbase_readmsdata
+  owner: lecorguille
+  revisions:
+  - 35b6fe4d481c
+  - 6de175c1f6ef
+  - 11ab2081bd4a
+  tool_panel_section_id: xcms
+  tool_panel_section_label: XCMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xcms_xcmsset
+  owner: lecorguille
+  revisions:
+  - b02d1992a43a
+  - 6550698fe60f
+  - 3990a65b45a4
+  tool_panel_section_id: xcms
+  tool_panel_section_label: XCMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xcms_summary
+  owner: lecorguille
+  revisions:
+  - 1ae878634ab3
+  - 018a9771de28
+  - 444e3ed135e3
+  tool_panel_section_id: xcms
+  tool_panel_section_label: XCMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xcms_retcor
+  owner: lecorguille
+  revisions:
+  - d2b82d89f848
+  - aa252eec9229
+  - 33c0ca93f3ee
+  tool_panel_section_id: xcms
+  tool_panel_section_label: XCMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xcms_plot_chromatogram
+  owner: lecorguille
+  revisions:
+  - 024974037c4e
+  - 9291271ec4d9
+  - c8bef8f6a1cb
+  tool_panel_section_id: xcms
+  tool_panel_section_label: XCMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xcms_merge
+  owner: lecorguille
+  revisions:
+  - 5bd125a3f3b0
+  - ae28a753a6f8
+  - 6d475a389abc
+  tool_panel_section_id: xcms
+  tool_panel_section_label: XCMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xcms_group
+  owner: lecorguille
+  revisions:
+  - 71572faf938e
+  - 3820e3f3b1cb
+  - d45a786cbc40
+  tool_panel_section_id: xcms
+  tool_panel_section_label: XCMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xcms_fillpeaks
+  owner: lecorguille
+  revisions:
+  - ec9aebabc1d2
+  - 26d77e9ceb49
+  - a8d866a71ba1
+  tool_panel_section_id: xcms
+  tool_panel_section_label: XCMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xcms_export_samplemetadata
+  owner: lecorguille
+  revisions:
+  - 4ea32e46b2d6
+  - e13c7bc91c63
+  - 94eb263cfab4
+  tool_panel_section_id: xcms
+  tool_panel_section_label: XCMS
+  tool_shed_url: toolshed.g2.bx.psu.edu

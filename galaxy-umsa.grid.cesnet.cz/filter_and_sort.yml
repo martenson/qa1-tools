@@ -1,0 +1,6 @@
+tool_panel_section_label: Filter and Sort
+tools:
+- name: split_file_on_column
+  owner: bgruening
+- name: generic_filter
+  owner: melpetera

@@ -1,0 +1,76 @@
+tools:
+- name: scatterplot
+  owner: devteam
+  revisions:
+  - efda9a4a50e7
+  tool_panel_section_id: visualization
+  tool_panel_section_label: Visualization
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ggplot2_violin
+  owner: iuc
+  revisions:
+  - 0e7290688b50
+  - dfd5d981b5a4
+  - 17b666467c32
+  tool_panel_section_id: visualization
+  tool_panel_section_label: Visualization
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ggplot2_heatmap
+  owner: iuc
+  revisions:
+  - 1a72f938213e
+  - 391a4cc45fea
+  - 10515715c940
+  tool_panel_section_id: visualization
+  tool_panel_section_label: Visualization
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ggplot2_pca
+  owner: iuc
+  revisions:
+  - b1268b7544d3
+  - ae344ccf9d62
+  - 7e616a1bdb07
+  tool_panel_section_id: visualization
+  tool_panel_section_label: Visualization
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ggplot2_histogram
+  owner: iuc
+  revisions:
+  - b0d96516e6a5
+  - 398e5104f8a2
+  - 6fc8bab811da
+  tool_panel_section_id: visualization
+  tool_panel_section_label: Visualization
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ggplot2_heatmap2
+  owner: iuc
+  revisions:
+  - ca7cb0eaad62
+  - 48b42ee61bc5
+  - 51c6ccaace7e
+  - 374e9062d874
+  tool_panel_section_id: visualization
+  tool_panel_section_label: Visualization
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ggplot2_point
+  owner: iuc
+  revisions:
+  - 5298e06f14f9
+  - e3a675da7fd0
+  tool_panel_section_id: visualization
+  tool_panel_section_label: Visualization
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: rcx_boxplot
+  owner: recetox
+  revisions:
+  - 92325ed91115
+  tool_panel_section_id: visualization
+  tool_panel_section_label: Visualization
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: heatmap
+  owner: ethevenot
+  revisions:
+  - b1667c118127
+  tool_panel_section_id: visualization
+  tool_panel_section_label: Visualization
+  tool_shed_url: toolshed.g2.bx.psu.edu
