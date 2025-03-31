@@ -19,6 +19,7 @@ tools:
   owner: iuc
   revisions:
   - 13cf83ced60c
+  - 923dcc644832
   - fb9e030ffae4
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -27,12 +28,14 @@ tools:
   revisions:
   - 0cb889db0910
   - 83609ef746e9
+  - f843b9afd94e
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_manipulate
   owner: iuc
   revisions:
   - 3d748954434b
+  - be1fdce914c6
   - d1e49c3c0aa2
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -40,6 +43,7 @@ tools:
   owner: iuc
   revisions:
   - 33c0081e16c6
+  - afe044e6bc93
   - ee98d611afc6
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -48,6 +52,7 @@ tools:
   revisions:
   - 4b0adaa31c95
   - a7b951572609
+  - c822c5c1feef
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: dropletutils
@@ -82,6 +87,7 @@ tools:
 - name: scanpy_filter
   owner: iuc
   revisions:
+  - 5813f9920877
   - 5b3c1679d29b
   - b409c2486353
   tool_panel_section_id: single_cell
@@ -89,6 +95,7 @@ tools:
 - name: scanpy_inspect
   owner: iuc
   revisions:
+  - 3b5ef3b00cdd
   - c5d3684f7c4c
   - d86cb2ce311b
   tool_panel_section_id: single_cell
@@ -96,6 +103,7 @@ tools:
 - name: scanpy_normalize
   owner: iuc
   revisions:
+  - 4766556db52c
   - 4bda4412b8c2
   - ab55fe8030b6
   tool_panel_section_id: single_cell
@@ -103,6 +111,7 @@ tools:
 - name: scanpy_plot
   owner: iuc
   revisions:
+  - 5a5468c0d26f
   - 62acdd96d4a0
   - aa0c474463c2
   tool_panel_section_id: single_cell
@@ -110,6 +119,7 @@ tools:
 - name: scanpy_remove_confounders
   owner: iuc
   revisions:
+  - 458d4ab0f894
   - bf2017df9837
   - c5541bfb8feb
   tool_panel_section_id: single_cell
@@ -126,6 +136,7 @@ tools:
   owner: iuc
   revisions:
   - 8983e7a04ba7
+  - a84a73471be7
   - aaa5da8e73a9
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell

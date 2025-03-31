@@ -19,6 +19,7 @@ tools:
   - 9dabbfd73c8a
   - b5f1f599d1fb
   - cbf3f518b668
+  - fc35ffc8c548
   tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
 - name: diamond
