@@ -640,10 +640,3 @@ tools:
   - 9b6210854c8c
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
-- name: query
-  owner: recetox
-  revisions:
-  - 55ca5d902f62
-  tool_panel_section_id: chemicaltoolbox
-  tool_panel_section_label: ChemicalToolBox
-  tool_shed_url: testtoolshed.g2.bx.psu.edu

@@ -200,6 +200,3 @@ tools:
   owner: bgruening
 - name: ctb_im_xcos
   owner: bgruening
-- name: query
-  owner: recetox
-  tool_shed_url: testtoolshed.g2.bx.psu.edu

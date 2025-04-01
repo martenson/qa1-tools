@@ -15,3 +15,6 @@ tools:
 - name: retip_train
   owner: recetox
   tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: query
+  owner: recetox
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
