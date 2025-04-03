@@ -92,6 +92,7 @@ tools:
   revisions:
   - 1faea6e8c92b
   - 76b57044069d
+  - d730086e1432
   - ef7cd2e7bc05
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -101,6 +102,7 @@ tools:
   - 2c6f204ae1b9
   - 54aa421c2911
   - 965f73e77296
+  - c2f471480624
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken2
@@ -802,6 +804,7 @@ tools:
   - 612df2a5054f
   - 824497684a1f
   - b5407cc2bf51
+  - cfb53a01abc5
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: aldex2
@@ -929,6 +932,7 @@ tools:
   revisions:
   - 078414a1226b
   - 5ae13a156271
+  - 68d2cd0be567
   - a6f004bc73bf
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -938,12 +942,14 @@ tools:
   - 6b517dc161e4
   - 7b382efabb98
   - 99ff9221182c
+  - b5a7583b8db0
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: semibin_train
   owner: iuc
   revisions:
   - 08cc1cd58f38
+  - 2344bc30a326
   - 43df7a4c33a2
   - 8b77643cf479
   tool_panel_section_id: metagenomic_analysis
@@ -951,6 +957,7 @@ tools:
 - name: semibin_generate_sequence_features
   owner: iuc
   revisions:
+  - 0608cf7dc528
   - 07bf5268724f
   - 0ae1a2636de5
   - ff4e487f4f7e
@@ -959,6 +966,7 @@ tools:
 - name: semibin_bin
   owner: iuc
   revisions:
+  - 2d1940ae33c2
   - 474701f91bcd
   - 4d561bdc2c31
   - dbf5571a8140
@@ -969,6 +977,7 @@ tools:
   revisions:
   - 298542e0e136
   - dcc81bfe5f6a
+  - e0aae2cd891e
   - e6bc3455940e
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis

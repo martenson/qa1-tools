@@ -192,6 +192,7 @@ tools:
   revisions:
   - c0f8fe52948e
   - cb441f258c37
+  - ccc439243918
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: sniffles
@@ -822,6 +823,7 @@ tools:
   owner: iuc
   revisions:
   - b43df0ce6c87
+  - b8c112397c5e
   - c91e09b60325
   - fdbd97ff825e
   tool_panel_section_id: variant_calling
