@@ -1,0 +1,30 @@
+tool_panel_section_label: OpenMS
+tools:
+- name: pyteomics_mztab2tsv
+  owner: galaxyp
+- name: openms_mztabexporter
+  owner: galaxyp
+- name: openms_featurelinkerunlabeled
+  owner: galaxyp
+- name: openms_featurefindersuperhirn
+  owner: galaxyp
+- name: openms_featurefindercentroided
+  owner: galaxyp
+- name: openms_featurefindermetabo
+  owner: galaxyp
+- name: openms_fileconverter
+  owner: galaxyp
+- name: openms_peakpickerwavelet
+  owner: galaxyp
+- name: openms_peakpickerhires
+  owner: galaxyp
+- name: openms_noisefiltergaussian
+  owner: galaxyp
+- name: openms_noisefiltersgolay
+  owner: galaxyp
+- name: openms_filefilter
+  owner: galaxyp
+- name: openms_baselinefilter
+  owner: galaxyp
+- name: openms_fileinfo
+  owner: galaxyp

@@ -1,0 +1,6 @@
+tool_panel_section_label: Collection Operations
+tools:
+- name: collapse_collections
+  owner: nml
+- name: split_file_to_collection
+  owner: bgruening

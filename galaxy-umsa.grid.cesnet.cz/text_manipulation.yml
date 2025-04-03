@@ -1,0 +1,10 @@
+tool_panel_section_label: Text Manipulation
+tools:
+- name: datamash_transpose
+  owner: iuc
+- name: diff
+  owner: bgruening
+- name: text_processing
+  owner: bgruening
+- name: table_compute
+  owner: iuc

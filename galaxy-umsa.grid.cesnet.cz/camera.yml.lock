@@ -1,0 +1,18 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: camera_annotate
+  owner: lecorguille
+  revisions:
+  - 4b9ab71be05e
+  - 75a1b3f7bacc
+  - abf1775ac14d
+  tool_panel_section_id: camera
+  tool_panel_section_label: CAMERA
+- name: camera_combinexsannos
+  owner: mmonsoor
+  revisions:
+  - 961089e21ae2
+  tool_panel_section_id: camera
+  tool_panel_section_label: CAMERA

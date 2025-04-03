@@ -1,0 +1,12 @@
+tool_panel_section_label: Table Manipulation
+tools:
+- name: table_pandas_arithmetics
+  owner: recetox
+- name: table_pandas_rename_column
+  owner: recetox
+- name: table_pandas_rename_columns_regex
+  owner: recetox
+- name: table_pandas_transform
+  owner: recetox
+- name: table_scipy_interpolate
+  owner: recetox

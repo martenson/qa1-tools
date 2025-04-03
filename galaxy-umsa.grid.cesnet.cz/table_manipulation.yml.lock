@@ -1,0 +1,34 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: table_pandas_arithmetics
+  owner: recetox
+  revisions:
+  - d4bacc06365e
+  tool_panel_section_id: table_manipulation
+  tool_panel_section_label: Table Manipulation
+- name: table_pandas_rename_column
+  owner: recetox
+  revisions:
+  - 3f54cd56a65e
+  tool_panel_section_id: table_manipulation
+  tool_panel_section_label: Table Manipulation
+- name: table_pandas_rename_columns_regex
+  owner: recetox
+  revisions:
+  - 505a8e975968
+  tool_panel_section_id: table_manipulation
+  tool_panel_section_label: Table Manipulation
+- name: table_pandas_transform
+  owner: recetox
+  revisions:
+  - b722dba91064
+  tool_panel_section_id: table_manipulation
+  tool_panel_section_label: Table Manipulation
+- name: table_scipy_interpolate
+  owner: recetox
+  revisions:
+  - 0112f08c95ed
+  tool_panel_section_id: table_manipulation
+  tool_panel_section_label: Table Manipulation

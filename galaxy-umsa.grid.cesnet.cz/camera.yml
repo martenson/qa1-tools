@@ -1,0 +1,6 @@
+tool_panel_section_label: CAMERA
+tools:
+- name: camera_annotate
+  owner: lecorguille
+- name: camera_combinexsannos
+  owner: mmonsoor

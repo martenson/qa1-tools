@@ -1,0 +1,8 @@
+tool_panel_section_label: Pre-processing
+tools:
+- name: bioconductor_msnbase_centroid
+  owner: recetox
+- name: bioconductor_msnbase_smooth_chromatogram
+  owner: recetox
+- name: bioconductor_msnbase_smooth_mz
+  owner: recetox

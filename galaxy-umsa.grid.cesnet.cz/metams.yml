@@ -1,0 +1,6 @@
+tool_panel_section_label: metaMS
+tools:
+- name: metams_plot
+  owner: workflow4metabolomics
+- name: metams_rungc
+  owner: yguitton

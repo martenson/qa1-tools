@@ -1,0 +1,18 @@
+tool_panel_section_label: recetox-aplcms
+tools:
+- name: recetox_aplcms_merge_known_table
+  owner: recetox
+- name: recetox_aplcms_compute_template
+  owner: recetox
+- name: recetox_aplcms_generate_feature_table
+  owner: recetox
+- name: recetox_aplcms_remove_noise
+  owner: recetox
+- name: recetox_aplcms_correct_time
+  owner: recetox
+- name: recetox_aplcms_compute_clusters
+  owner: recetox
+- name: recetox_aplcms_align_features
+  owner: recetox
+- name: recetox_aplcms_recover_weaker_signals
+  owner: recetox

@@ -1,0 +1,32 @@
+tool_panel_section_label: matchms
+tools:
+- name: matchms_subsetting
+  owner: recetox
+- name: matchms_metadata_merge
+  owner: recetox
+- name: matchms_add_key
+  owner: recetox
+- name: matchms_networking
+  owner: recetox
+- name: matchms_metadata_match
+  owner: recetox
+- name: matchms_spectral_similarity
+  owner: recetox
+- name: matchms_metadata_export
+  owner: recetox
+- name: matchms_fingerprint_similarity
+  owner: recetox
+- name: matchms_convert
+  owner: recetox
+- name: matchms_filtering
+  owner: recetox
+- name: matchms_split
+  owner: recetox
+- name: matchms_remove_key
+  owner: recetox
+- name: matchms_formatter
+  owner: recetox
+- name: matchms_remove_spectra
+  owner: recetox
+- name: matchms_matchms_export_skyline_transition_list
+  owner: recetox

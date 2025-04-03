@@ -1,0 +1,16 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: split_file_on_column
+  owner: bgruening
+  revisions:
+  - ff2a81aa3f08
+  tool_panel_section_id: filter_and_sort
+  tool_panel_section_label: Filter and Sort
+- name: generic_filter
+  owner: melpetera
+  revisions:
+  - cfd7c4aa5c26
+  tool_panel_section_id: filter_and_sort
+  tool_panel_section_label: Filter and Sort

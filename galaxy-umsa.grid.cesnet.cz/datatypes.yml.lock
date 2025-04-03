@@ -1,0 +1,22 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: no_unzip_datatype
+  owner: lecorguille
+  revisions:
+  - 7800ba9a4c1e
+  tool_panel_section_id: none
+  tool_panel_section_label: None
+- name: rdata_camera_datatypes
+  owner: lecorguille
+  revisions:
+  - 4a51ab3d8ecf
+  tool_panel_section_id: none
+  tool_panel_section_label: None
+- name: rdata_xcms_datatypes
+  owner: lecorguille
+  revisions:
+  - 544f6d2329ac
+  tool_panel_section_id: none
+  tool_panel_section_label: None

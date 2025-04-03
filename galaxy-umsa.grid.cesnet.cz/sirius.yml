@@ -1,0 +1,4 @@
+tool_panel_section_label: SIRIUS
+tools:
+- name: sirius_csifingerid
+  owner: computational-metabolomics

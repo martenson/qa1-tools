@@ -1,0 +1,20 @@
+tool_panel_section_label: RECETOX-TEST
+tools:
+- name: frag_hires_mass
+  owner: ljocha
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: retip_apply
+  owner: recetox
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: retip_descriptors
+  owner: recetox
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: retip_filter_rt
+  owner: recetox
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: retip_train
+  owner: recetox
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: query
+  owner: recetox
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
