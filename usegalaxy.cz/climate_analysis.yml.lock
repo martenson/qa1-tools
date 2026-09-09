@@ -87,5 +87,6 @@ tools:
   owner: ecology
   revisions:
   - 810820a0d45c
+  - bb4a73ff1462
   tool_panel_section_id: climate_analysis
   tool_panel_section_label: Climate Analysis

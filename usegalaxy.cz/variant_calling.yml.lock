@@ -69,6 +69,7 @@ tools:
   owner: iuc
   revisions:
   - 7ca2fba4be83
+  - ab62d6d0d7b8
   - b1ca9fce4749
   - fe8bc8d1e7f5
   tool_panel_section_id: variant_calling
@@ -932,6 +933,7 @@ tools:
   - c91e09b60325
   - cf3f306bce1b
   - fdbd97ff825e
+  - ffb42698e28f
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: breseq

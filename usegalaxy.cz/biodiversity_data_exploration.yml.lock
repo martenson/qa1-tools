@@ -6,17 +6,20 @@ tools:
   owner: ecology
   revisions:
   - 5b31641e6d30
+  - 994b7e66ed1d
   tool_panel_section_id: biodiversity_data_exploration
   tool_panel_section_label: Biodiversity data exploration
 - name: tool_anonymization
   owner: ecology
   revisions:
   - 726a387cfdc2
+  - b5c1864c2989
   tool_panel_section_id: biodiversity_data_exploration
   tool_panel_section_label: Biodiversity data exploration
 - name: ecology_beta_diversity
   owner: ecology
   revisions:
+  - 55fb9b8f7a5f
   - fb7b2cbd80bb
   tool_panel_section_id: biodiversity_data_exploration
   tool_panel_section_label: Biodiversity data exploration
@@ -24,11 +27,13 @@ tools:
   owner: ecology
   revisions:
   - 3df8937fd6fd
+  - c7e28d7d6607
   tool_panel_section_id: biodiversity_data_exploration
   tool_panel_section_label: Biodiversity data exploration
 - name: ecology_link_between_var
   owner: ecology
   revisions:
+  - 0eb0be089223
   - 8e8867bf491a
   tool_panel_section_id: biodiversity_data_exploration
   tool_panel_section_label: Biodiversity data exploration
@@ -36,11 +41,13 @@ tools:
   owner: ecology
   revisions:
   - 4ed07d2d442b
+  - d466edccbc60
   tool_panel_section_id: biodiversity_data_exploration
   tool_panel_section_label: Biodiversity data exploration
 - name: ecology_stat_presence_abs
   owner: ecology
   revisions:
+  - 10e44c159413
   - 9a2e0195bb43
   tool_panel_section_id: biodiversity_data_exploration
   tool_panel_section_label: Biodiversity data exploration
@@ -48,6 +55,7 @@ tools:
   owner: ecology
   revisions:
   - 4e7c1fb5e894
+  - 7907660cb79b
   - dc187fe78055
   tool_panel_section_id: biodiversity_data_exploration
   tool_panel_section_label: Biodiversity data exploration

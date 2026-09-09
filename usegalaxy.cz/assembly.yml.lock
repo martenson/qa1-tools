@@ -549,6 +549,7 @@ tools:
   owner: ecology
   revisions:
   - 0ccbe1c20fc3
+  - 3d7fff9f7376
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: cactus_export
