@@ -5,6 +5,7 @@ tools:
 - name: pampa_glmsp
   owner: ecology
   revisions:
+  - 532e9dad073f
   - 7a69e1c8ba46
   - e972fe2bffee
   tool_panel_section_id: species_abundance
@@ -14,6 +15,7 @@ tools:
   revisions:
   - 97967fbcf6da
   - b40fecef616b
+  - fe1677da339e
   tool_panel_section_id: species_abundance
   tool_panel_section_label: Species abundance
 - name: stoc_trend_indic
@@ -21,11 +23,13 @@ tools:
   revisions:
   - 5c244408661f
   - 916b49d725ba
+  - c4080ecebc6d
   tool_panel_section_id: species_abundance
   tool_panel_section_label: Species abundance
 - name: stoc_mainglm_group
   owner: ecology
   revisions:
+  - 37ff02023213
   - 8f953c35c787
   - e3e173ae01b0
   tool_panel_section_id: species_abundance
@@ -33,6 +37,7 @@ tools:
 - name: stoc_mainglm
   owner: ecology
   revisions:
+  - 8bea8b6b7276
   - a961be0a964f
   - df3ce23d0d23
   tool_panel_section_id: species_abundance
@@ -41,6 +46,7 @@ tools:
   owner: ecology
   revisions:
   - 2e45ae3b297a
+  - e3b8c5317668
   - fd0687e91bf6
   tool_panel_section_id: species_abundance
   tool_panel_section_label: Species abundance
@@ -48,6 +54,7 @@ tools:
   owner: ecology
   revisions:
   - 22a784d2b0e0
+  - 8e07083ecf68
   - af4987066235
   tool_panel_section_id: species_abundance
   tool_panel_section_label: Species abundance
@@ -55,12 +62,14 @@ tools:
   owner: ecology
   revisions:
   - 00de53d18b99
+  - 56f57ddccbd3
   - e8650cdf092f
   tool_panel_section_id: species_abundance
   tool_panel_section_label: Species abundance
 - name: xarray_select
   owner: ecology
   revisions:
+  - 3f70e5512e1d
   - 6baac361495b
   - b393815e4cb7
   tool_panel_section_id: species_abundance
@@ -69,6 +78,7 @@ tools:
   owner: ecology
   revisions:
   - 5873ac1a5a44
+  - 97767ca44eb0
   - c67ece97d4b1
   tool_panel_section_id: species_abundance
   tool_panel_section_label: Species abundance
@@ -76,12 +86,14 @@ tools:
   owner: ecology
   revisions:
   - 1ebb70b59037
+  - ce7dfdbe3301
   - f1bfdeb5ebfe
   tool_panel_section_id: species_abundance
   tool_panel_section_label: Species abundance
 - name: pampa_plotglm
   owner: ecology
   revisions:
+  - bd78c446fb96
   - c448e026f122
   tool_panel_section_id: species_abundance
   tool_panel_section_label: Species abundance
@@ -89,29 +101,34 @@ tools:
   owner: ecology
   revisions:
   - a79f5f0f17ad
+  - e3e656f24d47
   tool_panel_section_id: species_abundance
   tool_panel_section_label: Species abundance
 - name: regionalgam_flight_curve
   owner: ecology
   revisions:
+  - 565f4aac2049
   - fff507f00b2b
   tool_panel_section_id: species_abundance
   tool_panel_section_label: Species abundance
 - name: regionalgam_autocor_acf
   owner: ecology
   revisions:
+  - 9969ded9090b
   - b416a363a2d5
   tool_panel_section_id: species_abundance
   tool_panel_section_label: Species abundance
 - name: regionalgam_glmmpql
   owner: ecology
   revisions:
+  - ca708716504c
   - f3e1b6d244a6
   tool_panel_section_id: species_abundance
   tool_panel_section_label: Species abundance
 - name: regionalgam_gls_adjusted
   owner: ecology
   revisions:
+  - c9cbc9075f36
   - e2bff90af491
   tool_panel_section_id: species_abundance
   tool_panel_section_label: Species abundance
@@ -119,11 +136,13 @@ tools:
   owner: ecology
   revisions:
   - 58ecd15e6836
+  - 81a94130ee76
   tool_panel_section_id: species_abundance
   tool_panel_section_label: Species abundance
 - name: regionalgam_ab_index
   owner: ecology
   revisions:
+  - 11babbc06da0
   - d0ee713d4758
   tool_panel_section_id: species_abundance
   tool_panel_section_label: Species abundance
